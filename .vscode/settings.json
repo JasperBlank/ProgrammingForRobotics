@@ -1,0 +1,23 @@
+{
+    "doxdocgen.c.commentPrefix": "// ",
+    "doxdocgen.c.firstLine": "//=============================================",
+    "doxdocgen.c.lastLine": "//=============================================",
+    "doxdocgen.c.triggerSequence": "//==",
+    "doxdocgen.generic.authorName": "Jasper Blank, Lucas Junji Koreeda",
+    "doxdocgen.file.fileTemplate": "Filename : {name}",
+    "doxdocgen.generic.authorTag": "Authors : {author}",
+    "doxdocgen.generic.briefTemplate": "Description :",
+    "doxdocgen.file.customTag": [
+    "Group :",
+    "License :"
+    ],
+    "doxdocgen.file.fileOrder": [
+    "file",
+    "author",
+    "custom",
+    "brief"
+    ],
+    "files.associations": {
+        "ostream": "cpp"
+    }
+}
