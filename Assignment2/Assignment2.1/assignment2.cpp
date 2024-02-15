@@ -16,9 +16,11 @@ void Righthandrule(int x, int y, int direction, std::array<std::array<char, 12>,
 int turnleft(int direction);
 int turnright(int direction);
 
+const size_t mazeRows {12};
+const size_t mazeColumns {12};
+
 int main(){ // change to class format
-    const size_t mazeRows {12};
-    const size_t mazeColumns {12};
+
 
     std::array<std::array< char, mazeColumns>, mazeRows> maze{{
         {'#','#','#','#','#','#','#','#','#','#','#','#'},
@@ -57,7 +59,7 @@ int i;
 
 void Righthandrule(int x, int y, int Direction, std::array<std::array<char, 12>, 12>* mazepointer){
 
-
+    
     std::cout << "The symbol at " << x << y << " is " << (*mazepointer)[y][x]  << " And the direction is " << Direction;
     std::cout << std::endl;
 
@@ -65,125 +67,136 @@ void Righthandrule(int x, int y, int Direction, std::array<std::array<char, 12>,
     int newy;
 
     i += 1;
-    if (i > 20){
+    if (i > 5000){
         std::cout << "test took too long" << std::endl;
     return;
     }
-
+    
     newx = x;
     newy = y;
 
-    if (x == 1 && y == 1){
-        std::cout << "Found th end of the maze" << std::endl;
-    return;
-    }
+    
 
     if (x >= 13 || y >= 13 ){
         std::cout << "Out of bounds error" << std::endl;
     return;
     }
 
+    bool madestep = false;
+
     //run North
-    if (Direction == 0){
+    if (Direction == 0 && madestep == false){
         
-        //Check if it can turn
+        //Check if there is space to the right
         if ((*mazepointer)[y][x+1] == '.'){
-        Direction = turnright(Direction);
-        //Check if the place in front of it is empty
-        }else if ((*mazepointer)[y-1][x] == '.'){
-        newy -= 1;
-        //Turn if stuck
-        }else{
-        Direction = turnleft(Direction);
+            //Change direction to that space
+            Direction = 1;
+            // Move to that available space
+            newx = x + 1;
+
+            //Check if there is space in front
+        } else if ((*mazepointer)[y -1 ][x] == '.'){
+            //Move forward
+            newy = y - 1;
+            std::cout << "I am moving up North" << std::endl;
+
+        } else {
+            //Turn left if there is no other option
+            Direction = 3;
         }
-        
+        madestep = true;
     }
 
     //run East
-    if (Direction == 1){
-
-
-        //Check if it can turn
+    if (Direction == 1 && madestep == false){
+        //Check if there is space to the right
         if ((*mazepointer)[y+1][x] == '.'){
-        Direction = turnright(Direction);
-        //Check if the place in front of it is empty
-        }else if ((*mazepointer)[y][x+1] == '.'){
-        newx += 1;
-        //Turn if stuck
-        }else{
-        Direction = turnleft(Direction);
+            //Change direction to that space
+            Direction = 2;
+            // Move to that available space
+            newy = y + 1;
+            std::cout << "Rotating East to South" << std::endl;
+
+            //Check if there is space in front
+        } else if ((*mazepointer)[y][x + 1] == '.'){
+            //Move forward
+            newx = x + 1;
+        } else {
+            //Turn left if there is no other option
+            Direction = 0;
         }
+        madestep = true;
     }
 
     //run South
-    if (Direction == 2){
-        //Check if it can turn
+    if (Direction == 2 && madestep == false){
+        //Check if there is space to the right
         if ((*mazepointer)[y][x-1] == '.'){
-        Direction = turnright(Direction);
-        //Check if the place in front of it is empty
-        }else if ((*mazepointer)[y+1][x] == '.'){
-        newy += 1;
-        //Turn if stuck
-        }else{
-        Direction = turnleft(Direction);
+            //Change direction to that space
+            Direction = 3;
+            // Move to that available space
+            newx = x - 1;
+
+            //Check if there is space in front
+        } else if ((*mazepointer)[y +1 ][x] == '.'){
+            //Move forward
+            newy = y + 1;
+        } else {
+            //Turn left if there is no other option
+            Direction = 1;
+            std::cout << "Rotating back south to East" << std::endl;
         }
+
+        madestep = true;
     }
 
     //run west
-    if (Direction == 3){
-        //Check if it can turn to the right
+    if (Direction == 3 && madestep == false){
+
+        //Check if there is space to the right
         if ((*mazepointer)[y-1][x] == '.'){
-        Direction = turnright(Direction);
-        //Check if the place in front of it is empty
-        }else if ((*mazepointer)[y][x-1] == '.'){
-        newx -= 1;
-        //Turn if stuck
-        }else{
-        Direction = turnleft(Direction);
+            //Change direction to that space
+            Direction = 0;
+            // Move to that available space
+            newy = y - 1;
+            std::cout << "Truning right west to north" << std::endl;
+
+            //Check if there is space in front
+        } else if ((*mazepointer)[y][x - 1] == '.'){
+            //Move forward
+            newx = x - 1;
+        } else {
+            //Turn left if there is no other option
+            Direction = 2;
         }
+
+        madestep = true;
+        
     }
     
+
+
+
+    for (size_t row = 0; row < mazeRows; row++){
+        for (size_t column = 0; column < mazeColumns; column++){
+            
+            if (row == y && column == x){std::cout << "X ";
+            } else{
+            std::cout << (*mazepointer)[row][column] << " ";
+            }
+        }
+        std::cout << std::endl;
+    }
+
+    if (x == 0 && y == 2){
+        std::cout << "Found th end of the maze" << std::endl;
+    return;
+    }
+
     x = newx;
     y = newy;
+    
 
     Righthandrule(x, y, Direction, mazepointer);
-    
 
-
-
-    
-
-
-
-    /* Older recursive waterfall code
-    if (x >= 0 && x <= 12 && y >= 0 && y <= 12){
-    //Run recursive waterfall for the tile to the right
-    Recursivewaterfall(x+1, y, Distance + 1, mazepointer);
-    
-    //Run recursive waterfall for the tile to the left
-    Recursivewaterfall(x-1, y, Distance + 1, mazepointer);
-    //Run recursive waterfall for the tile above
-    Recursivewaterfall(x, y+1, Distance + 1, mazepointer);
-    //Run recursive waterfall for the tile below
-    Recursivewaterfall(x, y-1, Distance + 1, mazepointer);
-    }
-    
-    */
-
-}
-
-int turnleft(int Direction){
-    Direction -= 1;
-    if (Direction == -1){
-        Direction == 3;
-    }
-    return Direction;
-}
-
-int turnright(int Direction){
-    if (Direction >= 3){
-        Direction == -1;
-    }
-    Direction += 1;
-    return Direction;
 }
