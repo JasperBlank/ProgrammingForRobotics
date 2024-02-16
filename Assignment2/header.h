@@ -28,7 +28,14 @@ std::array<int, 2> findStart(std::array<std::array<char, mazeColumns>, mazeRows 
 #include <iostream>
 #include <array>
 
+<<<<<<< HEAD
 const size_t rows = 12;
 const size_t columns = 12;
 void printMaze(std::array<std::array<char, columns>, rows> maze);
 >>>>>>> 57f886b (implemented printMaze function)
+=======
+const size_t mazeRows = 12;
+const size_t mazeColumns = 12;
+void printMaze(std::array<std::array<char, mazeColumns>, mazeRows> maze);
+std::array<int, 2> findStart(std::array<std::array<char, mazeColumns>, mazeRows > maze);
+>>>>>>> f5e49e6 (added findStart function)

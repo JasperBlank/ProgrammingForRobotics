@@ -20,9 +20,9 @@ void printMaze(std::array<std::array<char, mazeColumns>, mazeRows>*mazepointer){
 
 #include "header.h"
 
-void printMaze(std::array<std::array<char, columns>, rows> maze){
-    for (size_t row = 0; row < rows; row++){
-            for (size_t column = 0; column < columns; column++){
+void printMaze(std::array<std::array<char, mazeColumns>, mazeRows> maze){
+    for (size_t row = 0; row < mazeRows; row++){
+            for (size_t column = 0; column < mazeColumns; column++){
                 std::cout << maze[row][column] << " ";
             }
             std::cout << std::endl;

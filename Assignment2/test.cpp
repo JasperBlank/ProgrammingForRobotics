@@ -6,16 +6,17 @@
 // Description :
 //=============================================
 
-// change to class format
-// add headers
-
 #include<iostream>
 #include <array>
 
+#include <iostream>
+#include "header.h"
+
+/*
 const int arrayRows = 3;
 const int arrayColumns = 3;
 void printArray(std::array<std::array<int, arrayColumns>, arrayRows > &arr){
-    for (auto const& row : arr){ // runs through the rows of the array 
+    for (auto const& row : arr){ // runs through the mazeRows of the array 
         for (auto const& arrayElement : row){ // runs through the elements of each row
             std::cout << arrayElement << " ";
         }
@@ -30,3 +31,4 @@ int main(){
     }}; 
     printArray(a);
 }
+*/
