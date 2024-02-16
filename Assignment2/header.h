@@ -36,6 +36,11 @@ void printMaze(std::array<std::array<char, columns>, rows> maze);
 =======
 const size_t mazeRows = 12;
 const size_t mazeColumns = 12;
+<<<<<<< HEAD
 void printMaze(std::array<std::array<char, mazeColumns>, mazeRows> maze);
 std::array<int, 2> findStart(std::array<std::array<char, mazeColumns>, mazeRows > maze);
 >>>>>>> f5e49e6 (added findStart function)
+=======
+void printMaze(std::array<std::array<char, mazeColumns>, mazeRows> *mazepointer);
+std::array<int, 2> findStart(std::array<std::array<char, mazeColumns>, mazeRows > maze);
+>>>>>>> bf9036b (final version)

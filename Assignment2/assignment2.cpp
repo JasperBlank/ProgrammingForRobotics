@@ -39,12 +39,16 @@ void generateMaze(){ // include input maze and adapt variables to a class format
 ========
 int main(void){
 <<<<<<< HEAD
+<<<<<<< HEAD
     std::array<std::array<char, columns>, rows> test_maze{{ // creates the maze
 >>>>>>>> 57f886b (implemented printMaze function):Assignment2/assignment2.cpp
 >>>>>>> 57f886b (implemented printMaze function)
 =======
     std::array<std::array<char, mazeColumns>, mazeRows> test_maze{{ // creates the maze
 >>>>>>> f5e49e6 (added findStart function)
+=======
+    std::array<std::array<char, mazeColumns>, mazeRows> testMaze{{ // creates the maze
+>>>>>>> bf9036b (final version)
         {'#','#','#','#','#','#','#','#','#','#','#','#'},
         {'#','.','.','.','#','.','.','.','.','.','.','#'},
         {'.','.','#','.','#','.','#','#','#','#','.','#'},
@@ -58,6 +62,7 @@ int main(void){
         {'#','.','.','.','.','.','.','.','.','.','.','#'},
         {'#','#','#','#','#','#','#','#','#','#','#','#'}
     }};
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     for (size_t row = 0; row < mazeRows; row++){
@@ -91,3 +96,9 @@ int main(void){
     std::cout << findStart(test_maze)[0] << " " << findStart(test_maze)[1] << std::endl;
 }
 >>>>>>> f5e49e6 (added findStart function)
+=======
+    std::array<std::array<char, 12>, 12> *testPointer = &testMaze;
+    printMaze(testPointer);
+    std::cout << findStart(testMaze)[0] << " " << findStart(testMaze)[1] << std::endl;
+}
+>>>>>>> bf9036b (final version)
