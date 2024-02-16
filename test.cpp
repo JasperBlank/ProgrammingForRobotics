@@ -12,7 +12,7 @@
 #include<iostream>
 #include<array>
 
-void Righthandrule(int x, int y, int direction, std::array<std::array<char, 12>, 12>* mazepointer);
+void traverseMaze(int x, int y, int direction, std::array<std::array<char, 12>, 12>* mazepointer);
 int turnleft(int direction);
 int turnright(int direction);
 
@@ -46,6 +46,6 @@ int main(){ // change to class format
     int starty = 4;
     std::array<std::array<char, 12>, 12>* mazepointer = &maze;
 
-    //Righthandrule(startx, starty, 3, mazepointer);
+    //traverseMaze(startx, starty, 3, mazepointer);
 
 }
