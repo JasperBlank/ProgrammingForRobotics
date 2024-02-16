@@ -10,7 +10,7 @@
 #include "header.h"
 
 int main(void){
-    std::array<std::array<char, columns>, rows> test_maze{{ // creates the maze
+    std::array<std::array<char, mazeColumns>, mazeRows> test_maze{{ // creates the maze
         {'#','#','#','#','#','#','#','#','#','#','#','#'},
         {'#','.','.','.','#','.','.','.','.','.','.','#'},
         {'.','.','#','.','#','.','#','#','#','#','.','#'},
@@ -25,4 +25,5 @@ int main(void){
         {'#','#','#','#','#','#','#','#','#','#','#','#'}
     }};
     printMaze(test_maze);
+    std::cout << findStart(test_maze)[0] << " " << findStart(test_maze)[1] << std::endl;
 }
