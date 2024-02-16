@@ -19,6 +19,14 @@ int turnright(int direction);
 const size_t mazeRows {12};
 const size_t mazeColumns {12};
 
+enum Directions {
+  //Defining the 4 possible directions
+  North, //assigned 0
+  East, //assigned 1
+  South, //assigned 2
+  West, //assigned 3
+};
+
 int main(){ // change to class format
 
 
@@ -48,7 +56,7 @@ int main(){ // change to class format
     int starty = 4;
     std::array<std::array<char, 12>, 12>* mazepointer = &maze;
 
-    Righthandrule(startx, starty, 3, mazepointer);
+    Righthandrule(startx, starty, West, mazepointer);
 
 }
 
@@ -59,115 +67,107 @@ int i;
 
 void Righthandrule(int x, int y, int Direction, std::array<std::array<char, 12>, 12>* mazepointer){
 
-    
+    //The code gives a vieuw of the current location and the current direction. This vieuw was really helpful for bug fixing.
     std::cout << "The symbol at " << x << y << " is " << (*mazepointer)[y][x]  << " And the direction is " << Direction;
     std::cout << std::endl;
 
-    int newx;
-    int newy;
-
+    //stops the function if this function is called more than 1000 times, which prevents memory overflow.
     i += 1;
-    if (i > 5000){
+    if (i > 1000){
         std::cout << "test took too long" << std::endl;
     return;
     }
-    
-    newx = x;
-    newy = y;
 
     
-
-    if (x >= 13 || y >= 13 ){
+    //Showing out of bounds error
+    if (x >= 13 || y >= 13 || x < 0 || y < 0){
         std::cout << "Out of bounds error" << std::endl;
     return;
     }
 
+    //A boolean that makes sure only one step is taken before the Maze is drawn again
     bool madestep = false;
 
     //run North
-    if (Direction == 0 && madestep == false){
+    if (Direction == North && madestep == false){
         
         //Check if there is space to the right
         if ((*mazepointer)[y][x+1] == '.'){
             //Change direction to that space
-            Direction = 1;
+            Direction = East;
             // Move to that available space
-            newx = x + 1;
+            x = x + 1;
 
             //Check if there is space in front
         } else if ((*mazepointer)[y -1 ][x] == '.'){
             //Move forward
-            newy = y - 1;
-            std::cout << "I am moving up North" << std::endl;
+            y = y - 1;
 
         } else {
             //Turn left if there is no other option
-            Direction = 3;
+            Direction = West;
         }
         madestep = true;
     }
 
     //run East
-    if (Direction == 1 && madestep == false){
+    if (Direction == East && madestep == false){
         //Check if there is space to the right
         if ((*mazepointer)[y+1][x] == '.'){
             //Change direction to that space
-            Direction = 2;
+            Direction = South;
             // Move to that available space
-            newy = y + 1;
-            std::cout << "Rotating East to South" << std::endl;
+            y = y + 1;
 
             //Check if there is space in front
         } else if ((*mazepointer)[y][x + 1] == '.'){
             //Move forward
-            newx = x + 1;
+            x = x + 1;
         } else {
             //Turn left if there is no other option
-            Direction = 0;
+            Direction = North;
         }
         madestep = true;
     }
 
     //run South
-    if (Direction == 2 && madestep == false){
+    if (Direction == South && madestep == false){
         //Check if there is space to the right
         if ((*mazepointer)[y][x-1] == '.'){
             //Change direction to that space
-            Direction = 3;
+            Direction = West;
             // Move to that available space
-            newx = x - 1;
+            x = x - 1;
 
             //Check if there is space in front
         } else if ((*mazepointer)[y +1 ][x] == '.'){
             //Move forward
-            newy = y + 1;
+            y = y + 1;
         } else {
             //Turn left if there is no other option
-            Direction = 1;
-            std::cout << "Rotating back south to East" << std::endl;
+            Direction = East;
         }
 
         madestep = true;
     }
 
     //run west
-    if (Direction == 3 && madestep == false){
+    if (Direction == West && madestep == false){
 
         //Check if there is space to the right
         if ((*mazepointer)[y-1][x] == '.'){
             //Change direction to that space
-            Direction = 0;
+            Direction = North;
             // Move to that available space
-            newy = y - 1;
-            std::cout << "Truning right west to north" << std::endl;
+            y = y - 1;
 
             //Check if there is space in front
         } else if ((*mazepointer)[y][x - 1] == '.'){
             //Move forward
-            newx = x - 1;
+            x = x - 1;
         } else {
             //Turn left if there is no other option
-            Direction = 2;
+            Direction = South;
         }
 
         madestep = true;
@@ -189,14 +189,13 @@ void Righthandrule(int x, int y, int Direction, std::array<std::array<char, 12>,
     }
 
     if (x == 0 && y == 2){
-        std::cout << "Found th end of the maze" << std::endl;
+        std::cout << "Found the end of the maze" << std::endl;
     return;
     }
-
-    x = newx;
-    y = newy;
     
 
     Righthandrule(x, y, Direction, mazepointer);
 
 }
+
+
