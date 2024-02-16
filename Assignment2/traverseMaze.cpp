@@ -1,70 +1,18 @@
-//=============================================
-// Filename : assignment2.cpp
-// Authors : Jasper Blank, Lucas Junji Koreeda
-// Group :
-// License :
-// Description :
-//=============================================
-
-// change to class format
-// add headers
-
-#include <iostream>
-#include <array>
+#include<iostream>
+#include<array>
 #include "header.h"
 
-void traverseMaze(int x, int y, int direction, std::array<std::array<char, 12>, 12>* mazepointer);
 
-enum Direction {
-  //Defining the 4 possible directions
-  North, //assigned 0
-  East, //assigned 1
-  South, //assigned 2
-  West, //assigned 3
-};
-
-int main(){ // change to class format
-
-
-    std::array<std::array< char, mazeColumns>, mazeRows> maze{{
-        {'#','#','#','#','#','#','#','#','#','#','#','#'},
-        {'#','.','.','.','#','.','.','.','.','.','.','#'},
-        {'.','.','#','.','#','.','#','#','#','#','.','#'},
-        {'#','#','#','.','#','.','.','.','.','#','.','#'},
-        {'#','.','.','.','.','#','#','#','.','#','.','x'},
-        {'#','#','#','#','.','#','.','#','.','#','.','#'},
-        {'#','.','.','#','.','#','.','#','.','#','.','#'},
-        {'#','#','.','#','.','#','.','#','.','#','.','#'},
-        {'#','.','.','.','.','.','.','.','.','#','.','#'},
-        {'#','#','#','#','#','#','.','#','#','#','.','#'},
-        {'#','.','.','.','.','.','.','.','.','.','.','#'},
-        {'#','#','#','#','#','#','#','#','#','#','#','#'}
-    }};
-
-    for (size_t row = 0; row < mazeRows; row++){
-        for (size_t column = 0; column < mazeColumns; column++){
-            std::cout << maze[row][column] << " ";
-        }
-        std::cout << std::endl;
-    }
-
-    int startx = 10;
-    int starty = 4;
-    std::array<std::array<char, 12>, 12>* mazepointer = &maze;
-
-    traverseMaze(startx, starty, North, mazepointer);
-
-}
 
 
 //
 int repetitionsofrighthandrule;
 
 
-void traverseMaze(int x, int y, int CurrentDirection, std::array<std::array<char, 12>, 12>* mazepointer){
+void traverseMaze(int x, int y, Direction CurrentDirection, std::array<std::array<char, 12>, 12>* mazepointer){
 
     //The code gives a vieuw of the current location and the current direction. This vieuw was really helpful for bug fixing.
-    std::cout << "The symbol at " << x << y << " is " << (*mazepointer)[y][x]  << " And the direction is " << CurrentDirection;
+    std::cout << "The symbol at " << x << "," << y << " is " << (*mazepointer)[y][x];
     std::cout << std::endl;
 
     //stops the function if this function is called more than 1000 times, which prevents memory overflow.
@@ -85,12 +33,12 @@ void traverseMaze(int x, int y, int CurrentDirection, std::array<std::array<char
     bool madestep = false;
 
     //run North
-    if (CurrentDirection == North && madestep == false){
+    if (CurrentDirection == Direction::North && madestep == false){
         
         //Check if there is space to the right
         if ((*mazepointer)[y][x+1] != '#'){
             //Change direction to that space
-            CurrentDirection = East;
+            CurrentDirection = Direction::East;
             // Move to that available space
             x = x + 1;
 
@@ -101,17 +49,17 @@ void traverseMaze(int x, int y, int CurrentDirection, std::array<std::array<char
 
         } else {
             //Turn left if there is no other option
-            CurrentDirection = West;
+            CurrentDirection = Direction::West;
         }
         madestep = true;
     }
 
     //run East
-    if (CurrentDirection == East && madestep == false){
+    if (CurrentDirection == Direction::East && madestep == false){
         //Check if there is space to the right
         if ((*mazepointer)[y+1][x] != '#'){
             //Change direction to that space
-            CurrentDirection = South;
+            CurrentDirection = Direction::South;
             // Move to that available space
             y = y + 1;
 
@@ -121,17 +69,17 @@ void traverseMaze(int x, int y, int CurrentDirection, std::array<std::array<char
             x = x + 1;
         } else {
             //Turn left if there is no other option
-            CurrentDirection = North;
+            CurrentDirection = Direction::North;
         }
         madestep = true;
     }
 
     //run South
-    if (CurrentDirection == South && madestep == false){
+    if (CurrentDirection == Direction::South && madestep == false){
         //Check if there is space to the right
         if ((*mazepointer)[y][x-1] != '#'){
             //Change direction to that space
-            CurrentDirection = West;
+            CurrentDirection = Direction::West;
             // Move to that available space
             x = x - 1;
 
@@ -141,19 +89,19 @@ void traverseMaze(int x, int y, int CurrentDirection, std::array<std::array<char
             y = y + 1;
         } else {
             //Turn left if there is no other option
-            CurrentDirection = East;
+            CurrentDirection = Direction::East;
         }
 
         madestep = true;
     }
 
     //run west
-    if (CurrentDirection == West && madestep == false){
+    if (CurrentDirection == Direction::West && madestep == false){
 
         //Check if there is space to the right
         if ((*mazepointer)[y-1][x] != '#'){
             //Change direction to that space
-            CurrentDirection = North;
+            CurrentDirection = Direction::North;
             // Move to that available space
             y = y - 1;
 
@@ -163,7 +111,7 @@ void traverseMaze(int x, int y, int CurrentDirection, std::array<std::array<char
             x = x - 1;
         } else {
             //Turn left if there is no other option
-            CurrentDirection = South;
+            CurrentDirection = Direction::South;
         }
 
         madestep = true;
@@ -197,5 +145,3 @@ void traverseMaze(int x, int y, int CurrentDirection, std::array<std::array<char
     traverseMaze(x, y, CurrentDirection, mazepointer);
 
 }
-
-

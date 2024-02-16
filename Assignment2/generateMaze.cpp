@@ -9,6 +9,8 @@
 #include<iostream>
 #include<array>
 
+
+
 void generateMaze(){ // include input maze and adapt variables to a class format
     std::array<std::array< char, mazeColumns>, mazeRows> maze{{
         {'#','#','#','#','#','#','#','#','#','#','#','#'},
