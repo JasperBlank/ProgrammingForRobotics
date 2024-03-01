@@ -17,10 +17,10 @@ int main() {
 
     IntTree.insertNode(4);
     IntTree.insertNode(2);
-    IntTree.insertNode(3);
-    IntTree.insertNode(1);
-    IntTree.insertNode(5);
     IntTree.insertNode(6);
+    IntTree.insertNode(1);
+    IntTree.insertNode(3);
+    IntTree.insertNode(5);
     IntTree.insertNode(7);
     /*
     IntTree.insertNode(700017);
