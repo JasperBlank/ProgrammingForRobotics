@@ -1,9 +1,9 @@
 //==============================================================
-// Filename    : 
-// Authors     : 
-// Group       : 
+// Filename    : fillList.cpp
+// Authors     : Lucas & Jasper
+// Group       : 8
 // License     :  N.A. or opensource license like LGPL
-// Description : 
+// Description : Function for filling the list for 3.1
 //==============================================================
 
 #include <iostream>
