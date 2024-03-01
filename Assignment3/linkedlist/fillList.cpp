@@ -11,7 +11,7 @@
 
 void fillList(const std::string& stringArgument, List<char>& linkedList){
     for (char letter : stringArgument) { // range-based for loop because the indexes don't need to be accessed
-        linkedList.insertAtBack(letter); // why insertAtBack and not insertAtFront?
+        linkedList.insertAtBack(letter); 
     }
 }
 
