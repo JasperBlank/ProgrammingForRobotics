@@ -1,9 +1,9 @@
 //==============================================================
-// Filename    : 
-// Authors     : 
-// Group       :
+// Filename    : main.cpp
+// Authors     : Lucas & Jasper
+// Group       : 8
 // License     :  N.A. or opensource license like LGPL
-// Description : 
+// Description : Main file for 3.2
 //==============================================================
 #include <iostream>
 #include "../include/Tree.h"
