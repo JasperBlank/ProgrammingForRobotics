@@ -29,6 +29,7 @@ std::array<int, 2> findStart(std::array<std::array<char, mazeColumns>, mazeRows 
 #include <array>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 const size_t rows = 12;
 const size_t columns = 12;
 void printMaze(std::array<std::array<char, columns>, rows> maze);
@@ -44,3 +45,10 @@ std::array<int, 2> findStart(std::array<std::array<char, mazeColumns>, mazeRows 
 void printMaze(std::array<std::array<char, mazeColumns>, mazeRows> *mazepointer);
 std::array<int, 2> findStart(std::array<std::array<char, mazeColumns>, mazeRows > maze);
 >>>>>>> bf9036b (final version)
+=======
+const size_t mazeRows = 12;
+const size_t mazeColumns = 12;
+void printMaze(std::array<std::array<char, mazeColumns>, mazeRows> *mazepointer);
+std::array<int, 2> findStart(std::array<std::array<char, mazeColumns>, mazeRows > maze);
+>>>>>>> origin/lucas
+>>>>>>> c65352ba8a49f194cbc5bff152853830325ae445
