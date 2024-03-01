@@ -22,15 +22,15 @@ int main() {
     IntTree.insertNode(3);
     IntTree.insertNode(5);
     IntTree.insertNode(7);
-    /*
-    IntTree.insertNode(700017);
-    IntTree.insertNode(601700);
-    IntTree.insertNode(500107);
-    IntTree.insertNode(417000);
-    IntTree.insertNode(301007);
-    IntTree.insertNode(110007);
-    IntTree.insertNode(210700);
-    */
+
+    int SearchValue;
+    std::cout << "Enter SearchValue: ";
+    std::cin >> SearchValue;
+
+    IntTree.SearchTree(SearchValue);
+
+    //std::cout << "\n Search pointer: " << Search;
+    
 
     std::cout << "\n PreOrderTraversal: ";
     IntTree.preOrderTraversal();
