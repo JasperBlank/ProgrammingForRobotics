@@ -29,6 +29,11 @@ public:
       postOrderHelper(rootPtr); 
    } 
 
+   // begin output of tree
+   void outputTree() const {
+      outputTreeHelper(rootPtr, 0);
+   }
+
 private:
    TreeNode<NODETYPE>* rootPtr{nullptr};
 
@@ -81,6 +86,21 @@ private:
          postOrderHelper(ptr->leftPtr); // traverse left subtree  
          postOrderHelper(ptr->rightPtr); // traverse right subtree
          std::cout << ptr->data << ' '; // process node                
+      } 
+   } 
+
+   // utility function to output the tree
+   void outputTreeHelper(TreeNode<NODETYPE>* ptr, int depth) const {
+      if (ptr != nullptr) { 
+         
+         outputTreeHelper(ptr->leftPtr, depth+1); // traverse left subtree
+         
+         outputTreeHelper(ptr->rightPtr, depth+1); // traverse right subtree  
+
+         for (int i = 0; i < depth; ++i){
+            std::cout << "    " ;
+         }
+         std::cout << ptr->data << " \n"; // process node                
       } 
    } 
 }; 
