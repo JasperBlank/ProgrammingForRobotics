@@ -9,6 +9,7 @@
 // Tree class-template definition
 template<typename NODETYPE> class Tree {
 public:
+
    // insert node in Tree
    void insertNode(const NODETYPE& value) {
       insertNodeHelper(&rootPtr, value); 
@@ -28,6 +29,12 @@ public:
    void postOrderTraversal() const {
       postOrderHelper(rootPtr); 
    } 
+
+   // Search the tree for a value
+   void SearchTree(int Searchint) {
+      SearchTreeHelper(&rootPtr, Searchint);
+   }
+
 
    // begin output of tree
    void outputTree() const {
@@ -61,6 +68,32 @@ private:
          } 
       } 
    } 
+
+   // utility function called by Searchtree; receives a pointer
+   // to a pointer so that the function can modify pointer's value
+   void SearchTreeHelper(
+      TreeNode<NODETYPE>** ptr, int Searchint) {
+      // subtree is empty; Return the null pointer
+      if (*ptr == nullptr) {
+         std::cout << Searchint << " No result" << std::endl;
+      }
+      else { // subtree is not empty
+             // Search if data is less than data in current node
+         if (Searchint < (*ptr)->data) {
+            SearchTreeHelper(&((*ptr)->leftPtr), Searchint);
+         }
+         else {
+            // Search if data is less than data in current node
+            if (Searchint > (*ptr)->data) { 
+               SearchTreeHelper(&((*ptr)->rightPtr), Searchint);
+            }
+            else { //Return the right pointer
+               std::cout << "\nFound the search pointer: " << ptr << std::endl;
+            }
+         } 
+      } 
+   } 
+
 
    // utility function to perform preorder traversal of Tree
    void preOrderHelper(TreeNode<NODETYPE>* ptr) const {
