@@ -15,13 +15,15 @@ int main() {
     Tree<int> IntTree;
 
 
-    IntTree.insertNode(4);
-    IntTree.insertNode(2);
-    IntTree.insertNode(6);
-    IntTree.insertNode(1);
-    IntTree.insertNode(3);
-    IntTree.insertNode(5);
-    IntTree.insertNode(7);
+    IntTree.insertNode(41);
+    IntTree.insertNode(22);
+    IntTree.insertNode(63);
+    IntTree.insertNode(14);
+    IntTree.insertNode(35);
+    IntTree.insertNode(56);
+    IntTree.insertNode(77);
+    IntTree.insertNode(88);
+    IntTree.insertNode(39);
 
     int SearchValue;
     std::cout << "Enter SearchValue: ";
