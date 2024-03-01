@@ -94,13 +94,13 @@ private:
       if (ptr != nullptr) { 
          
          outputTreeHelper(ptr->leftPtr, depth+1); // traverse left subtree
-         
-         outputTreeHelper(ptr->rightPtr, depth+1); // traverse right subtree  
-
          for (int i = 0; i < depth; ++i){
             std::cout << "    " ;
          }
-         std::cout << ptr->data << " \n"; // process node                
+         std::cout << ptr->data << " \n"; // process node      
+         outputTreeHelper(ptr->rightPtr, depth+1); // traverse right subtree  
+
+                   
       } 
    } 
 }; 
