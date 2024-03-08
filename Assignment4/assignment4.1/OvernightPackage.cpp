@@ -3,9 +3,8 @@
 #include "OvernightPackage.h"
 
 // Constructor
-OvernightPackage::OvernightPackage(const std::string& argumentOption, const std::string& argumentWeight):Package(argumentOption,argumentWeight){};
+OvernightPackage::OvernightPackage(const std::string& argumentOption, const std::string& argumentWeight):TwoDayPackage(argumentOption, argumentWeight){};
 
 double OvernightPackage::calculateCost() const{
-    double getWeight = std::stod(weight); // change it to a getFunction
-    return (costPerKg* + getWeight) + flatFee;
+    return TwoDayPackage::calculateCost() + (additionalCost * weight * weight);
 };

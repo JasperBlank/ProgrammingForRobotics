@@ -10,7 +10,7 @@ public:
     virtual ~Package() = default; // virtual destructor
 
     std::string option;
-    std::string weight; // easier to manipulate!
+    double weight; // easier to manipulate!
     
     //Virtual is needed because of polymorphism
     virtual double calculateCost() const = 0; // pure virtual

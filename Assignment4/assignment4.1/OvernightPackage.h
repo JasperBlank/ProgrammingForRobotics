@@ -3,12 +3,14 @@
 
 #include <iostream>
 #include <string>
-#include "Package.h"
+#include "TwoDayPackage.h"
 
-class OvernightPackage : public Package{
+class OvernightPackage : public TwoDayPackage{
 public:
     OvernightPackage(const std::string&, const std::string&); // constructor declaration
     virtual ~OvernightPackage() = default; // virtual destructor
+
+    double additionalCost = 1.10;
 
     virtual double calculateCost() const override;
     //virtual std::string printCosts() const override; 
