@@ -5,6 +5,6 @@
 // Constructor
 Package::Package(const std::string& argumentOption, const std::string& argumentWeight){
     option = argumentOption;
-    weight = argumentWeight;
+    weight = std::stod(argumentWeight);
 };
 
