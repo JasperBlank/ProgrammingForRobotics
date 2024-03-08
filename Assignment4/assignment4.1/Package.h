@@ -5,12 +5,20 @@
 #include <string>
 
 class Package{
+
+protected:
+std::string option;
+double weight; // easier to manipulate!
+
 public:
     Package(const std::string&, const std::string&); // constructor declaration
     virtual ~Package() = default; // virtual destructor
+    
+    
 
-    std::string option;
-    double weight; // easier to manipulate!
+    //Set and Get functions
+    double getWeight();
+    void setWeight(double);
     
     //Virtual is needed because of polymorphism
     virtual double calculateCost() const = 0; // pure virtual
