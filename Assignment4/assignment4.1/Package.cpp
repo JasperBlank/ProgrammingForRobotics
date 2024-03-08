@@ -1,12 +1,21 @@
 #include <iostream>
 #include <string>
+#include <vector>
 #include "Package.h"
+
 
 // Constructor
 Package::Package(const std::string& argumentOption, const std::string& argumentWeight){
     option = argumentOption;
     weight = std::stod(argumentWeight);
 };
+
+
+void Package::printCosts(const Package& order){
+    std::cout << "Cost of package is: " << order.calculateCost() << std::endl;
+}
+
+//All of the set and get functions:
 
 //Getweight function, gets the weight out of the class
 double Package::getWeight(){
@@ -77,4 +86,5 @@ std::string Package::getaddressReceiver() {
 void Package::setaddressReceiver(std::string newAddressReceiver) {
     addressReceiver = newAddressReceiver;
 }
+
 

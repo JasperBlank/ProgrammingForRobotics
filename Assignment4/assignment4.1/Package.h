@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <string>
+#include <vector>
 
 class Package{
 
@@ -19,6 +20,8 @@ std::string addressReceiver;
 public:
     Package(const std::string&, const std::string&); // constructor declaration
     virtual ~Package() = default; // virtual destructor
+
+    void printCosts(const Package& order);
     
     //Set and Get functions
     //Weight
