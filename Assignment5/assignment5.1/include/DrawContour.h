@@ -11,6 +11,7 @@
 class DrawContour
 {
 public:
+
     DrawContour(UI &ui, Blob &blob): ui(&ui), blob(&blob) {} // constructor
 
     virtual void drawContour(float threshold) = 0; // draw contour

@@ -13,17 +13,6 @@ void DrawContourScanning::drawContour(float threshold) {
 
     // YOUR CODE HERE ------------------------------------------
 
-    // pixel location (the y-axis is inverted)
-    // ui is the pointer to the object of the class UI
-
-    // top left pixel
-    float xTopLeft = -(*ui).sizeX/2;
-    float yTopLeft = -(*ui).sizeY/2;
-
-    // bottom right pixel
-    float xBottomRight = (*ui).sizeX/2;
-    float yBottomRight = (*ui).sizeY/2;
-
     // evaluate each pixel
     for (float yPoint = yTopLeft+1; yPoint <= yBottomRight; yPoint++){ 
         for (float xPoint = xTopLeft+1; xPoint <= xBottomRight; xPoint++){
