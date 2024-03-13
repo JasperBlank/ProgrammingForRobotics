@@ -1,9 +1,9 @@
 //==============================================================
-// Filename    : 
-// Authors     : 
-// Group       :
-// License     :  N.A. or opensource license like LGPL
-// Description : 
+// Filename    : DrawContourScanningThreaded.h
+// Authors     : Jasper Blank & Lucas Koreeda
+// Group       : 8
+// License     : N.A. or opensource license like LGPL
+// Description : Header for the Multithreaded Scanning algorithm
 //==============================================================
 
 // DrawContourScanningThreaded class derived from class
@@ -11,31 +11,24 @@
 #ifndef DRAWCONTOURSCANNINGTHREADED_H
 #define DRAWCONTOURSCANNINGTHREADED_H
 
-#include "DrawContour.h" // DrawContour class declaration+
+#include "DrawContourScanning.h" // DrawContour class declaration+
 #include <thread>
 #include <vector>
+#include <mutex>
 
 // DrawContourScanningThreaded class definition
-class DrawContourScanningThreaded : public DrawContour
+class DrawContourScanningThreaded : public DrawContourScanning
 {
 public:
     // constructor
-    DrawContourScanningThreaded(UI &ui, Blob &blob): DrawContour(ui, blob) {};
-
-    // top left pixel
-    float xTopLeft = -(*ui).sizeX/2;
-    float yTopLeft = -(*ui).sizeY/2;
-
-    // bottom right pixel
-    float xBottomRight = (*ui).sizeX/2;
-    float yBottomRight = (*ui).sizeY/2;
+    DrawContourScanningThreaded(UI &ui, Blob &blob): DrawContourScanning(ui, blob) {};
 
     // draw contour
     virtual void drawContour(float threshold);
 
-    virtual bool isDifferent (const float *x, const float *y, float threshold);
-
+    // draw one row
     virtual void printRow (const float *y, float threshold);
+
 }; // end class DrawContourScanningThreaded
 
 #endif
