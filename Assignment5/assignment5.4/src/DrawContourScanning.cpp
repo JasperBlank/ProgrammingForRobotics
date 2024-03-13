@@ -11,8 +11,6 @@
 // draw contour
 void DrawContourScanning::drawContour(float threshold) {
 
-    // YOUR CODE HERE ------------------------------------------
-
     // evaluate each pixel
     for (float yPoint = yTopLeft+1; yPoint <= yBottomRight; yPoint++){ 
         for (float xPoint = xTopLeft+1; xPoint <= xBottomRight; xPoint++){
