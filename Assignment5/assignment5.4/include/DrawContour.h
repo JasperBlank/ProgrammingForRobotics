@@ -19,6 +19,15 @@ public:
 protected:
     UI*   ui;
     Blob* blob;
+
+    // top left pixel
+    float xLeft = -(*ui).sizeX/2;
+    float yTop = -(*ui).sizeY/2;
+
+    // bottom right pixel
+    float xRight = (*ui).sizeX/2;
+    float yBottom = (*ui).sizeY/2;
+    
 }; // end class DrawContour
 
 #endif

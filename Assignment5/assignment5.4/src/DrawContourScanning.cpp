@@ -12,8 +12,8 @@
 void DrawContourScanning::drawContour(float threshold) {
 
     // evaluate each pixel
-    for (float yPoint = yTopLeft+1; yPoint <= yBottomRight; yPoint++){ 
-        for (float xPoint = xTopLeft+1; xPoint <= xBottomRight; xPoint++){
+    for (float yPoint = yTop+1; yPoint <= yBottom; yPoint++){ 
+        for (float xPoint = xLeft+1; xPoint <= xRight; xPoint++){
             if (isDifferent(&xPoint, &yPoint, threshold) == true){
                 ui->drawPixel(xPoint, yPoint);
             }
@@ -36,8 +36,8 @@ bool DrawContourScanning::isDifferent (const float *x, const float *y, float thr
    /* TEST ----------------------------------------------------------------
 
    +++ POTENTIAL EVALUATION +++
-    for (float yPoint = yTopLeft; yPoint <= yBottomRight; yPoint++){ 
-        for (float xPoint = xTopLeft; xPoint <= xBottomRight; xPoint++){
+    for (float yPoint = yTop; yPoint <= yBottom; yPoint++){ 
+        for (float xPoint = xLeft; xPoint <= xRight; xPoint++){
             if (blob->potential(xPoint,yPoint) > threshold){
                 ui->drawPixel(xPoint, yPoint);
             }

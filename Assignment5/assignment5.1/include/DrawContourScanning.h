@@ -16,10 +16,7 @@
 // DrawContourScanning class definition
 class DrawContourScanning : public DrawContour
 {
-public:
-    // constructor
-    DrawContourScanning(UI &ui, Blob &blob): DrawContour(ui, blob) {};
-
+private:
     // top left pixel
     float xTopLeft = -(*ui).sizeX/2;
     float yTopLeft = -(*ui).sizeY/2;
@@ -27,11 +24,14 @@ public:
     // bottom right pixel
     float xBottomRight = (*ui).sizeX/2;
     float yBottomRight = (*ui).sizeY/2;
+public:
+    // constructor
+    DrawContourScanning(UI &ui, Blob &blob): DrawContour(ui, blob) {};
 
     // draw contour
     virtual void drawContour(float threshold);
 
-    virtual bool isDifferent (const float *x, const float *y, float threshold);
+    bool isDifferent (const float *x, const float *y, float threshold);
 }; // end class DrawContourScanning
 
 #endif

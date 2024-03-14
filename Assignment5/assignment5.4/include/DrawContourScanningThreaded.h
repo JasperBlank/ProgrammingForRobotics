@@ -19,6 +19,10 @@
 // DrawContourScanningThreaded class definition
 class DrawContourScanningThreaded : public DrawContourScanning
 {
+
+private:
+    std::mutex myMutex; // used for synchronization
+
 public:
     // constructor
     DrawContourScanningThreaded(UI &ui, Blob &blob): DrawContourScanning(ui, blob) {};
@@ -27,7 +31,7 @@ public:
     virtual void drawContour(float threshold);
 
     // draw one row
-    virtual void printRow (const float *y, float threshold);
+    void printRow (const float *y, float threshold);
 
 }; // end class DrawContourScanningThreaded
 
