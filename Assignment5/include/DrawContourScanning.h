@@ -16,15 +16,16 @@
 // DrawContourScanning class definition
 class DrawContourScanning : public DrawContour
 {
-
 public:
     // constructor
     DrawContourScanning(UI &ui, Blob &blob): DrawContour(ui, blob) {};
+    bool isDifferent(const float *x,const float *y, float threshold);
+
 
     // draw contour
     virtual void drawContour(float threshold);
+    
 
-    bool isDifferent (const float *x, const float *y, float threshold);
     
 }; // end class DrawContourScanning
 
