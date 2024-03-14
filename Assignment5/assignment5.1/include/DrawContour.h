@@ -15,10 +15,19 @@ public:
     DrawContour(UI &ui, Blob &blob): ui(&ui), blob(&blob) {} // constructor
 
     virtual void drawContour(float threshold) = 0; // draw contour
+    virtual bool isDifferent(float *x, float *y, float threshold);
 
 protected:
     UI*   ui;
     Blob* blob;
+    
+    // top left pixel
+    float xLeft = -(*ui).sizeX/2;
+    float yTop = -(*ui).sizeY/2;
+
+    // bottom right pixel
+    float xRight = (*ui).sizeX/2;
+    float yBottom = (*ui).sizeY/2;
 }; // end class DrawContour
 
 #endif

@@ -15,3 +15,4 @@ void DrawContourMarchingBetter::drawContour(float threshold) {
 
     ui->drawPixel(10, 10); // Dummy code only
 }
+

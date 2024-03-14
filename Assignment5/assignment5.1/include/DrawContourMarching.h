@@ -19,6 +19,8 @@ class DrawContourMarching : public DrawContour
 public:
     // constructor
     DrawContourMarching(UI &ui, Blob &blob): DrawContour(ui, blob) {};
+    Point findCurve(float threshold);
+    bool isDifferent(float *x, float *y, float threshold) override;
 
     // draw contour
     virtual void drawContour(float threshold);

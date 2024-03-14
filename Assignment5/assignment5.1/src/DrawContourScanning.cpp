@@ -14,8 +14,8 @@ void DrawContourScanning::drawContour(float threshold) {
     // YOUR CODE HERE ------------------------------------------
 
     // evaluate each pixel
-    for (float yPoint = yTopLeft+1; yPoint <= yBottomRight; yPoint++){ 
-        for (float xPoint = xTopLeft+1; xPoint <= xBottomRight; xPoint++){
+    for (float yPoint = yTop+1; yPoint <= yBottom; yPoint++){ 
+        for (float xPoint = xLeft+1; xPoint <= xRight; xPoint++){
             if (isDifferent(&xPoint, &yPoint, threshold) == true){
                 ui->drawPixel(xPoint, yPoint);
             }
