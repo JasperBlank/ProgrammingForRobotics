@@ -8,6 +8,7 @@
 
 #include "DrawContourMarching.h"
 #include <queue>
+#include <vector>
 
 // draw contour
 void DrawContourMarching::drawContour(float threshold) {    
@@ -15,12 +16,37 @@ void DrawContourMarching::drawContour(float threshold) {
     //Finding the first point
     Point Firstpoint = findCurve(threshold);
 
-    std::queue<Point>;
+    std::queue<Point> worklist;
+    std::vector<Point> visitedlist;
 
+    worklist.push(Firstpoint);
+
+    while (!worklist.empty())
+    {
+        //Getting first element
+        Point p = worklist.front();
+
+        /*
+        //Creating the pixel to the left and adding it to the work list
+        if(p.x > -100 ){
+        Point leftp = Point(p.x-1,p.y);
+        worklist.push(leftp);
+        }
+        */
+
+        //Drawing the current pixel
+        ui->drawPixel(p.x, p.y);
+
+        visitedlist.push_back(p);
+
+        //Removing element from queue
+        worklist.pop();
+    }
+    
     
 
-    //Testing
-    ui->drawPixel(Firstpoint.x, Firstpoint.y);
+    
+    
 
 }
 

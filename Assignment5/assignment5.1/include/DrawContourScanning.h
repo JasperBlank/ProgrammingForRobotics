@@ -19,7 +19,7 @@ class DrawContourScanning : public DrawContour
 public:
     // constructor
     DrawContourScanning(UI &ui, Blob &blob): DrawContour(ui, blob) {};
-    bool isDifferent(float *x, float *y, float threshold) override;
+    bool isDifferent(const float *x,const float *y, float threshold) override;
 
 
     // draw contour
