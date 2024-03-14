@@ -21,7 +21,7 @@ class DrawContourScanningThreaded : public DrawContourScanning
 {
 
 private:
-    std::mutex myMutex; // used for synchronization
+    std::mutex myMutex; // used for mutual exclusion
 
 public:
     // constructor
