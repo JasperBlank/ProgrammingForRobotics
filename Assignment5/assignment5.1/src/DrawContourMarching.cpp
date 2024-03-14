@@ -9,6 +9,7 @@
 #include "DrawContourMarching.h"
 #include <queue>
 #include <vector>
+#include <algorithm>
 
 // draw contour
 void DrawContourMarching::drawContour(float threshold) {    
@@ -25,7 +26,14 @@ void DrawContourMarching::drawContour(float threshold) {
     {
         //Getting first element
         Point p = worklist.front();
+        //Removing element from queue
+        worklist.pop();
 
+    
+   
+    
+    
+        
         /*
         //Creating the pixel to the left and adding it to the work list
         if(p.x > -100 ){
@@ -37,10 +45,9 @@ void DrawContourMarching::drawContour(float threshold) {
         //Drawing the current pixel
         ui->drawPixel(p.x, p.y);
 
-        visitedlist.push_back(p);
+        visitedlist.push_back(p);  
 
-        //Removing element from queue
-        worklist.pop();
+        
     }
     
     
