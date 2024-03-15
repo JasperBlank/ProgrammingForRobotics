@@ -1,4 +1,4 @@
-Steps to compile and run the code for assignment 5.1
+Steps to compile and run the code for assignment 5
 ------------------------------------------------
 1. Unzip all packages in this zip file an empty directory called Assignment5
 2. Go to directory Assignment5

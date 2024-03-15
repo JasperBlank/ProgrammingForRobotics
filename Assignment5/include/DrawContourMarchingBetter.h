@@ -11,17 +11,19 @@
 #ifndef DRAWCONTOURMARCHINGBETTER_H
 #define DRAWCONTOURMARCHINGBETTER_H
 
-#include "DrawContour.h" // DrawContour class declaration
+#include "DrawContourMarching.h" // DrawContour class declaration
 
 // DrawContourMarchingBetter class definition
-class DrawContourMarchingBetter : public DrawContour
+class DrawContourMarchingBetter : public DrawContourMarching
 {
 public:
     // constructor
-    DrawContourMarchingBetter(UI &ui, Blob &blob): DrawContour(ui, blob) {};
+    DrawContourMarchingBetter(UI &ui, Blob &blob): DrawContourMarching(ui, blob) {};
+    virtual bool isDifferent(float *x, float *y, float threshold) override;
 
     // draw contour
     virtual void drawContour(float threshold);
+
 }; // end class DrawContourMarchingBetter
 
 #endif

@@ -1,9 +1,9 @@
 //==============================================================
-// Filename    : 
-// Authors     : 
-// Group       :
-// License     :  N.A. or opensource license like LGPL
-// Description : 
+// Filename    : DrawContourScanning.h
+// Authors     : Jasper Blank & Lucas Koreeda
+// Group       : 8
+// License     : N.A. or opensource license like LGPL
+// Description : Header for the Contour marching algorithm
 //==============================================================
 
 // DrawContourMarching class derived from class

@@ -1,9 +1,9 @@
 //==============================================================
-// Filename    : 
-// Authors     : 
-// Group       :
-// License     :  N.A. or opensource license like LGPL
-// Description : 
+// Filename    : DrawContourScanningThreaded.cpp
+// Authors     : Jasper Blank & Lucas Koreeda
+// Group       : 8
+// License     : LGPL
+// Description : Main file for assignment 5
 //==============================================================
 
 #include <chrono>
@@ -123,6 +123,6 @@ int main(int /*argc*/, char ** /*argv*/)
 } // end main
 
 bool DrawContour::isDifferent(float* x, float* y, float threshold) {
-// catch empty isDifferent case
-return false;
+    // catch empty isDifferent case
+    return false;
 }
