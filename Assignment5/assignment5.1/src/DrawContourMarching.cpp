@@ -1,9 +1,9 @@
 //==============================================================
-// Filename    : 
-// Authors     : 
-// Group       :
-// License     :  N.A. or opensource license like LGPL
-// Description : 
+// Filename    : DrawContourScanning.cpp
+// Authors     : Jasper Blank & Lucas Koreeda
+// Group       : 8
+// License     : LGPL
+// Description : Contour marching algorithm
 //==============================================================
 
 #include "DrawContourMarching.h"
@@ -84,6 +84,7 @@ Point DrawContourMarching:: findCurve(float threshold){
 // evaluate each pixel, return the first pixel
     for (float yPoint = yTop+1; yPoint <= yBottom; yPoint++){ 
         for (float xPoint = xLeft+1; xPoint <= xRight; xPoint++){
+            
             if (isDifferent(&xPoint, &yPoint, threshold) == true){
                 
                 //Instansiate and return point
