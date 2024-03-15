@@ -30,14 +30,6 @@ protected:
     // bottom right pixel
     float xRight = (*ui).sizeX/2;
     float yBottom = (*ui).sizeY/2;
-    
-    // top left pixel
-    float xLeft = -(*ui).sizeX/2;
-    float yTop = -(*ui).sizeY/2;
-
-    // bottom right pixel
-    float xRight = (*ui).sizeX/2;
-    float yBottom = (*ui).sizeY/2;
 
     // OBS: considering that x = 0 and y = 0 are defined in the middle of the screen
 
