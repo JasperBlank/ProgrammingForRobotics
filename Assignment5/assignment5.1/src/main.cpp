@@ -123,6 +123,6 @@ int main(int /*argc*/, char ** /*argv*/)
 } // end main
 
 bool DrawContour::isDifferent(float* x, float* y, float threshold) {
-    // catch empty isDifferent case
-    return false;
+// catch empty isDifferent case
+return false;
 }
