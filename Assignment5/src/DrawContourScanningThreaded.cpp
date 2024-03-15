@@ -13,7 +13,7 @@ void DrawContourScanningThreaded::drawContour(float threshold) {
     
     std::vector<std::thread> threads; // vector with multiple threads
 
-    for (float yPoint = yTop+1; yPoint <= yBottom; yPoint++){
+    for (float yPoint = yTop; yPoint <= yBottom; yPoint++){
         // each thread calls the printRow function
         threads.push_back(std::thread([this, yPoint, threshold]() { this->printRow(&yPoint, threshold); }));  
     }
