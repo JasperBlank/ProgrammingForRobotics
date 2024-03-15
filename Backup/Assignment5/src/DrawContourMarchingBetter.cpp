@@ -6,12 +6,13 @@
 // Description : 
 //==============================================================
 
-#include "DrawContourScanningThreaded.h" 
+#include "DrawContourMarchingBetter.h" 
 
 // draw contour
-void DrawContourScanningThreaded::drawContour(float threshold) {
+void DrawContourMarchingBetter::drawContour(float threshold) {
 
     // YOUR CODE HERE
 
-    ui->drawPixel(10, 0); // Dummy code only
+    ui->drawPixel(10, 10); // Dummy code only
 }
+

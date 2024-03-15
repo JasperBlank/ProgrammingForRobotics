@@ -6,22 +6,24 @@
 // Description : 
 //==============================================================
 
-// DrawContourMarchingBetter class derived from class
+// DrawContourMarching class derived from class
 // DrawContour.
-#ifndef DRAWCONTOURMARCHINGBETTER_H
-#define DRAWCONTOURMARCHINGBETTER_H
+#ifndef DRAWCONTOURMARCHING_H
+#define DRAWCONTOURMARCHING_H
 
 #include "DrawContour.h" // DrawContour class declaration
 
-// DrawContourMarchingBetter class definition
-class DrawContourMarchingBetter : public DrawContour
+// DrawContourMarching class definition
+class DrawContourMarching : public DrawContour
 {
 public:
     // constructor
-    DrawContourMarchingBetter(UI &ui, Blob &blob): DrawContour(ui, blob) {};
+    DrawContourMarching(UI &ui, Blob &blob): DrawContour(ui, blob) {};
+    Point findCurve(float threshold);
+    bool isDifferent(float *x, float *y, float threshold) override;
 
     // draw contour
     virtual void drawContour(float threshold);
-}; // end class DrawContourMarchingBetter
+}; // end class DrawContourMarching
 
 #endif
