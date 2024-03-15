@@ -25,7 +25,7 @@ void DrawContourScanning::drawContour(float threshold) {
 bool DrawContourScanning::isDifferent (const float *x,const float *y, float threshold){
     
     // true if pixel is above threshold
-    bool previousPixel = blob->potential(*x-1, *y-1) > threshold;
+    bool previousPixel = blob->potential(*x-1, *y) > threshold;
     bool currentPixel = blob->potential(*x, *y) > threshold;
 
     if (previousPixel != currentPixel){
