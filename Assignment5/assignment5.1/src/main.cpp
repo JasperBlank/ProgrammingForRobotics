@@ -126,8 +126,3 @@ bool DrawContour::isDifferent(float* x, float* y, float threshold) {
     // catch empty isDifferent case
     return false;
 }
-
-bool DrawContour::isDifferent(float* x, float* y, float threshold) {
-    // catch empty isDiffernt case
-    return false;
-}
