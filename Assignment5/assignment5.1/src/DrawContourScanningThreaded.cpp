@@ -2,7 +2,7 @@
 // Filename    : DrawContourScanningThreaded.cpp
 // Authors     : Jasper Blank & Lucas Koreeda
 // Group       : 8
-// License     : N.A. or opensource license like LGPL
+// License     : LGPL
 // Description : Multithreaded Scanning algorithm
 //==============================================================
 

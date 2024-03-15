@@ -1,6 +1,6 @@
 /**
  * \file
- * Description of UI.h file.
+ * The UI file draws the pixels on the screen.
  */
 
 #include "UI.h"

@@ -1,9 +1,9 @@
 //==============================================================
-// Filename    : 
-// Authors     : 
-// Group       :
-// License     :  N.A. or opensource license like LGPL
-// Description : 
+// Filename    : DrawContourScanningThreaded.cpp
+// Authors     : Jasper Blank & Lucas Koreeda
+// Group       : 8
+// License     : LGPL
+// Description : Main file for assignment 5
 //==============================================================
 
 #include <chrono>
