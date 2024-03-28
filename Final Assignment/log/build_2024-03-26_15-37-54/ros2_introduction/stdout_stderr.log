@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target brightness_detection[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/brightness_detection.dir/src/brightness_detection.cpp.o[0m
+[01m[K/home/lucasjko/sdfr_ws/src/ros2_introduction/src/brightness_detection.cpp:[m[K In member function ‘[01m[Kvoid BrightnessDetection::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/lucasjko/sdfr_ws/src/ros2_introduction/src/brightness_detection.cpp:7:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kimg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    7 | etection::image_callback([01;35m[Ksensor_msgs::msg::Image::ConstSharedPtr img[m[K) {
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+
+[100%] [32m[1mLinking CXX executable brightness_detection[0m
+[100%] Built target brightness_detection
+-- Install configuration: ""
+-- Installing: /home/lucasjko/sdfr_ws/install/ros2_introduction/lib/ros2_introduction/brightness_detection
+-- Set runtime path of "/home/lucasjko/sdfr_ws/install/ros2_introduction/lib/ros2_introduction/brightness_detection" to ""
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ament_index/resource_index/package_run_dependencies/ros2_introduction
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ament_index/resource_index/parent_prefix_path/ros2_introduction
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/environment/ament_prefix_path.sh
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/environment/path.sh
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/environment/path.dsv
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/local_setup.bash
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/local_setup.sh
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/local_setup.zsh
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/local_setup.dsv
+-- Installing: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/package.dsv
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ament_index/resource_index/packages/ros2_introduction
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/cmake/ros2_introductionConfig.cmake
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/cmake/ros2_introductionConfig-version.cmake
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/package.xml

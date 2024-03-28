@@ -1,0 +1,28 @@
+[0.014s] Invoking command in '/home/lucasjko/sdfr_ws/build/ros2_introduction': AMENT_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/ros2_introduction -- -j8 -l8
+[0.038s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.153s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.180s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.182s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.187s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.198s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.213s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.269s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.270s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.402s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.562s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.683s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.814s] -- Found image_functions_sdfr: 2.1.0 (/home/lucasjko/sdfr_ws/install/image_functions_sdfr/share/image_functions_sdfr/cmake)
+[0.877s] -- Configuring done
+[0.889s] -- Generating done
+[0.891s] -- Build files have been written to: /home/lucasjko/sdfr_ws/build/ros2_introduction
+[0.914s] [35m[1mConsolidate compiler generated dependencies of target brightness_detection[0m
+[0.932s] [ 50%] [32mBuilding CXX object CMakeFiles/brightness_detection.dir/src/brightness_detection.cpp.o[0m
+[1.198s] In file included from [01m[K/home/lucasjko/sdfr_ws/src/ros2_introduction/src/brightness_detection.cpp:1[m[K:
+[1.198s] [01m[K/home/lucasjko/sdfr_ws/src/ros2_introduction/include/ros2_introduction/brightness_detection.hpp:13:10:[m[K [01;31m[Kfatal error: [m[Kimage_functions.hpp: No such file or directory
+[1.198s]    13 | #include [01;31m[K"image_functions.hpp"[m[K // header for image functions
+[1.198s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.198s] compilation terminated.
+[1.201s] gmake[2]: *** [CMakeFiles/brightness_detection.dir/build.make:76: CMakeFiles/brightness_detection.dir/src/brightness_detection.cpp.o] Error 1
+[1.201s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/brightness_detection.dir/all] Error 2
+[1.201s] gmake: *** [Makefile:146: all] Error 2
+[1.203s] Invoked command in '/home/lucasjko/sdfr_ws/build/ros2_introduction' returned '2': AMENT_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/ros2_introduction -- -j8 -l8
