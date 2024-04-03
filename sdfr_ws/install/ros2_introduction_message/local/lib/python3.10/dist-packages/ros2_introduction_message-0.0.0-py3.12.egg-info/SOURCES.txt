@@ -1,0 +1,8 @@
+setup.py
+ros2_introduction_message/__init__.py
+ros2_introduction_message.egg-info/PKG-INFO
+ros2_introduction_message.egg-info/SOURCES.txt
+ros2_introduction_message.egg-info/dependency_links.txt
+ros2_introduction_message.egg-info/top_level.txt
+ros2_introduction_message/msg/__init__.py
+ros2_introduction_message/msg/_brightness.py

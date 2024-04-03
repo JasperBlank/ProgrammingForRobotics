@@ -1,0 +1,115 @@
+[0.000000] (-) TimerEvent: {}
+[0.000199] (-) JobUnselected: {'identifier': 'image_functions_sdfr'}
+[0.000230] (ros2_introduction) JobQueued: {'identifier': 'ros2_introduction', 'dependencies': OrderedDict([('image_functions_sdfr', '/home/lucasjko/sdfr_ws/install/image_functions_sdfr')])}
+[0.000286] (ros2_introduction) JobStarted: {'identifier': 'ros2_introduction'}
+[0.020297] (ros2_introduction) JobProgress: {'identifier': 'ros2_introduction', 'progress': 'cmake'}
+[0.021299] (ros2_introduction) JobProgress: {'identifier': 'ros2_introduction', 'progress': 'build'}
+[0.022247] (ros2_introduction) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lucasjko/sdfr_ws/build/ros2_introduction', '--', '-j8', '-l8'], 'cwd': '/home/lucasjko/sdfr_ws/build/ros2_introduction', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lucasjko'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lucasjko'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2086'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d53028fcbb7463a1d461ba706605417a'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lucasjko'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lucasjko'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lucasjko-G5-5590:@/tmp/.ICE-unix/2086,unix/lucasjko-G5-5590:/tmp/.ICE-unix/2086'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1df431df_dbdc_4c71_abc3_39a372cc6f2a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lucasjko/sdfr_ws/build/ros2_introduction'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d53028fcbb7463a1d461ba706605417a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/opt/ros/humble')]), 'shell': False}
+[0.079137] (ros2_introduction) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/brightness_detection.dir/src/brightness_detection.cpp.o\x1b[0m\n'}
+[0.099148] (-) TimerEvent: {}
+[0.199436] (-) TimerEvent: {}
+[0.299715] (-) TimerEvent: {}
+[0.399986] (-) TimerEvent: {}
+[0.500270] (-) TimerEvent: {}
+[0.600539] (-) TimerEvent: {}
+[0.700809] (-) TimerEvent: {}
+[0.801069] (-) TimerEvent: {}
+[0.901302] (-) TimerEvent: {}
+[1.001591] (-) TimerEvent: {}
+[1.101900] (-) TimerEvent: {}
+[1.202193] (-) TimerEvent: {}
+[1.302484] (-) TimerEvent: {}
+[1.402783] (-) TimerEvent: {}
+[1.503061] (-) TimerEvent: {}
+[1.603356] (-) TimerEvent: {}
+[1.703648] (-) TimerEvent: {}
+[1.803947] (-) TimerEvent: {}
+[1.904240] (-) TimerEvent: {}
+[2.004532] (-) TimerEvent: {}
+[2.104827] (-) TimerEvent: {}
+[2.205115] (-) TimerEvent: {}
+[2.305407] (-) TimerEvent: {}
+[2.405702] (-) TimerEvent: {}
+[2.506004] (-) TimerEvent: {}
+[2.606299] (-) TimerEvent: {}
+[2.706589] (-) TimerEvent: {}
+[2.806887] (-) TimerEvent: {}
+[2.907174] (-) TimerEvent: {}
+[3.007552] (-) TimerEvent: {}
+[3.107843] (-) TimerEvent: {}
+[3.208157] (-) TimerEvent: {}
+[3.308457] (-) TimerEvent: {}
+[3.408758] (-) TimerEvent: {}
+[3.509052] (-) TimerEvent: {}
+[3.609355] (-) TimerEvent: {}
+[3.709659] (-) TimerEvent: {}
+[3.809963] (-) TimerEvent: {}
+[3.910248] (-) TimerEvent: {}
+[4.010544] (-) TimerEvent: {}
+[4.110836] (-) TimerEvent: {}
+[4.211130] (-) TimerEvent: {}
+[4.311431] (-) TimerEvent: {}
+[4.411728] (-) TimerEvent: {}
+[4.512029] (-) TimerEvent: {}
+[4.612330] (-) TimerEvent: {}
+[4.712608] (-) TimerEvent: {}
+[4.812892] (-) TimerEvent: {}
+[4.916060] (-) TimerEvent: {}
+[5.016484] (-) TimerEvent: {}
+[5.116782] (-) TimerEvent: {}
+[5.217074] (-) TimerEvent: {}
+[5.317359] (-) TimerEvent: {}
+[5.417646] (-) TimerEvent: {}
+[5.517956] (-) TimerEvent: {}
+[5.618236] (-) TimerEvent: {}
+[5.718540] (-) TimerEvent: {}
+[5.818822] (-) TimerEvent: {}
+[5.919121] (-) TimerEvent: {}
+[6.019405] (-) TimerEvent: {}
+[6.119693] (-) TimerEvent: {}
+[6.219975] (-) TimerEvent: {}
+[6.320260] (-) TimerEvent: {}
+[6.420547] (-) TimerEvent: {}
+[6.520828] (-) TimerEvent: {}
+[6.621104] (-) TimerEvent: {}
+[6.721388] (-) TimerEvent: {}
+[6.821665] (-) TimerEvent: {}
+[6.921930] (-) TimerEvent: {}
+[7.022259] (-) TimerEvent: {}
+[7.122541] (-) TimerEvent: {}
+[7.222832] (-) TimerEvent: {}
+[7.323128] (-) TimerEvent: {}
+[7.423429] (-) TimerEvent: {}
+[7.523735] (-) TimerEvent: {}
+[7.606946] (ros2_introduction) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable brightness_detection\x1b[0m\n'}
+[7.623824] (-) TimerEvent: {}
+[7.724114] (-) TimerEvent: {}
+[7.824432] (-) TimerEvent: {}
+[7.924723] (-) TimerEvent: {}
+[8.024981] (-) TimerEvent: {}
+[8.071473] (ros2_introduction) StdoutLine: {'line': b'[100%] Built target brightness_detection\n'}
+[8.081557] (ros2_introduction) CommandEnded: {'returncode': 0}
+[8.101527] (ros2_introduction) JobProgress: {'identifier': 'ros2_introduction', 'progress': 'install'}
+[8.109439] (ros2_introduction) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lucasjko/sdfr_ws/build/ros2_introduction'], 'cwd': '/home/lucasjko/sdfr_ws/build/ros2_introduction', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lucasjko'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lucasjko'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2086'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d53028fcbb7463a1d461ba706605417a'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lucasjko'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lucasjko'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lucasjko-G5-5590:@/tmp/.ICE-unix/2086,unix/lucasjko-G5-5590:/tmp/.ICE-unix/2086'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1df431df_dbdc_4c71_abc3_39a372cc6f2a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lucasjko/sdfr_ws/build/ros2_introduction'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d53028fcbb7463a1d461ba706605417a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/opt/ros/humble')]), 'shell': False}
+[8.115814] (ros2_introduction) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.116543] (ros2_introduction) StdoutLine: {'line': b'-- Installing: /home/lucasjko/sdfr_ws/install/ros2_introduction/lib/ros2_introduction/brightness_detection\n'}
+[8.121243] (ros2_introduction) StdoutLine: {'line': b'-- Set runtime path of "/home/lucasjko/sdfr_ws/install/ros2_introduction/lib/ros2_introduction/brightness_detection" to ""\n'}
+[8.121415] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ament_index/resource_index/package_run_dependencies/ros2_introduction\n'}
+[8.121579] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ament_index/resource_index/parent_prefix_path/ros2_introduction\n'}
+[8.121675] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/environment/ament_prefix_path.sh\n'}
+[8.121814] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/environment/ament_prefix_path.dsv\n'}
+[8.121963] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/environment/path.sh\n'}
+[8.122061] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/environment/path.dsv\n'}
+[8.122151] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/local_setup.bash\n'}
+[8.122240] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/local_setup.sh\n'}
+[8.122329] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/local_setup.zsh\n'}
+[8.122417] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/local_setup.dsv\n'}
+[8.122506] (ros2_introduction) StdoutLine: {'line': b'-- Installing: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/package.dsv\n'}
+[8.122594] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ament_index/resource_index/packages/ros2_introduction\n'}
+[8.122683] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/cmake/ros2_introductionConfig.cmake\n'}
+[8.122772] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/cmake/ros2_introductionConfig-version.cmake\n'}
+[8.122890] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/package.xml\n'}
+[8.123493] (ros2_introduction) CommandEnded: {'returncode': 0}
+[8.125084] (-) TimerEvent: {}
+[8.159976] (ros2_introduction) JobEnded: {'identifier': 'ros2_introduction', 'rc': 0}
+[8.160466] (-) EventReactorShutdown: {}

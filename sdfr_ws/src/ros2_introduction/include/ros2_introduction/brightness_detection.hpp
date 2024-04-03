@@ -7,10 +7,9 @@
 
 #include "sensor_msgs/msg/image.hpp"
 // Define message includes here...
-#include "example_interfaces/msg/int8.hpp" // topic /light_level
-#include "example_interfaces/msg/string.hpp" // topic /brightness_status
-
-#include "../../../image_functions_sdfr/include/image_functions_sdfr/image_functions.hpp" // header for image functions
+#include "example_interfaces/msg/u_int8.hpp" // topic light_level
+#include "example_interfaces/msg/string.hpp" // topic brightness_status
+#include "image_functions_sdfr/image_functions.hpp" // header for image functions
 
 // Placeholder for std::bind.
 using std::placeholders::_1;
@@ -43,7 +42,7 @@ private:
     rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr subscriberImage_;
 
     /// Publisher variables.
-    rclcpp::Publisher<example_interfaces::msg::Int8>::SharedPtr publisherLightLevel_;
+    rclcpp::Publisher<example_interfaces::msg::UInt8>::SharedPtr publisherLightLevel_;
     rclcpp::Publisher<example_interfaces::msg::String>::SharedPtr publisherBrightnessStatus_;
 };
 

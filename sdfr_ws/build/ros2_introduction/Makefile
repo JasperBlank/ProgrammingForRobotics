@@ -210,6 +210,19 @@ brightness_detection/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/brightness_detection.dir/build.make CMakeFiles/brightness_detection.dir/build
 .PHONY : brightness_detection/fast
 
+#=============================================================================
+# Target rules for targets named brightness_detection_message
+
+# Build rule for target.
+brightness_detection_message: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 brightness_detection_message
+.PHONY : brightness_detection_message
+
+# fast build rule for target.
+brightness_detection_message/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/brightness_detection_message.dir/build.make CMakeFiles/brightness_detection_message.dir/build
+.PHONY : brightness_detection_message/fast
+
 src/brightness_detection.o: src/brightness_detection.cpp.o
 .PHONY : src/brightness_detection.o
 
@@ -234,6 +247,30 @@ src/brightness_detection.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/brightness_detection.dir/build.make CMakeFiles/brightness_detection.dir/src/brightness_detection.cpp.s
 .PHONY : src/brightness_detection.cpp.s
 
+src/brightness_detection_message.o: src/brightness_detection_message.cpp.o
+.PHONY : src/brightness_detection_message.o
+
+# target to build an object file
+src/brightness_detection_message.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/brightness_detection_message.dir/build.make CMakeFiles/brightness_detection_message.dir/src/brightness_detection_message.cpp.o
+.PHONY : src/brightness_detection_message.cpp.o
+
+src/brightness_detection_message.i: src/brightness_detection_message.cpp.i
+.PHONY : src/brightness_detection_message.i
+
+# target to preprocess a source file
+src/brightness_detection_message.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/brightness_detection_message.dir/build.make CMakeFiles/brightness_detection_message.dir/src/brightness_detection_message.cpp.i
+.PHONY : src/brightness_detection_message.cpp.i
+
+src/brightness_detection_message.s: src/brightness_detection_message.cpp.s
+.PHONY : src/brightness_detection_message.s
+
+# target to generate assembly for a file
+src/brightness_detection_message.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/brightness_detection_message.dir/build.make CMakeFiles/brightness_detection_message.dir/src/brightness_detection_message.cpp.s
+.PHONY : src/brightness_detection_message.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... ros2_introduction_uninstall"
 	@echo "... uninstall"
 	@echo "... brightness_detection"
+	@echo "... brightness_detection_message"
 	@echo "... src/brightness_detection.o"
 	@echo "... src/brightness_detection.i"
 	@echo "... src/brightness_detection.s"
+	@echo "... src/brightness_detection_message.o"
+	@echo "... src/brightness_detection_message.i"
+	@echo "... src/brightness_detection_message.s"
 .PHONY : help
 
 

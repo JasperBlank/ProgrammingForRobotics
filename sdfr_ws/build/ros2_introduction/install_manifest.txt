@@ -1,4 +1,5 @@
 /home/lucasjko/sdfr_ws/install/ros2_introduction/lib/ros2_introduction/brightness_detection
+/home/lucasjko/sdfr_ws/install/ros2_introduction/lib/ros2_introduction/brightness_detection_message
 /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ament_index/resource_index/package_run_dependencies/ros2_introduction
 /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ament_index/resource_index/parent_prefix_path/ros2_introduction
 /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/environment/ament_prefix_path.sh

@@ -1,0 +1,25 @@
+[0.025s] Invoking command in '/home/lucasjko/sdfr_ws/build/ros2_introduction': AMENT_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/ros2_introduction -- -j8 -l8
+[0.079s] [ 50%] [32mBuilding CXX object CMakeFiles/brightness_detection.dir/src/brightness_detection.cpp.o[0m
+[7.607s] [100%] [32m[1mLinking CXX executable brightness_detection[0m
+[8.071s] [100%] Built target brightness_detection
+[8.081s] Invoked command in '/home/lucasjko/sdfr_ws/build/ros2_introduction' returned '0': AMENT_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/ros2_introduction -- -j8 -l8
+[8.110s] Invoking command in '/home/lucasjko/sdfr_ws/build/ros2_introduction': AMENT_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/ros2_introduction
+[8.116s] -- Install configuration: ""
+[8.116s] -- Installing: /home/lucasjko/sdfr_ws/install/ros2_introduction/lib/ros2_introduction/brightness_detection
+[8.121s] -- Set runtime path of "/home/lucasjko/sdfr_ws/install/ros2_introduction/lib/ros2_introduction/brightness_detection" to ""
+[8.121s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ament_index/resource_index/package_run_dependencies/ros2_introduction
+[8.121s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ament_index/resource_index/parent_prefix_path/ros2_introduction
+[8.121s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/environment/ament_prefix_path.sh
+[8.122s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/environment/ament_prefix_path.dsv
+[8.122s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/environment/path.sh
+[8.122s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/environment/path.dsv
+[8.122s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/local_setup.bash
+[8.122s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/local_setup.sh
+[8.122s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/local_setup.zsh
+[8.122s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/local_setup.dsv
+[8.122s] -- Installing: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/package.dsv
+[8.122s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ament_index/resource_index/packages/ros2_introduction
+[8.122s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/cmake/ros2_introductionConfig.cmake
+[8.122s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/cmake/ros2_introductionConfig-version.cmake
+[8.123s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/package.xml
+[8.124s] Invoked command in '/home/lucasjko/sdfr_ws/build/ros2_introduction' returned '0': AMENT_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/ros2_introduction

@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/lucasjko/sdfr_ws/build/ros2_introduction
 
 # The main recursive "all" target.
 all: CMakeFiles/brightness_detection.dir/all
+all: CMakeFiles/brightness_detection_message.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/ros2_introduction_uninstall.dir/clean
 clean: CMakeFiles/brightness_detection.dir/clean
+clean: CMakeFiles/brightness_detection_message.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -153,6 +155,32 @@ brightness_detection: CMakeFiles/brightness_detection.dir/rule
 CMakeFiles/brightness_detection.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/brightness_detection.dir/build.make CMakeFiles/brightness_detection.dir/clean
 .PHONY : CMakeFiles/brightness_detection.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/brightness_detection_message.dir
+
+# All Build rule for target.
+CMakeFiles/brightness_detection_message.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/brightness_detection_message.dir/build.make CMakeFiles/brightness_detection_message.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/brightness_detection_message.dir/build.make CMakeFiles/brightness_detection_message.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucasjko/sdfr_ws/build/ros2_introduction/CMakeFiles --progress-num=3,4 "Built target brightness_detection_message"
+.PHONY : CMakeFiles/brightness_detection_message.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/brightness_detection_message.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucasjko/sdfr_ws/build/ros2_introduction/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/brightness_detection_message.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucasjko/sdfr_ws/build/ros2_introduction/CMakeFiles 0
+.PHONY : CMakeFiles/brightness_detection_message.dir/rule
+
+# Convenience name for target.
+brightness_detection_message: CMakeFiles/brightness_detection_message.dir/rule
+.PHONY : brightness_detection_message
+
+# clean rule for target.
+CMakeFiles/brightness_detection_message.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/brightness_detection_message.dir/build.make CMakeFiles/brightness_detection_message.dir/clean
+.PHONY : CMakeFiles/brightness_detection_message.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

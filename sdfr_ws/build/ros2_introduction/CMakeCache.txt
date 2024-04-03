@@ -287,7 +287,7 @@ SITE:STRING=lucasjko-G5-5590
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib/libimage_functions.so
+_lib:FILEPATH=/home/lucasjko/sdfr_ws/install/ros2_introduction_message/lib/libros2_introduction_message__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for action_msgs.
 action_msgs_DIR:PATH=/opt/ros/humble/share/action_msgs/cmake
@@ -432,6 +432,9 @@ ros2_introduction_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 ros2_introduction_SOURCE_DIR:STATIC=/home/lucasjko/sdfr_ws/src/ros2_introduction
+
+//The directory containing a CMake configuration file for ros2_introduction_message.
+ros2_introduction_message_DIR:PATH=/home/lucasjko/sdfr_ws/install/ros2_introduction_message/share/ros2_introduction_message/cmake
 
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/humble/share/rosgraph_msgs/cmake

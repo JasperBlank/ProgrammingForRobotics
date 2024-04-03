@@ -1,0 +1,2 @@
+Invoking command in '/home/lucasjko/sdfr_ws/build/ros2_introduction_message': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucasjko/sdfr_ws/src/ros2_introduction_message -DCMAKE_INSTALL_PREFIX=/home/lucasjko/sdfr_ws/install/ros2_introduction_message
+Invoked command in '/home/lucasjko/sdfr_ws/build/ros2_introduction_message' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucasjko/sdfr_ws/src/ros2_introduction_message -DCMAKE_INSTALL_PREFIX=/home/lucasjko/sdfr_ws/install/ros2_introduction_message

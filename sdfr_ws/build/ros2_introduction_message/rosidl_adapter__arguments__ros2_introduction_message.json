@@ -1,0 +1,6 @@
+{
+  "package_name": "ros2_introduction_message",
+  "non_idl_tuples": [
+    "/home/lucasjko/sdfr_ws/src/ros2_introduction_message:msg/Brightness.msg"
+  ]
+}

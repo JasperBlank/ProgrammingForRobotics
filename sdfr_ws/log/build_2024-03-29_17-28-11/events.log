@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.000109] (-) JobUnselected: {'identifier': 'image_functions_sdfr'}
+[0.000253] (-) JobUnselected: {'identifier': 'ros2_introduction'}
+[0.000351] (ros2_introduction_message) JobQueued: {'identifier': 'ros2_introduction_message', 'dependencies': OrderedDict()}
+[0.000392] (ros2_introduction_message) JobStarted: {'identifier': 'ros2_introduction_message'}
+[0.008717] (ros2_introduction_message) JobProgress: {'identifier': 'ros2_introduction_message', 'progress': 'cmake'}
+[0.008943] (ros2_introduction_message) Command: {'cmd': ['/usr/bin/cmake', '/home/lucasjko/sdfr_ws/src/ros2_introduction_message', '-DCMAKE_INSTALL_PREFIX=/home/lucasjko/sdfr_ws/install/ros2_introduction_message'], 'cwd': '/home/lucasjko/sdfr_ws/build/ros2_introduction_message', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lucasjko'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lucasjko'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2086'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d53028fcbb7463a1d461ba706605417a'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lucasjko'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lucasjko'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lucasjko-G5-5590:@/tmp/.ICE-unix/2086,unix/lucasjko-G5-5590:/tmp/.ICE-unix/2086'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8c8dd147_3c4c_4897_a5df_4bcbb3f58fdc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.342'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lucasjko/sdfr_ws/build/ros2_introduction_message'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d53028fcbb7463a1d461ba706605417a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099551] (-) TimerEvent: {}
+[0.118230] (ros2_introduction_message) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.188035] (ros2_introduction_message) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.196865] (ros2_introduction_message) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199756] (-) TimerEvent: {}
+[0.266482] (ros2_introduction_message) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.278339] (ros2_introduction_message) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.278695] (ros2_introduction_message) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.279163] (ros2_introduction_message) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.282229] (ros2_introduction_message) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299877] (-) TimerEvent: {}
+[0.358696] (ros2_introduction_message) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.374977] (ros2_introduction_message) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.375382] (ros2_introduction_message) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.376106] (ros2_introduction_message) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.385484] (ros2_introduction_message) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399961] (-) TimerEvent: {}
+[0.500212] (-) TimerEvent: {}
+[0.511990] (ros2_introduction_message) StdoutLine: {'line': b'-- Found Python3: /usr/local/bin/python3 (found version "3.12.2") found components: Interpreter \n'}
+[0.600304] (-) TimerEvent: {}
+[0.651576] (ros2_introduction_message) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.654757] (ros2_introduction_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.661077] (ros2_introduction_message) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.700406] (-) TimerEvent: {}
+[0.714015] (ros2_introduction_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800494] (-) TimerEvent: {}
+[0.862860] (ros2_introduction_message) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[0.863062] (ros2_introduction_message) StderrLine: {'line': b'  execute_process(/usr/local/bin/python3 -m rosidl_adapter --package-name\n'}
+[0.863138] (ros2_introduction_message) StderrLine: {'line': b'  ros2_introduction_message --arguments-file\n'}
+[0.863197] (ros2_introduction_message) StderrLine: {'line': b'  /home/lucasjko/sdfr_ws/build/ros2_introduction_message/rosidl_adapter__arguments__ros2_introduction_message.json\n'}
+[0.863258] (ros2_introduction_message) StderrLine: {'line': b'  --output-dir\n'}
+[0.863350] (ros2_introduction_message) StderrLine: {'line': b'  /home/lucasjko/sdfr_ws/build/ros2_introduction_message/rosidl_adapter/ros2_introduction_message\n'}
+[0.863467] (ros2_introduction_message) StderrLine: {'line': b'  --output-file\n'}
+[0.863535] (ros2_introduction_message) StderrLine: {'line': b'  /home/lucasjko/sdfr_ws/build/ros2_introduction_message/rosidl_adapter/ros2_introduction_message.idls)\n'}
+[0.863636] (ros2_introduction_message) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.863731] (ros2_introduction_message) StderrLine: {'line': b'\n'}
+[0.863830] (ros2_introduction_message) StderrLine: {'line': b"  AttributeError processing template 'msg.idl.em'\n"}
+[0.863931] (ros2_introduction_message) StderrLine: {'line': b'\n'}
+[0.864042] (ros2_introduction_message) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.864151] (ros2_introduction_message) StderrLine: {'line': b'\n'}
+[0.864252] (ros2_introduction_message) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 51, in evaluate_template\n'}
+[0.864355] (ros2_introduction_message) StderrLine: {'line': b'      em.BUFFERED_OPT: True,\n'}
+[0.864446] (ros2_introduction_message) StderrLine: {'line': b'      ^^^^^^^^^^^^^^^\n'}
+[0.864543] (ros2_introduction_message) StderrLine: {'line': b'\n'}
+[0.864634] (ros2_introduction_message) StderrLine: {'line': b"  AttributeError: module 'em' has no attribute 'BUFFERED_OPT'\n"}
+[0.864738] (ros2_introduction_message) StderrLine: {'line': b'\n'}
+[0.864838] (ros2_introduction_message) StderrLine: {'line': b'  \n'}
+[0.864929] (ros2_introduction_message) StderrLine: {'line': b'\n'}
+[0.865020] (ros2_introduction_message) StderrLine: {'line': b'  During handling of the above exception, another exception occurred:\n'}
+[0.865112] (ros2_introduction_message) StderrLine: {'line': b'\n'}
+[0.865213] (ros2_introduction_message) StderrLine: {'line': b'  \n'}
+[0.865318] (ros2_introduction_message) StderrLine: {'line': b'\n'}
+[0.865427] (ros2_introduction_message) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.865485] (ros2_introduction_message) StderrLine: {'line': b'\n'}
+[0.865576] (ros2_introduction_message) StderrLine: {'line': b'    File "<frozen runpy>", line 198, in _run_module_as_main\n'}
+[0.865667] (ros2_introduction_message) StderrLine: {'line': b'    File "<frozen runpy>", line 88, in _run_code\n'}
+[0.865765] (ros2_introduction_message) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.865857] (ros2_introduction_message) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.865947] (ros2_introduction_message) StderrLine: {'line': b'               ^^^^^^\n'}
+[0.866044] (ros2_introduction_message) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.866136] (ros2_introduction_message) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.866226] (ros2_introduction_message) StderrLine: {'line': b'                     ^^^^^^^^^^^^^^^\n'}
+[0.866319] (ros2_introduction_message) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[0.866426] (ros2_introduction_message) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[0.866526] (ros2_introduction_message) StderrLine: {'line': b'             ^^^^^^^^^^^^^^^^^^^\n'}
+[0.866637] (ros2_introduction_message) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 39, in convert_msg_to_idl\n'}
+[0.866737] (ros2_introduction_message) StderrLine: {'line': b"      expand_template('msg.idl.em', data, output_file, encoding='iso-8859-1')\n"}
+[0.866847] (ros2_introduction_message) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 23, in expand_template\n'}
+[0.866954] (ros2_introduction_message) StderrLine: {'line': b'      content = evaluate_template(template_name, data)\n'}
+[0.867046] (ros2_introduction_message) StderrLine: {'line': b'                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[0.867136] (ros2_introduction_message) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 69, in evaluate_template\n'}
+[0.867235] (ros2_introduction_message) StderrLine: {'line': b'      _interpreter.shutdown()\n'}
+[0.867327] (ros2_introduction_message) StderrLine: {'line': b'      ^^^^^^^^^^^^^^^^^^^^^\n'}
+[0.867420] (ros2_introduction_message) StderrLine: {'line': b'\n'}
+[0.867538] (ros2_introduction_message) StderrLine: {'line': b"  AttributeError: 'NoneType' object has no attribute 'shutdown'\n"}
+[0.867629] (ros2_introduction_message) StderrLine: {'line': b'\n'}
+[0.867719] (ros2_introduction_message) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.867816] (ros2_introduction_message) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.867912] (ros2_introduction_message) StderrLine: {'line': b'  CMakeLists.txt:12 (rosidl_generate_interfaces)\n'}
+[0.868008] (ros2_introduction_message) StderrLine: {'line': b'\n'}
+[0.868099] (ros2_introduction_message) StderrLine: {'line': b'\x1b[0m\n'}
+[0.868203] (ros2_introduction_message) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.868322] (ros2_introduction_message) StdoutLine: {'line': b'See also "/home/lucasjko/sdfr_ws/build/ros2_introduction_message/CMakeFiles/CMakeOutput.log".\n'}
+[0.871611] (ros2_introduction_message) CommandEnded: {'returncode': 1}
+[0.896300] (ros2_introduction_message) JobEnded: {'identifier': 'ros2_introduction_message', 'rc': 1}
+[0.900559] (-) TimerEvent: {}
+[0.906807] (-) EventReactorShutdown: {}
