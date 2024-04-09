@@ -1,9 +1,9 @@
 //==============================================================
-// Filename    : main.cpp
-// Authors     : Lucas & Jasper
-// Group       : 8
+// Filename    : 
+// Authors     : 
+// Group       : 
 // License     :  N.A. or opensource license like LGPL
-// Description : Main file for 3.1
+// Description : 
 //==============================================================
 
 #include <iostream>
