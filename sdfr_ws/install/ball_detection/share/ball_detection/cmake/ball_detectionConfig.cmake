@@ -16,7 +16,7 @@ set(_ball_detection_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT ball_detection_FIND_QUIETLY)
-  message(STATUS "Found ball_detection: 0.0.0 (${ball_detection_DIR})")
+  message(STATUS "Found ball_detection: 1.0.0 (${ball_detection_DIR})")
 endif()
 
 # warn when using a deprecated package

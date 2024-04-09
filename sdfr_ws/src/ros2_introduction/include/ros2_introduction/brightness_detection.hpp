@@ -26,7 +26,7 @@ private:
      * @param img The image that was received.
     */
     void image_callback(sensor_msgs::msg::Image::ConstSharedPtr img);
-    int getLightLevel(sensor_msgs::msg::Image::ConstSharedPtr img, int* width, int* height);
+    int getLightLevel(sensor_msgs::msg::Image::ConstSharedPtr img, int &width, int &height);
     std::string getBrightnessStatus(int light, const double threshold);
 
     /// Private variables.

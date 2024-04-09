@@ -198,24 +198,24 @@ ball_detection_uninstall/fast:
 .PHONY : ball_detection_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named find_ball
+# Target rules for targets named find_ball_exe
 
 # Build rule for target.
-find_ball: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 find_ball
-.PHONY : find_ball
+find_ball_exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 find_ball_exe
+.PHONY : find_ball_exe
 
 # fast build rule for target.
-find_ball/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_ball.dir/build.make CMakeFiles/find_ball.dir/build
-.PHONY : find_ball/fast
+find_ball_exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_ball_exe.dir/build.make CMakeFiles/find_ball_exe.dir/build
+.PHONY : find_ball_exe/fast
 
 src/find_ball.o: src/find_ball.cpp.o
 .PHONY : src/find_ball.o
 
 # target to build an object file
 src/find_ball.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_ball.dir/build.make CMakeFiles/find_ball.dir/src/find_ball.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_ball_exe.dir/build.make CMakeFiles/find_ball_exe.dir/src/find_ball.cpp.o
 .PHONY : src/find_ball.cpp.o
 
 src/find_ball.i: src/find_ball.cpp.i
@@ -223,7 +223,7 @@ src/find_ball.i: src/find_ball.cpp.i
 
 # target to preprocess a source file
 src/find_ball.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_ball.dir/build.make CMakeFiles/find_ball.dir/src/find_ball.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_ball_exe.dir/build.make CMakeFiles/find_ball_exe.dir/src/find_ball.cpp.i
 .PHONY : src/find_ball.cpp.i
 
 src/find_ball.s: src/find_ball.cpp.s
@@ -231,8 +231,32 @@ src/find_ball.s: src/find_ball.cpp.s
 
 # target to generate assembly for a file
 src/find_ball.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_ball.dir/build.make CMakeFiles/find_ball.dir/src/find_ball.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_ball_exe.dir/build.make CMakeFiles/find_ball_exe.dir/src/find_ball.cpp.s
 .PHONY : src/find_ball.cpp.s
+
+src/image_processing.o: src/image_processing.cpp.o
+.PHONY : src/image_processing.o
+
+# target to build an object file
+src/image_processing.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_ball_exe.dir/build.make CMakeFiles/find_ball_exe.dir/src/image_processing.cpp.o
+.PHONY : src/image_processing.cpp.o
+
+src/image_processing.i: src/image_processing.cpp.i
+.PHONY : src/image_processing.i
+
+# target to preprocess a source file
+src/image_processing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_ball_exe.dir/build.make CMakeFiles/find_ball_exe.dir/src/image_processing.cpp.i
+.PHONY : src/image_processing.cpp.i
+
+src/image_processing.s: src/image_processing.cpp.s
+.PHONY : src/image_processing.s
+
+# target to generate assembly for a file
+src/image_processing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_ball_exe.dir/build.make CMakeFiles/find_ball_exe.dir/src/image_processing.cpp.s
+.PHONY : src/image_processing.cpp.s
 
 # Help Target
 help:
@@ -249,10 +273,13 @@ help:
 	@echo "... test"
 	@echo "... ball_detection_uninstall"
 	@echo "... uninstall"
-	@echo "... find_ball"
+	@echo "... find_ball_exe"
 	@echo "... src/find_ball.o"
 	@echo "... src/find_ball.i"
 	@echo "... src/find_ball.s"
+	@echo "... src/image_processing.o"
+	@echo "... src/image_processing.i"
+	@echo "... src/image_processing.s"
 .PHONY : help
 
 

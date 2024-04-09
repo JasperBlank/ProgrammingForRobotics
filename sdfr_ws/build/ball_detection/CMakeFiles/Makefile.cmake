@@ -693,5 +693,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/ball_detection_uninstall.dir/DependInfo.cmake"
-  "CMakeFiles/find_ball.dir/DependInfo.cmake"
+  "CMakeFiles/find_ball_exe.dir/DependInfo.cmake"
   )

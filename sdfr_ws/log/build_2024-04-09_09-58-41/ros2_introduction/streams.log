@@ -1,0 +1,24 @@
+[0.016s] Invoking command in '/home/lucasjko/sdfr_ws/build/ros2_introduction': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/ros2_introduction_message:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/ball_detection:/home/lucasjko/sdfr_ws/install/ball_detection_message:/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/ros2_introduction -- -j8 -l8
+[0.072s] [100%] Built target brightness_detection
+[0.072s] [100%] Built target brightness_detection_message
+[0.083s] Invoked command in '/home/lucasjko/sdfr_ws/build/ros2_introduction' returned '0': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/ros2_introduction_message:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/ball_detection:/home/lucasjko/sdfr_ws/install/ball_detection_message:/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/ros2_introduction -- -j8 -l8
+[0.117s] Invoking command in '/home/lucasjko/sdfr_ws/build/ros2_introduction': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/ros2_introduction_message:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/ball_detection:/home/lucasjko/sdfr_ws/install/ball_detection_message:/opt/ros/humble /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/ros2_introduction
+[0.125s] -- Install configuration: ""
+[0.125s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/lib/ros2_introduction/brightness_detection
+[0.126s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/lib/ros2_introduction/brightness_detection_message
+[0.126s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ament_index/resource_index/package_run_dependencies/ros2_introduction
+[0.126s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ament_index/resource_index/parent_prefix_path/ros2_introduction
+[0.127s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/environment/ament_prefix_path.sh
+[0.127s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/environment/ament_prefix_path.dsv
+[0.127s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/environment/path.sh
+[0.127s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/environment/path.dsv
+[0.127s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/local_setup.bash
+[0.128s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/local_setup.sh
+[0.128s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/local_setup.zsh
+[0.128s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/local_setup.dsv
+[0.128s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/package.dsv
+[0.128s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ament_index/resource_index/packages/ros2_introduction
+[0.128s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/cmake/ros2_introductionConfig.cmake
+[0.128s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/cmake/ros2_introductionConfig-version.cmake
+[0.128s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/package.xml
+[0.130s] Invoked command in '/home/lucasjko/sdfr_ws/build/ros2_introduction' returned '0': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/ros2_introduction_message:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/ball_detection:/home/lucasjko/sdfr_ws/install/ball_detection_message:/opt/ros/humble /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/ros2_introduction

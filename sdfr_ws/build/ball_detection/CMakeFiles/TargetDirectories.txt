@@ -1,6 +1,6 @@
 /home/lucasjko/sdfr_ws/build/ball_detection/CMakeFiles/uninstall.dir
 /home/lucasjko/sdfr_ws/build/ball_detection/CMakeFiles/ball_detection_uninstall.dir
-/home/lucasjko/sdfr_ws/build/ball_detection/CMakeFiles/find_ball.dir
+/home/lucasjko/sdfr_ws/build/ball_detection/CMakeFiles/find_ball_exe.dir
 /home/lucasjko/sdfr_ws/build/ball_detection/CMakeFiles/test.dir
 /home/lucasjko/sdfr_ws/build/ball_detection/CMakeFiles/edit_cache.dir
 /home/lucasjko/sdfr_ws/build/ball_detection/CMakeFiles/rebuild_cache.dir

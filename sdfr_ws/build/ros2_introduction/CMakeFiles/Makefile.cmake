@@ -771,6 +771,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/ros2_introduction_uninstall.dir/DependInfo.cmake"
-  "CMakeFiles/brightness_detection.dir/DependInfo.cmake"
-  "CMakeFiles/brightness_detection_message.dir/DependInfo.cmake"
+  "CMakeFiles/brightness_detection_exe.dir/DependInfo.cmake"
+  "CMakeFiles/brightness_detection_message_exe.dir/DependInfo.cmake"
   )

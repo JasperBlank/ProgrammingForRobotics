@@ -37,13 +37,13 @@ find_package(image_functions_sdfr REQUIRED)
 find_package(ball_detection_message REQUIRED) # added
 include_directories(include)
 
-add_executable(find_ball src/find_ball.cpp)
-ament_target_dependencies(find_ball rclcpp sensor_msgs image_functions_sdfr ball_detection_message)
+add_executable(find_ball_exe src/find_ball.cpp src/image_processing.cpp)
+ament_target_dependencies(find_ball_exe rclcpp sensor_msgs image_functions_sdfr ball_detection_message)
 
 # Install targets
 install(
   TARGETS 
-    find_ball
+    find_ball_exe
     DESTINATION lib/${PROJECT_NAME}
 )
 

@@ -38,18 +38,18 @@ find_package(image_functions_sdfr REQUIRED)
 find_package(ros2_introduction_message REQUIRED) # added
 include_directories(include)
 
-add_executable(brightness_detection src/brightness_detection.cpp)
-ament_target_dependencies(brightness_detection rclcpp sensor_msgs example_interfaces image_functions_sdfr)
+add_executable(brightness_detection_exe src/brightness_detection.cpp)
+ament_target_dependencies(brightness_detection_exe rclcpp sensor_msgs example_interfaces image_functions_sdfr)
 
 # new node 
-add_executable(brightness_detection_message src/brightness_detection_message.cpp)
-ament_target_dependencies(brightness_detection_message rclcpp sensor_msgs image_functions_sdfr ros2_introduction_message)
+add_executable(brightness_detection_message_exe src/brightness_detection_message.cpp)
+ament_target_dependencies(brightness_detection_message_exe rclcpp sensor_msgs image_functions_sdfr ros2_introduction_message)
 
 # Install targets
 install(
   TARGETS 
-    brightness_detection
-	brightness_detection_message
+    brightness_detection_exe
+	brightness_detection_message_exe
     DESTINATION lib/${PROJECT_NAME}
 )
 

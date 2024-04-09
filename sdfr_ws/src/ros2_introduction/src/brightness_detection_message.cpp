@@ -7,14 +7,14 @@ BrightnessDetectionMessage::BrightnessDetectionMessage() : Node("brightness_dete
     publisherBrightnessOutput_ = this->create_publisher<ros2_introduction_message::msg::Brightness>("brightness_output", 10);
 }
 
-int BrightnessDetectionMessage::getLightLevel(sensor_msgs::msg::Image::ConstSharedPtr img, int* width, int* height){
+int BrightnessDetectionMessage::getLightLevel(sensor_msgs::msg::Image::ConstSharedPtr img, int &width, int &height){
     int sum = 0;
-    for (int column = 0; column < *height; column++){
-        for (int row = 0; row < *width; row++){
+    for (int column = 0; column < height; column++){
+        for (int row = 0; row < width; row++){
             sum += image_functions::getPixelBrightness(img, row, column);
         }
     }
-    return sum / (*width * *height);
+    return sum / (width * height);
 }
 
 std::string BrightnessDetectionMessage::getBrightnessStatus(int light, const double threshold){
@@ -34,7 +34,7 @@ void BrightnessDetectionMessage::image_callback(sensor_msgs::msg::Image::ConstSh
     imageHeight = image_functions::getImageHeight(img);
 
     // Calculate pixels average brightness level
-    lightLevel = getLightLevel(img, &imageWidth, &imageHeight);
+    lightLevel = getLightLevel(img, imageWidth, imageHeight);
 
     // Determine brightness status description
     brightnessStatus = getBrightnessStatus(lightLevel, threshold);

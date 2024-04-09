@@ -43,21 +43,21 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ball_detection/find_ball" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ball_detection/find_ball")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ball_detection/find_ball_exe" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ball_detection/find_ball_exe")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ball_detection/find_ball"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ball_detection/find_ball_exe"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ball_detection" TYPE EXECUTABLE FILES "/home/lucasjko/sdfr_ws/build/ball_detection/find_ball")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ball_detection/find_ball" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ball_detection/find_ball")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ball_detection" TYPE EXECUTABLE FILES "/home/lucasjko/sdfr_ws/build/ball_detection/find_ball_exe")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ball_detection/find_ball_exe" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ball_detection/find_ball_exe")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ball_detection/find_ball"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ball_detection/find_ball_exe"
          OLD_RPATH "/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib:/home/lucasjko/sdfr_ws/install/ball_detection_message/lib:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ball_detection/find_ball")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ball_detection/find_ball_exe")
     endif()
   endif()
 endif()

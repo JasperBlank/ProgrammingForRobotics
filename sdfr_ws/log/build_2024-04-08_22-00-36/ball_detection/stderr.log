@@ -1,0 +1,25 @@
+In file included from [01m[K/home/lucasjko/sdfr_ws/src/ball_detection/src/find_ball.cpp:2[m[K:
+[01m[K/home/lucasjko/sdfr_ws/src/ball_detection/include/ball_detection/image_processing.hpp:38:29:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+   38 |         void getBinaryImage([01;35m[Kauto[m[K &img, int &width, int &height); // check pointer
+      |                             [01;35m[K^~~~[m[K
+[01m[K/home/lucasjko/sdfr_ws/src/ball_detection/src/find_ball.cpp:[m[K In member function ‘[01m[Kvoid FindBall::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/lucasjko/sdfr_ws/src/ball_detection/src/find_ball.cpp:23:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid ImageProcessing::getBinaryImage(auto:40&, int&, int&) [with auto:40 = std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >][m[K’ is private within this context
+   23 |     [01;31m[KobjPtr->getBinaryImage(img, imageWidth, imageHeight)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/lucasjko/sdfr_ws/src/ball_detection/src/find_ball.cpp:2[m[K:
+[01m[K/home/lucasjko/sdfr_ws/src/ball_detection/include/ball_detection/image_processing.hpp:38:14:[m[K [01;36m[Knote: [m[Kdeclared private here
+   38 |         void [01;36m[KgetBinaryImage[m[K(auto &img, int &width, int &height); // check pointer
+      |              [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lucasjko/sdfr_ws/src/ball_detection/src/find_ball.cpp:[m[K At global scope:
+[01m[K/home/lucasjko/sdfr_ws/src/ball_detection/src/find_ball.cpp:29:5:[m[K [01;31m[Kerror: [m[K‘[01m[KdebuggingToolMsg[m[K’ does not name a type
+   29 |     [01;31m[KdebuggingToolMsg[m[K.data = ImageProcessing::getBinaryImage (img, imageWidth, imageHeight);
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lucasjko/sdfr_ws/src/ball_detection/src/find_ball.cpp:30:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpublisherDebbugingTool_[m[K’ does not name a type
+   30 |     [01;31m[KpublisherDebbugingTool_[m[K->publish(debuggingToolMsg);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lucasjko/sdfr_ws/src/ball_detection/src/find_ball.cpp:31:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   31 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/find_ball_exe.dir/build.make:76: CMakeFiles/find_ball_exe.dir/src/find_ball.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/find_ball_exe.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

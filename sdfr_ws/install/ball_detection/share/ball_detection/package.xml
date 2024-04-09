@@ -2,12 +2,19 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>ball_detection</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="ljkoreeda@gmail.com">lucasjko</maintainer>
-  <license>Apache-2.0</license>
+  <version>1.0.0</version>
+    <description>This is the ball detection package for SDFR. This package was modified by group: 08.</description>
+    <maintainer email="l.j.koreeda@student.utwente.nl">Lucas Koreeda</maintainer>
+    <maintainer email="j.j.blank@student.utwente.nl">Jasper Blank</maintainer>
+    <license>BSD</license>
+    <author email="j.h.j.pott@student.utwente.nl">Jurrijn Pott</author>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
+
+    <depend>rclcpp</depend>
+    <depend>sensor_msgs</depend>
+    <depend>image_functions_sdfr</depend>
+    <depend>ball_detection_message</depend> 
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
