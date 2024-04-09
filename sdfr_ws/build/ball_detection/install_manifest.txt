@@ -1,0 +1,16 @@
+/home/lucasjko/sdfr_ws/install/ball_detection/lib/ball_detection/find_ball
+/home/lucasjko/sdfr_ws/install/ball_detection/share/ament_index/resource_index/package_run_dependencies/ball_detection
+/home/lucasjko/sdfr_ws/install/ball_detection/share/ament_index/resource_index/parent_prefix_path/ball_detection
+/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/environment/ament_prefix_path.sh
+/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/environment/ament_prefix_path.dsv
+/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/environment/path.sh
+/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/environment/path.dsv
+/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/local_setup.bash
+/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/local_setup.sh
+/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/local_setup.zsh
+/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/local_setup.dsv
+/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/package.dsv
+/home/lucasjko/sdfr_ws/install/ball_detection/share/ament_index/resource_index/packages/ball_detection
+/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/cmake/ball_detectionConfig.cmake
+/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/cmake/ball_detectionConfig-version.cmake
+/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/package.xml
