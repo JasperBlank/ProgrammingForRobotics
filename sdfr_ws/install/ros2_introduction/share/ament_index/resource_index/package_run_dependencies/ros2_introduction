@@ -1,1 +1,1 @@
-rclcpp;sensor_msgs;image_functions_sdfr;ament_lint_auto;ament_lint_common
+rclcpp;sensor_msgs;image_functions_sdfr;ros2_introduction_message;ament_lint_auto;ament_lint_common

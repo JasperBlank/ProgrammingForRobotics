@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target brightness_detection_message[0m
+[ 50%] Built target brightness_detection
+[ 75%] [32mBuilding CXX object CMakeFiles/brightness_detection_message.dir/src/brightness_detection_message.cpp.o[0m
+[01m[K/home/lucasjko/sdfr_ws/src/ros2_introduction/src/brightness_detection_message.cpp:[m[K In member function ‘[01m[Kvoid BrightnessDetectionMessage::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/lucasjko/sdfr_ws/src/ros2_introduction/src/brightness_detection_message.cpp:37:37:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   37 |     lightLevel = getLightLevel(img, [01;31m[K&imageWidth[m[K, &imageHeight);
+      |                                     [01;31m[K^~~~~~~~~~~[m[K
+      |                                     [01;31m[K|[m[K
+      |                                     [01;31m[Kint*[m[K
+[01m[K/home/lucasjko/sdfr_ws/src/ros2_introduction/src/brightness_detection_message.cpp:10:97:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kint BrightnessDetectionMessage::getLightLevel(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr, int&, int&)[m[K’
+   10 | int BrightnessDetectionMessage::getLightLevel(sensor_msgs::msg::Image::ConstSharedPtr img, [01;36m[Kint &width[m[K, int &height){
+      |                                                                                            [01;36m[K~~~~~^~~~~[m[K
+[01m[K/home/lucasjko/sdfr_ws/src/ros2_introduction/src/brightness_detection_message.cpp:37:37:[m[K [01;31m[Kerror: [m[Kcannot bind rvalue ‘[01m[K(int)(&((BrightnessDetectionMessage*)this)->BrightnessDetectionMessage::imageWidth)[m[K’ to ‘[01m[Kint&[m[K’
+   37 |     lightLevel = getLightLevel(img, [01;31m[K&imageWidth[m[K, &imageHeight);
+      |                                     [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/brightness_detection_message.dir/build.make:76: CMakeFiles/brightness_detection_message.dir/src/brightness_detection_message.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/brightness_detection_message.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,42 @@
+[0.015s] Invoking command in '/home/lucasjko/sdfr_ws/build/ball_detection': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ball_detection_message:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/ros2_introduction_message:/home/lucasjko/sdfr_ws/install/ball_detection:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib:/home/lucasjko/sdfr_ws/install/ball_detection_message/lib:/home/lucasjko/sdfr_ws/install/ros2_introduction_message/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/ball_detection -- -j8 -l8
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target find_ball[0m
+[0.072s] [ 50%] [32mBuilding CXX object CMakeFiles/find_ball.dir/src/find_ball.cpp.o[0m
+[2.136s] [01m[K/home/lucasjko/sdfr_ws/src/ball_detection/src/find_ball.cpp:[m[K In function ‘[01m[Kstd::tuple<int, int, int> getPixelChannels(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr, int, int)[m[K’:
+[2.136s] [01m[K/home/lucasjko/sdfr_ws/src/ball_detection/src/find_ball.cpp:22:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[2.136s]    22 | [01;35m[K}[m[K
+[2.137s]       | [01;35m[K^[m[K
+[2.137s] [01m[K/home/lucasjko/sdfr_ws/src/ball_detection/src/find_ball.cpp:20:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kimg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.137s]    20 | t> getPixelChannels([01;35m[Ksensor_msgs::msg::Image::ConstSharedPtr img[m[K, int x, int y){
+[2.137s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.137s] 
+[2.137s] [01m[K/home/lucasjko/sdfr_ws/src/ball_detection/src/find_ball.cpp:20:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.137s]    20 | xelChannels(sensor_msgs::msg::Image::ConstSharedPtr img, [01;35m[Kint x[m[K, int y){
+[2.137s]       |                                                          [01;35m[K~~~~^[m[K
+[2.137s] 
+[2.137s] [01m[K/home/lucasjko/sdfr_ws/src/ball_detection/src/find_ball.cpp:20:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.137s]    20 | xelChannels(sensor_msgs::msg::Image::ConstSharedPtr img, int x, [01;35m[Kint y[m[K){
+[2.138s]       |                                                                 [01;35m[K~~~~^[m[K
+[2.138s] 
+[7.192s] [100%] [32m[1mLinking CXX executable find_ball[0m
+[7.581s] [100%] Built target find_ball
+[7.591s] Invoked command in '/home/lucasjko/sdfr_ws/build/ball_detection' returned '0': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ball_detection_message:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/ros2_introduction_message:/home/lucasjko/sdfr_ws/install/ball_detection:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib:/home/lucasjko/sdfr_ws/install/ball_detection_message/lib:/home/lucasjko/sdfr_ws/install/ros2_introduction_message/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/ball_detection -- -j8 -l8
+[7.623s] Invoking command in '/home/lucasjko/sdfr_ws/build/ball_detection': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ball_detection_message:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/ros2_introduction_message:/home/lucasjko/sdfr_ws/install/ball_detection:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib:/home/lucasjko/sdfr_ws/install/ball_detection_message/lib:/home/lucasjko/sdfr_ws/install/ros2_introduction_message/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/ball_detection
+[7.630s] -- Install configuration: ""
+[7.630s] -- Installing: /home/lucasjko/sdfr_ws/install/ball_detection/lib/ball_detection/find_ball
+[7.634s] -- Set runtime path of "/home/lucasjko/sdfr_ws/install/ball_detection/lib/ball_detection/find_ball" to ""
+[7.634s] -- Installing: /home/lucasjko/sdfr_ws/install/ball_detection/share/ament_index/resource_index/package_run_dependencies/ball_detection
+[7.634s] -- Installing: /home/lucasjko/sdfr_ws/install/ball_detection/share/ament_index/resource_index/parent_prefix_path/ball_detection
+[7.635s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/environment/ament_prefix_path.sh
+[7.635s] -- Installing: /home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/environment/ament_prefix_path.dsv
+[7.635s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/environment/path.sh
+[7.635s] -- Installing: /home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/environment/path.dsv
+[7.635s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/local_setup.bash
+[7.635s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/local_setup.sh
+[7.635s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/local_setup.zsh
+[7.635s] -- Installing: /home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/local_setup.dsv
+[7.636s] -- Installing: /home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/package.dsv
+[7.636s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/ball_detection/share/ament_index/resource_index/packages/ball_detection
+[7.636s] -- Installing: /home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/cmake/ball_detectionConfig.cmake
+[7.636s] -- Installing: /home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/cmake/ball_detectionConfig-version.cmake
+[7.636s] -- Installing: /home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/package.xml
+[7.638s] Invoked command in '/home/lucasjko/sdfr_ws/build/ball_detection' returned '0': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ball_detection_message:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/ros2_introduction_message:/home/lucasjko/sdfr_ws/install/ball_detection:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib:/home/lucasjko/sdfr_ws/install/ball_detection_message/lib:/home/lucasjko/sdfr_ws/install/ros2_introduction_message/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/ball_detection

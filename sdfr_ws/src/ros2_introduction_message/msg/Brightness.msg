@@ -1,0 +1,2 @@
+uint8 brightness_level
+string brightness_classification

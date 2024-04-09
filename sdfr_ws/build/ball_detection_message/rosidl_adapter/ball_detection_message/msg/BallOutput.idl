@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ball_detection_message/msg/BallOutput.msg
+// generated code does not contain a copyright notice
+
+
+module ball_detection_message {
+  module msg {
+    @verbatim (language="comment", text=
+      "Bounding box")
+    struct BallOutput {
+      @verbatim (language="comment", text=
+        "x coordinate of corner 1")
+      uint32 x_1;
+
+      @verbatim (language="comment", text=
+        "y coordinate of corner 1")
+      uint32 y_1;
+
+      @verbatim (language="comment", text=
+        "x coordinate of corner 2")
+      uint32 x_2;
+
+      @verbatim (language="comment", text=
+        "y coordinate of corner 2")
+      uint32 y_2;
+
+      @verbatim (language="comment", text=
+        "Check ball's presence")
+      boolean ball_check;
+    };
+  };
+};

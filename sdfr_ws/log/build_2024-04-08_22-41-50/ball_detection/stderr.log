@@ -1,0 +1,17 @@
+In file included from [01m[K/home/lucasjko/sdfr_ws/src/ball_detection/src/image_processing.cpp:1[m[K:
+[01m[K/home/lucasjko/sdfr_ws/src/ball_detection/src/../include/ball_detection/image_processing.hpp:12:29:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+   12 |         void getBinaryImage([01;35m[Kauto[m[K &img, int &width, int &height); // check pointer
+      |                             [01;35m[K^~~~[m[K
+[01m[K/home/lucasjko/sdfr_ws/src/ball_detection/src/image_processing.cpp:77:38:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+   77 | void ImageProcessing::getBinaryImage([01;35m[Kauto[m[K &img, int &width, int &height){
+      |                                      [01;35m[K^~~~[m[K
+In file included from [01m[K/home/lucasjko/sdfr_ws/src/ball_detection/src/find_ball.cpp:2[m[K:
+[01m[K/home/lucasjko/sdfr_ws/src/ball_detection/include/ball_detection/image_processing.hpp:12:29:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+   12 |         void getBinaryImage([01;35m[Kauto[m[K &img, int &width, int &height); // check pointer
+      |                             [01;35m[K^~~~[m[K
+/usr/bin/ld: CMakeFiles/find_ball_exe.dir/src/find_ball.cpp.o: in function `FindBall::image_callback(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > const>)':
+find_ball.cpp:(.text+0x618): undefined reference to `void ImageProcessing::getBinaryImage<std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > const> >(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > const>&, int&, int&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/find_ball_exe.dir/build.make:185: find_ball_exe] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/find_ball_exe.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

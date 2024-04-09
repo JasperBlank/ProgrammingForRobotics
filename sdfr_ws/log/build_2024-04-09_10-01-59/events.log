@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.000106] (-) JobUnselected: {'identifier': 'ball_detection'}
+[0.000132] (-) JobUnselected: {'identifier': 'ball_detection_message'}
+[0.000151] (-) JobUnselected: {'identifier': 'image_functions_sdfr'}
+[0.000167] (-) JobUnselected: {'identifier': 'ros2_introduction_message'}
+[0.000183] (ros2_introduction) JobQueued: {'identifier': 'ros2_introduction', 'dependencies': OrderedDict([('image_functions_sdfr', '/home/lucasjko/sdfr_ws/install/image_functions_sdfr'), ('ros2_introduction_message', '/home/lucasjko/sdfr_ws/install/ros2_introduction_message')])}
+[0.000228] (ros2_introduction) JobStarted: {'identifier': 'ros2_introduction'}
+[0.011444] (ros2_introduction) JobProgress: {'identifier': 'ros2_introduction', 'progress': 'cmake'}
+[0.012195] (ros2_introduction) JobProgress: {'identifier': 'ros2_introduction', 'progress': 'build'}
+[0.013143] (ros2_introduction) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lucasjko/sdfr_ws/build/ros2_introduction', '--', '-j8', '-l8'], 'cwd': '/home/lucasjko/sdfr_ws/build/ros2_introduction', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lucasjko'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lucasjko/sdfr_ws/install/ros2_introduction_message/lib:/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib:/home/lucasjko/sdfr_ws/install/ball_detection_message/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lucasjko'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '3523'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lucasjko/sdfr_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lucasjko'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lucasjko'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lucasjko/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lucasjko-G5-5590:@/tmp/.ICE-unix/2037,unix/lucasjko-G5-5590:/tmp/.ICE-unix/2037'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b4bc4bd1_690c_4bf0_a5f6_63d7f20a2234'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/ros2_introduction_message:/home/lucasjko/sdfr_ws/install/ball_detection:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ball_detection_message:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lucasjko/sdfr_ws/build/ros2_introduction'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lucasjko/sdfr_ws/install/ros2_introduction_message/local/lib/python3.10/dist-packages:/home/lucasjko/sdfr_ws/install/ball_detection_message/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lucasjko/sdfr_ws/install/ros2_introduction_message:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/ball_detection:/home/lucasjko/sdfr_ws/install/ball_detection_message:/opt/ros/humble')]), 'shell': False}
+[0.060689] (ros2_introduction) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target brightness_detection_message_exe\x1b[0m\n'}
+[0.060847] (ros2_introduction) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target brightness_detection_exe\x1b[0m\n'}
+[0.078533] (ros2_introduction) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/brightness_detection_message_exe.dir/src/brightness_detection_message.cpp.o\x1b[0m\n'}
+[0.080738] (ros2_introduction) StdoutLine: {'line': b'[ 75%] Built target brightness_detection_exe\n'}
+[0.099270] (-) TimerEvent: {}
+[0.199492] (-) TimerEvent: {}
+[0.299759] (-) TimerEvent: {}
+[0.399982] (-) TimerEvent: {}
+[0.500252] (-) TimerEvent: {}
+[0.600485] (-) TimerEvent: {}
+[0.700750] (-) TimerEvent: {}
+[0.800982] (-) TimerEvent: {}
+[0.901246] (-) TimerEvent: {}
+[1.001504] (-) TimerEvent: {}
+[1.101763] (-) TimerEvent: {}
+[1.202026] (-) TimerEvent: {}
+[1.302268] (-) TimerEvent: {}
+[1.402515] (-) TimerEvent: {}
+[1.502800] (-) TimerEvent: {}
+[1.603079] (-) TimerEvent: {}
+[1.703315] (-) TimerEvent: {}
+[1.803561] (-) TimerEvent: {}
+[1.903831] (-) TimerEvent: {}
+[2.004094] (-) TimerEvent: {}
+[2.104333] (-) TimerEvent: {}
+[2.204598] (-) TimerEvent: {}
+[2.304863] (-) TimerEvent: {}
+[2.405129] (-) TimerEvent: {}
+[2.505441] (-) TimerEvent: {}
+[2.605748] (-) TimerEvent: {}
+[2.706043] (-) TimerEvent: {}
+[2.806328] (-) TimerEvent: {}
+[2.906589] (-) TimerEvent: {}
+[3.006877] (-) TimerEvent: {}
+[3.107174] (-) TimerEvent: {}
+[3.207444] (-) TimerEvent: {}
+[3.307735] (-) TimerEvent: {}
+[3.408011] (-) TimerEvent: {}
+[3.508280] (-) TimerEvent: {}
+[3.608546] (-) TimerEvent: {}
+[3.708821] (-) TimerEvent: {}
+[3.809072] (-) TimerEvent: {}
+[3.909357] (-) TimerEvent: {}
+[4.009625] (-) TimerEvent: {}
+[4.109874] (-) TimerEvent: {}
+[4.210180] (-) TimerEvent: {}
+[4.310458] (-) TimerEvent: {}
+[4.410796] (-) TimerEvent: {}
+[4.511070] (-) TimerEvent: {}
+[4.611341] (-) TimerEvent: {}
+[4.711625] (-) TimerEvent: {}
+[4.811887] (-) TimerEvent: {}
+[4.912159] (-) TimerEvent: {}
+[5.012414] (-) TimerEvent: {}
+[5.112678] (-) TimerEvent: {}
+[5.212949] (-) TimerEvent: {}
+[5.313234] (-) TimerEvent: {}
+[5.413493] (-) TimerEvent: {}
+[5.513750] (-) TimerEvent: {}
+[5.614021] (-) TimerEvent: {}
+[5.714249] (-) TimerEvent: {}
+[5.814515] (-) TimerEvent: {}
+[5.914733] (-) TimerEvent: {}
+[6.014992] (-) TimerEvent: {}
+[6.115221] (-) TimerEvent: {}
+[6.215511] (-) TimerEvent: {}
+[6.315778] (-) TimerEvent: {}
+[6.416003] (-) TimerEvent: {}
+[6.516258] (-) TimerEvent: {}
+[6.616518] (-) TimerEvent: {}
+[6.716780] (-) TimerEvent: {}
+[6.817044] (-) TimerEvent: {}
+[6.917301] (-) TimerEvent: {}
+[7.017562] (-) TimerEvent: {}
+[7.117825] (-) TimerEvent: {}
+[7.218111] (-) TimerEvent: {}
+[7.318357] (-) TimerEvent: {}
+[7.418623] (-) TimerEvent: {}
+[7.518879] (-) TimerEvent: {}
+[7.596484] (ros2_introduction) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable brightness_detection_message_exe\x1b[0m\n'}
+[7.618976] (-) TimerEvent: {}
+[7.719247] (-) TimerEvent: {}
+[7.819534] (-) TimerEvent: {}
+[7.919788] (-) TimerEvent: {}
+[7.961819] (ros2_introduction) StdoutLine: {'line': b'[100%] Built target brightness_detection_message_exe\n'}
+[7.972257] (ros2_introduction) CommandEnded: {'returncode': 0}
+[7.999975] (ros2_introduction) JobProgress: {'identifier': 'ros2_introduction', 'progress': 'install'}
+[8.007464] (ros2_introduction) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lucasjko/sdfr_ws/build/ros2_introduction'], 'cwd': '/home/lucasjko/sdfr_ws/build/ros2_introduction', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lucasjko'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lucasjko/sdfr_ws/install/ros2_introduction_message/lib:/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib:/home/lucasjko/sdfr_ws/install/ball_detection_message/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lucasjko'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '3523'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lucasjko/sdfr_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lucasjko'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lucasjko'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lucasjko/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lucasjko-G5-5590:@/tmp/.ICE-unix/2037,unix/lucasjko-G5-5590:/tmp/.ICE-unix/2037'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b4bc4bd1_690c_4bf0_a5f6_63d7f20a2234'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/ros2_introduction_message:/home/lucasjko/sdfr_ws/install/ball_detection:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ball_detection_message:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lucasjko/sdfr_ws/build/ros2_introduction'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lucasjko/sdfr_ws/install/ros2_introduction_message/local/lib/python3.10/dist-packages:/home/lucasjko/sdfr_ws/install/ball_detection_message/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lucasjko/sdfr_ws/install/ros2_introduction_message:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/ball_detection:/home/lucasjko/sdfr_ws/install/ball_detection_message:/opt/ros/humble')]), 'shell': False}
+[8.015456] (ros2_introduction) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.015724] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/lib/ros2_introduction/brightness_detection_exe\n'}
+[8.016172] (ros2_introduction) StdoutLine: {'line': b'-- Installing: /home/lucasjko/sdfr_ws/install/ros2_introduction/lib/ros2_introduction/brightness_detection_message_exe\n'}
+[8.019865] (-) TimerEvent: {}
+[8.021372] (ros2_introduction) StdoutLine: {'line': b'-- Set runtime path of "/home/lucasjko/sdfr_ws/install/ros2_introduction/lib/ros2_introduction/brightness_detection_message_exe" to ""\n'}
+[8.021604] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ament_index/resource_index/package_run_dependencies/ros2_introduction\n'}
+[8.021783] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ament_index/resource_index/parent_prefix_path/ros2_introduction\n'}
+[8.021945] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/environment/ament_prefix_path.sh\n'}
+[8.022092] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/environment/ament_prefix_path.dsv\n'}
+[8.022222] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/environment/path.sh\n'}
+[8.022384] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/environment/path.dsv\n'}
+[8.022518] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/local_setup.bash\n'}
+[8.022621] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/local_setup.sh\n'}
+[8.022821] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/local_setup.zsh\n'}
+[8.022942] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/local_setup.dsv\n'}
+[8.023061] (ros2_introduction) StdoutLine: {'line': b'-- Installing: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/package.dsv\n'}
+[8.023179] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ament_index/resource_index/packages/ros2_introduction\n'}
+[8.023297] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/cmake/ros2_introductionConfig.cmake\n'}
+[8.023413] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/cmake/ros2_introductionConfig-version.cmake\n'}
+[8.023533] (ros2_introduction) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/package.xml\n'}
+[8.024250] (ros2_introduction) CommandEnded: {'returncode': 0}
+[8.067581] (ros2_introduction) JobEnded: {'identifier': 'ros2_introduction', 'rc': 0}
+[8.068217] (-) EventReactorShutdown: {}
