@@ -1,0 +1,17 @@
+[0.021s] Invoking command in '/home/lucasjko/sdfr_ws/build/ball_detection': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/robot_image_messages:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/motion_controller:/home/lucasjko/sdfr_ws/install/ball_detection:/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/ball_detection -- -j8 -l8
+[0.100s] [ 66%] [32mBuilding CXX object CMakeFiles/find_ball.dir/src/image_processing.cpp.o[0m
+[0.100s] [ 66%] [32mBuilding CXX object CMakeFiles/find_ball.dir/src/find_ball.cpp.o[0m
+[0.117s] [01m[K/home/lucasjko/sdfr_ws/src/ball_detection/src/image_processing.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kinclude/ball_detection/find_ball.hpp: No such file or directory
+[0.117s]     1 | #include [01;31m[K"include/ball_detection/find_ball.hpp"[m[K
+[0.117s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.118s] compilation terminated.
+[0.118s] [01m[K/home/lucasjko/sdfr_ws/src/ball_detection/src/find_ball.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kinclude/ball_detection/find_ball.hpp: No such file or directory
+[0.118s]     1 | #include [01;31m[K"include/ball_detection/find_ball.hpp"[m[K
+[0.118s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.118s] compilation terminated.
+[0.118s] gmake[2]: *** [CMakeFiles/find_ball.dir/build.make:90: CMakeFiles/find_ball.dir/src/image_processing.cpp.o] Error 1
+[0.118s] gmake[2]: *** Waiting for unfinished jobs....
+[0.119s] gmake[2]: *** [CMakeFiles/find_ball.dir/build.make:76: CMakeFiles/find_ball.dir/src/find_ball.cpp.o] Error 1
+[0.119s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/find_ball.dir/all] Error 2
+[0.120s] gmake: *** [Makefile:146: all] Error 2
+[0.122s] Invoked command in '/home/lucasjko/sdfr_ws/build/ball_detection' returned '2': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/robot_image_messages:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/motion_controller:/home/lucasjko/sdfr_ws/install/ball_detection:/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/ball_detection -- -j8 -l8

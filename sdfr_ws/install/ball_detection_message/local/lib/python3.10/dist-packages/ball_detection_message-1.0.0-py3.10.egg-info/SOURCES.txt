@@ -1,8 +1,0 @@
-setup.py
-ball_detection_message/__init__.py
-ball_detection_message.egg-info/PKG-INFO
-ball_detection_message.egg-info/SOURCES.txt
-ball_detection_message.egg-info/dependency_links.txt
-ball_detection_message.egg-info/top_level.txt
-ball_detection_message/msg/__init__.py
-ball_detection_message/msg/_ball_output.py

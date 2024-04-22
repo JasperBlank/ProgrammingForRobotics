@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target differential_drive_controller[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/differential_drive_controller.dir/src/differential_drive_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX executable differential_drive_controller[0m
+[100%] Built target differential_drive_controller
+-- Install configuration: ""
+-- Installing: /home/lucasjko/sdfr_ws/install/motion_controller/lib/motion_controller/differential_drive_controller
+-- Set runtime path of "/home/lucasjko/sdfr_ws/install/motion_controller/lib/motion_controller/differential_drive_controller" to ""
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/ament_index/resource_index/package_run_dependencies/motion_controller
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/ament_index/resource_index/parent_prefix_path/motion_controller
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/environment/path.sh
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/environment/path.dsv
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/local_setup.bash
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/local_setup.sh
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/local_setup.zsh
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/local_setup.dsv
+-- Installing: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/package.dsv
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/ament_index/resource_index/packages/motion_controller
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/cmake/motion_controllerConfig.cmake
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/cmake/motion_controllerConfig-version.cmake
+-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/package.xml

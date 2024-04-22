@@ -1,0 +1,26 @@
+[0.014s] Invoking command in '/home/lucasjko/sdfr_ws/build/motion_controller': AMENT_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/motion_controller -- -j8 -l8
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target differential_drive_controller[0m
+[0.094s] [ 50%] [32mBuilding CXX object CMakeFiles/differential_drive_controller.dir/src/differential_drive_controller.cpp.o[0m
+[7.662s] [100%] [32m[1mLinking CXX executable differential_drive_controller[0m
+[8.159s] [100%] Built target differential_drive_controller
+[8.171s] Invoked command in '/home/lucasjko/sdfr_ws/build/motion_controller' returned '0': AMENT_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/motion_controller -- -j8 -l8
+[8.202s] Invoking command in '/home/lucasjko/sdfr_ws/build/motion_controller': AMENT_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/motion_controller
+[8.209s] -- Install configuration: ""
+[8.210s] -- Installing: /home/lucasjko/sdfr_ws/install/motion_controller/lib/motion_controller/differential_drive_controller
+[8.216s] -- Set runtime path of "/home/lucasjko/sdfr_ws/install/motion_controller/lib/motion_controller/differential_drive_controller" to ""
+[8.216s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/ament_index/resource_index/package_run_dependencies/motion_controller
+[8.216s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/ament_index/resource_index/parent_prefix_path/motion_controller
+[8.216s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/environment/ament_prefix_path.sh
+[8.217s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/environment/ament_prefix_path.dsv
+[8.217s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/environment/path.sh
+[8.217s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/environment/path.dsv
+[8.217s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/local_setup.bash
+[8.217s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/local_setup.sh
+[8.217s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/local_setup.zsh
+[8.217s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/local_setup.dsv
+[8.217s] -- Installing: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/package.dsv
+[8.217s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/ament_index/resource_index/packages/motion_controller
+[8.217s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/cmake/motion_controllerConfig.cmake
+[8.217s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/cmake/motion_controllerConfig-version.cmake
+[8.217s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/package.xml
+[8.219s] Invoked command in '/home/lucasjko/sdfr_ws/build/motion_controller' returned '0': AMENT_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/motion_controller

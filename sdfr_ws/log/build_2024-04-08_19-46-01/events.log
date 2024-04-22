@@ -1,7 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000586] (-) JobUnselected: {'identifier': 'ball_detection'}
-[0.000627] (-) JobUnselected: {'identifier': 'ball_detection_message'}
-[0.000658] (-) JobUnselected: {'identifier': 'image_functions_sdfr'}
-[0.000684] (-) JobUnselected: {'identifier': 'ros2_introduction'}
-[0.000725] (-) JobUnselected: {'identifier': 'ros2_introduction_message'}
-[0.000899] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target bounding_box_controller[0m
+[35m[1mConsolidate compiler generated dependencies of target differential_drive_controller[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/bounding_box_controller.dir/src/bounding_box_controller.cpp.o[0m
+[ 75%] Built target differential_drive_controller

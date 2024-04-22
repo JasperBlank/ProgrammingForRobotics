@@ -14,7 +14,8 @@
     <depend>rclcpp</depend>
     <depend>sensor_msgs</depend>
     <depend>image_functions_sdfr</depend>
-    <depend>ros2_introduction_message</depend> 
+    <depend>robot_image_messages</depend> 
+    <exec_depend>example_interfaces</exec_depend>
 
     <test_depend>ament_lint_auto</test_depend>
     <test_depend>ament_lint_common</test_depend>

@@ -1,0 +1,6 @@
+Invoking command in '/home/lucasjko/sdfr_ws/build/motion_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucasjko/sdfr_ws/src/motion_controller -DCMAKE_INSTALL_PREFIX=/home/lucasjko/sdfr_ws/install/motion_controller
+Invoked command in '/home/lucasjko/sdfr_ws/build/motion_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucasjko/sdfr_ws/src/motion_controller -DCMAKE_INSTALL_PREFIX=/home/lucasjko/sdfr_ws/install/motion_controller
+Invoking command in '/home/lucasjko/sdfr_ws/build/motion_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/motion_controller -- -j8 -l8
+Invoked command in '/home/lucasjko/sdfr_ws/build/motion_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/motion_controller -- -j8 -l8
+Invoking command in '/home/lucasjko/sdfr_ws/build/motion_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/motion_controller
+Invoked command in '/home/lucasjko/sdfr_ws/build/motion_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/motion_controller

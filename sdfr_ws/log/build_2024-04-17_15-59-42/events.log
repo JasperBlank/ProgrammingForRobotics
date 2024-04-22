@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.000118] (-) JobUnselected: {'identifier': 'ball_detection'}
+[0.000321] (-) JobUnselected: {'identifier': 'image_functions_sdfr'}
+[0.000343] (-) JobUnselected: {'identifier': 'robot_image_messages'}
+[0.000360] (-) JobUnselected: {'identifier': 'ros2_introduction'}
+[0.000378] (motion_controller) JobQueued: {'identifier': 'motion_controller', 'dependencies': OrderedDict([('image_functions_sdfr', '/home/lucasjko/sdfr_ws/install/image_functions_sdfr')])}
+[0.000502] (motion_controller) JobStarted: {'identifier': 'motion_controller'}
+[0.010886] (motion_controller) JobProgress: {'identifier': 'motion_controller', 'progress': 'cmake'}
+[0.012118] (motion_controller) JobProgress: {'identifier': 'motion_controller', 'progress': 'build'}
+[0.013024] (motion_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lucasjko/sdfr_ws/build/motion_controller', '--', '-j8', '-l8'], 'cwd': '/home/lucasjko/sdfr_ws/build/motion_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lucasjko'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lucasjko'), ('OLDPWD', '/home/lucasjko/sdfr_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2022'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f7a2b89f944326a1a689c183661e44c7'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lucasjko'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lucasjko'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lucasjko/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lucasjko-G5-5590:@/tmp/.ICE-unix/2022,unix/lucasjko-G5-5590:/tmp/.ICE-unix/2022'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ad75843_ab69_4f61_8a22_30bc3bc4e651'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lucasjko/sdfr_ws/build/motion_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f7a2b89f944326a1a689c183661e44c7'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/opt/ros/humble')]), 'shell': False}
+[0.075456] (motion_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target differential_drive_controller\x1b[0m\n'}
+[0.094019] (motion_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/differential_drive_controller.dir/src/differential_drive_controller.cpp.o\x1b[0m\n'}
+[0.099709] (-) TimerEvent: {}
+[0.199964] (-) TimerEvent: {}
+[0.300259] (-) TimerEvent: {}
+[0.400559] (-) TimerEvent: {}
+[0.500828] (-) TimerEvent: {}
+[0.601077] (-) TimerEvent: {}
+[0.701365] (-) TimerEvent: {}
+[0.801666] (-) TimerEvent: {}
+[0.901987] (-) TimerEvent: {}
+[1.002301] (-) TimerEvent: {}
+[1.102610] (-) TimerEvent: {}
+[1.202905] (-) TimerEvent: {}
+[1.303204] (-) TimerEvent: {}
+[1.403520] (-) TimerEvent: {}
+[1.503829] (-) TimerEvent: {}
+[1.604104] (-) TimerEvent: {}
+[1.704403] (-) TimerEvent: {}
+[1.804715] (-) TimerEvent: {}
+[1.905026] (-) TimerEvent: {}
+[2.005308] (-) TimerEvent: {}
+[2.105593] (-) TimerEvent: {}
+[2.205869] (-) TimerEvent: {}
+[2.306136] (-) TimerEvent: {}
+[2.406438] (-) TimerEvent: {}
+[2.506712] (-) TimerEvent: {}
+[2.606984] (-) TimerEvent: {}
+[2.707235] (-) TimerEvent: {}
+[2.807504] (-) TimerEvent: {}
+[2.907772] (-) TimerEvent: {}
+[3.008045] (-) TimerEvent: {}
+[3.108319] (-) TimerEvent: {}
+[3.208594] (-) TimerEvent: {}
+[3.308868] (-) TimerEvent: {}
+[3.409134] (-) TimerEvent: {}
+[3.509400] (-) TimerEvent: {}
+[3.609655] (-) TimerEvent: {}
+[3.709917] (-) TimerEvent: {}
+[3.810167] (-) TimerEvent: {}
+[3.910463] (-) TimerEvent: {}
+[4.010768] (-) TimerEvent: {}
+[4.111074] (-) TimerEvent: {}
+[4.211373] (-) TimerEvent: {}
+[4.311643] (-) TimerEvent: {}
+[4.411927] (-) TimerEvent: {}
+[4.512218] (-) TimerEvent: {}
+[4.612564] (-) TimerEvent: {}
+[4.712915] (-) TimerEvent: {}
+[4.813207] (-) TimerEvent: {}
+[4.913496] (-) TimerEvent: {}
+[5.013797] (-) TimerEvent: {}
+[5.114095] (-) TimerEvent: {}
+[5.214385] (-) TimerEvent: {}
+[5.314644] (-) TimerEvent: {}
+[5.414944] (-) TimerEvent: {}
+[5.515245] (-) TimerEvent: {}
+[5.615543] (-) TimerEvent: {}
+[5.715781] (-) TimerEvent: {}
+[5.816120] (-) TimerEvent: {}
+[5.916408] (-) TimerEvent: {}
+[6.016640] (-) TimerEvent: {}
+[6.116901] (-) TimerEvent: {}
+[6.217150] (-) TimerEvent: {}
+[6.317438] (-) TimerEvent: {}
+[6.417706] (-) TimerEvent: {}
+[6.517980] (-) TimerEvent: {}
+[6.618257] (-) TimerEvent: {}
+[6.718572] (-) TimerEvent: {}
+[6.818901] (-) TimerEvent: {}
+[6.919203] (-) TimerEvent: {}
+[7.019464] (-) TimerEvent: {}
+[7.119728] (-) TimerEvent: {}
+[7.220022] (-) TimerEvent: {}
+[7.320294] (-) TimerEvent: {}
+[7.420535] (-) TimerEvent: {}
+[7.520770] (-) TimerEvent: {}
+[7.621037] (-) TimerEvent: {}
+[7.662313] (motion_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable differential_drive_controller\x1b[0m\n'}
+[7.721136] (-) TimerEvent: {}
+[7.821408] (-) TimerEvent: {}
+[7.921757] (-) TimerEvent: {}
+[8.022106] (-) TimerEvent: {}
+[8.122384] (-) TimerEvent: {}
+[8.159985] (motion_controller) StdoutLine: {'line': b'[100%] Built target differential_drive_controller\n'}
+[8.171147] (motion_controller) CommandEnded: {'returncode': 0}
+[8.194267] (motion_controller) JobProgress: {'identifier': 'motion_controller', 'progress': 'install'}
+[8.202150] (motion_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lucasjko/sdfr_ws/build/motion_controller'], 'cwd': '/home/lucasjko/sdfr_ws/build/motion_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lucasjko'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lucasjko'), ('OLDPWD', '/home/lucasjko/sdfr_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2022'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f7a2b89f944326a1a689c183661e44c7'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lucasjko'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lucasjko'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lucasjko/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lucasjko-G5-5590:@/tmp/.ICE-unix/2022,unix/lucasjko-G5-5590:/tmp/.ICE-unix/2022'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ad75843_ab69_4f61_8a22_30bc3bc4e651'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lucasjko/sdfr_ws/build/motion_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f7a2b89f944326a1a689c183661e44c7'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/opt/ros/humble')]), 'shell': False}
+[8.209305] (motion_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.210116] (motion_controller) StdoutLine: {'line': b'-- Installing: /home/lucasjko/sdfr_ws/install/motion_controller/lib/motion_controller/differential_drive_controller\n'}
+[8.216456] (motion_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/lucasjko/sdfr_ws/install/motion_controller/lib/motion_controller/differential_drive_controller" to ""\n'}
+[8.216629] (motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/ament_index/resource_index/package_run_dependencies/motion_controller\n'}
+[8.216871] (motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/ament_index/resource_index/parent_prefix_path/motion_controller\n'}
+[8.217041] (motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/environment/ament_prefix_path.sh\n'}
+[8.217108] (motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/environment/ament_prefix_path.dsv\n'}
+[8.217169] (motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/environment/path.sh\n'}
+[8.217227] (motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/environment/path.dsv\n'}
+[8.217283] (motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/local_setup.bash\n'}
+[8.217361] (motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/local_setup.sh\n'}
+[8.217445] (motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/local_setup.zsh\n'}
+[8.217519] (motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/local_setup.dsv\n'}
+[8.217579] (motion_controller) StdoutLine: {'line': b'-- Installing: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/package.dsv\n'}
+[8.217634] (motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/ament_index/resource_index/packages/motion_controller\n'}
+[8.217690] (motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/cmake/motion_controllerConfig.cmake\n'}
+[8.217745] (motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/cmake/motion_controllerConfig-version.cmake\n'}
+[8.217800] (motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/package.xml\n'}
+[8.219296] (motion_controller) CommandEnded: {'returncode': 0}
+[8.222479] (-) TimerEvent: {}
+[8.258238] (motion_controller) JobEnded: {'identifier': 'motion_controller', 'rc': 0}
+[8.258885] (-) EventReactorShutdown: {}

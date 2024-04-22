@@ -1,6 +1,0 @@
-Invoking command in '/home/lucasjko/sdfr_ws/build/ball_detection': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucasjko/sdfr_ws/src/ball_detection -DCMAKE_INSTALL_PREFIX=/home/lucasjko/sdfr_ws/install/ball_detection
-Invoked command in '/home/lucasjko/sdfr_ws/build/ball_detection' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucasjko/sdfr_ws/src/ball_detection -DCMAKE_INSTALL_PREFIX=/home/lucasjko/sdfr_ws/install/ball_detection
-Invoking command in '/home/lucasjko/sdfr_ws/build/ball_detection': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/ball_detection -- -j8 -l8
-Invoked command in '/home/lucasjko/sdfr_ws/build/ball_detection' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/ball_detection -- -j8 -l8
-Invoking command in '/home/lucasjko/sdfr_ws/build/ball_detection': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/ball_detection
-Invoked command in '/home/lucasjko/sdfr_ws/build/ball_detection' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/ball_detection

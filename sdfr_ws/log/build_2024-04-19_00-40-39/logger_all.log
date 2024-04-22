@@ -1,0 +1,413 @@
+[0.241s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.241s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x730690d745e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x730690d740a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x730690d740a0>>)
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.455s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lucasjko/sdfr_ws'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_detection) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_detection) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_detection) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_detection) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_detection) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_detection) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_detection) by extensions ['ros']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_detection) by extension 'ros'
+[0.486s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ball_detection' with type 'ros.ament_cmake' and name 'ball_detection'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extension 'ignore_ament_install'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extensions ['colcon_pkg']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extension 'colcon_pkg'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extensions ['colcon_meta']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extension 'colcon_meta'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extensions ['ros']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extension 'ros'
+[0.488s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_functions_sdfr' with type 'ros.ament_cmake' and name 'image_functions_sdfr'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller) by extension 'ignore_ament_install'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller) by extensions ['colcon_pkg']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller) by extension 'colcon_pkg'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller) by extensions ['colcon_meta']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller) by extension 'colcon_meta'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller) by extensions ['ros']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_controller) by extension 'ros'
+[0.489s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motion_controller' with type 'ros.ament_cmake' and name 'motion_controller'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_image_messages) by extensions ['ignore', 'ignore_ament_install']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_image_messages) by extension 'ignore'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_image_messages) by extension 'ignore_ament_install'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_image_messages) by extensions ['colcon_pkg']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_image_messages) by extension 'colcon_pkg'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_image_messages) by extensions ['colcon_meta']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_image_messages) by extension 'colcon_meta'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_image_messages) by extensions ['ros']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_image_messages) by extension 'ros'
+[0.490s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_image_messages' with type 'ros.ament_cmake' and name 'robot_image_messages'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_introduction) by extensions ['ignore', 'ignore_ament_install']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_introduction) by extension 'ignore'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_introduction) by extension 'ignore_ament_install'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_introduction) by extensions ['colcon_pkg']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_introduction) by extension 'colcon_pkg'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_introduction) by extensions ['colcon_meta']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_introduction) by extension 'colcon_meta'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_introduction) by extensions ['ros']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_introduction) by extension 'ros'
+[0.492s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_introduction' with type 'ros.ament_cmake' and name 'ros2_introduction'
+[0.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.522s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/lucasjko/sdfr_ws/install
+[0.525s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 288 installed packages in /opt/ros/humble
+[0.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'cmake_args' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'cmake_target' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'cmake_clean_cache' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'cmake_clean_first' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'cmake_force_configure' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'ament_cmake_args' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'catkin_cmake_args' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.589s] DEBUG:colcon.colcon_core.verb:Building package 'image_functions_sdfr' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucasjko/sdfr_ws/build/image_functions_sdfr', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucasjko/sdfr_ws/install/image_functions_sdfr', 'merge_install': False, 'path': '/home/lucasjko/sdfr_ws/src/image_functions_sdfr', 'symlink_install': False, 'test_result_base': None}
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'robot_image_messages' build argument 'cmake_args' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'robot_image_messages' build argument 'cmake_target' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'robot_image_messages' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'robot_image_messages' build argument 'cmake_clean_cache' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'robot_image_messages' build argument 'cmake_clean_first' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'robot_image_messages' build argument 'cmake_force_configure' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'robot_image_messages' build argument 'ament_cmake_args' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'robot_image_messages' build argument 'catkin_cmake_args' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'robot_image_messages' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.589s] DEBUG:colcon.colcon_core.verb:Building package 'robot_image_messages' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucasjko/sdfr_ws/build/robot_image_messages', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucasjko/sdfr_ws/install/robot_image_messages', 'merge_install': False, 'path': '/home/lucasjko/sdfr_ws/src/robot_image_messages', 'symlink_install': False, 'test_result_base': None}
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'ball_detection' build argument 'cmake_args' from command line to 'None'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'ball_detection' build argument 'cmake_target' from command line to 'None'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'ball_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'ball_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'ball_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'ball_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'ball_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'ball_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'ball_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.590s] DEBUG:colcon.colcon_core.verb:Building package 'ball_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucasjko/sdfr_ws/build/ball_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucasjko/sdfr_ws/install/ball_detection', 'merge_install': False, 'path': '/home/lucasjko/sdfr_ws/src/ball_detection', 'symlink_install': False, 'test_result_base': None}
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'motion_controller' build argument 'cmake_args' from command line to 'None'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'motion_controller' build argument 'cmake_target' from command line to 'None'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'motion_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'motion_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'motion_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'motion_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'motion_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'motion_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'motion_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.591s] DEBUG:colcon.colcon_core.verb:Building package 'motion_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucasjko/sdfr_ws/build/motion_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucasjko/sdfr_ws/install/motion_controller', 'merge_install': False, 'path': '/home/lucasjko/sdfr_ws/src/motion_controller', 'symlink_install': False, 'test_result_base': None}
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'ros2_introduction' build argument 'cmake_args' from command line to 'None'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'ros2_introduction' build argument 'cmake_target' from command line to 'None'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'ros2_introduction' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'ros2_introduction' build argument 'cmake_clean_cache' from command line to 'False'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'ros2_introduction' build argument 'cmake_clean_first' from command line to 'False'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'ros2_introduction' build argument 'cmake_force_configure' from command line to 'False'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'ros2_introduction' build argument 'ament_cmake_args' from command line to 'None'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'ros2_introduction' build argument 'catkin_cmake_args' from command line to 'None'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'ros2_introduction' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.591s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_introduction' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucasjko/sdfr_ws/build/ros2_introduction', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucasjko/sdfr_ws/install/ros2_introduction', 'merge_install': False, 'path': '/home/lucasjko/sdfr_ws/src/ros2_introduction', 'symlink_install': False, 'test_result_base': None}
+[0.591s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.592s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.593s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucasjko/sdfr_ws/src/image_functions_sdfr' with build type 'ament_cmake'
+[0.593s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucasjko/sdfr_ws/src/image_functions_sdfr'
+[0.597s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.597s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.597s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.603s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucasjko/sdfr_ws/src/robot_image_messages' with build type 'ament_cmake'
+[0.603s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucasjko/sdfr_ws/src/robot_image_messages'
+[0.603s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.603s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucasjko/sdfr_ws/build/image_functions_sdfr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/image_functions_sdfr -- -j8 -l8
+[0.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucasjko/sdfr_ws/build/robot_image_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/robot_image_messages -- -j8 -l8
+[0.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucasjko/sdfr_ws/build/image_functions_sdfr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/image_functions_sdfr -- -j8 -l8
+[0.819s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucasjko/sdfr_ws/build/image_functions_sdfr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/image_functions_sdfr
+[0.843s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_functions_sdfr)
+[0.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucasjko/sdfr_ws/build/image_functions_sdfr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/image_functions_sdfr
+[0.853s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/image_functions_sdfr' for CMake module files
+[0.854s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/image_functions_sdfr' for CMake config files
+[0.854s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_functions_sdfr', 'cmake_prefix_path')
+[0.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/share/image_functions_sdfr/hook/cmake_prefix_path.ps1'
+[0.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/share/image_functions_sdfr/hook/cmake_prefix_path.dsv'
+[0.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/share/image_functions_sdfr/hook/cmake_prefix_path.sh'
+[0.859s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib'
+[0.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_functions_sdfr', 'ld_library_path_lib')
+[0.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/share/image_functions_sdfr/hook/ld_library_path_lib.ps1'
+[0.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/share/image_functions_sdfr/hook/ld_library_path_lib.dsv'
+[0.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/share/image_functions_sdfr/hook/ld_library_path_lib.sh'
+[0.861s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/bin'
+[0.861s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib/pkgconfig/image_functions_sdfr.pc'
+[0.862s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib/python3.10/site-packages'
+[0.862s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/bin'
+[0.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/share/image_functions_sdfr/package.ps1'
+[0.865s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/share/image_functions_sdfr/package.dsv'
+[0.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/share/image_functions_sdfr/package.sh'
+[0.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/share/image_functions_sdfr/package.bash'
+[0.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/share/image_functions_sdfr/package.zsh'
+[0.870s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucasjko/sdfr_ws/install/image_functions_sdfr/share/colcon-core/packages/image_functions_sdfr)
+[0.895s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_functions_sdfr)
+[0.896s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/image_functions_sdfr' for CMake module files
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/image_functions_sdfr' for CMake config files
+[0.897s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_functions_sdfr', 'cmake_prefix_path')
+[0.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/share/image_functions_sdfr/hook/cmake_prefix_path.ps1'
+[0.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/share/image_functions_sdfr/hook/cmake_prefix_path.dsv'
+[0.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/share/image_functions_sdfr/hook/cmake_prefix_path.sh'
+[0.899s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib'
+[0.899s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_functions_sdfr', 'ld_library_path_lib')
+[0.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/share/image_functions_sdfr/hook/ld_library_path_lib.ps1'
+[0.900s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/share/image_functions_sdfr/hook/ld_library_path_lib.dsv'
+[0.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/share/image_functions_sdfr/hook/ld_library_path_lib.sh'
+[0.901s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/bin'
+[0.901s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib/pkgconfig/image_functions_sdfr.pc'
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib/python3.10/site-packages'
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/bin'
+[0.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/share/image_functions_sdfr/package.ps1'
+[0.904s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/share/image_functions_sdfr/package.dsv'
+[0.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/share/image_functions_sdfr/package.sh'
+[0.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/share/image_functions_sdfr/package.bash'
+[0.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/image_functions_sdfr/share/image_functions_sdfr/package.zsh'
+[0.907s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucasjko/sdfr_ws/install/image_functions_sdfr/share/colcon-core/packages/image_functions_sdfr)
+[1.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucasjko/sdfr_ws/build/robot_image_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/robot_image_messages -- -j8 -l8
+[1.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucasjko/sdfr_ws/build/robot_image_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/robot_image_messages
+[1.252s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_image_messages)
+[1.252s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/robot_image_messages' for CMake module files
+[1.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucasjko/sdfr_ws/build/robot_image_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/robot_image_messages
+[1.254s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/robot_image_messages' for CMake config files
+[1.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_image_messages', 'cmake_prefix_path')
+[1.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/hook/cmake_prefix_path.ps1'
+[1.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/hook/cmake_prefix_path.dsv'
+[1.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/hook/cmake_prefix_path.sh'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/robot_image_messages/lib'
+[1.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_image_messages', 'ld_library_path_lib')
+[1.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/hook/ld_library_path_lib.ps1'
+[1.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/hook/ld_library_path_lib.dsv'
+[1.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/hook/ld_library_path_lib.sh'
+[1.258s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/robot_image_messages/bin'
+[1.258s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/robot_image_messages/lib/pkgconfig/robot_image_messages.pc'
+[1.258s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/robot_image_messages/lib/python3.10/site-packages'
+[1.259s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/robot_image_messages/bin'
+[1.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/package.ps1'
+[1.260s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/package.dsv'
+[1.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/package.sh'
+[1.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/package.bash'
+[1.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/package.zsh'
+[1.261s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucasjko/sdfr_ws/install/robot_image_messages/share/colcon-core/packages/robot_image_messages)
+[1.340s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_image_messages)
+[1.340s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/robot_image_messages' for CMake module files
+[1.341s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/robot_image_messages' for CMake config files
+[1.342s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_image_messages', 'cmake_prefix_path')
+[1.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/hook/cmake_prefix_path.ps1'
+[1.343s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/hook/cmake_prefix_path.dsv'
+[1.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/hook/cmake_prefix_path.sh'
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/robot_image_messages/lib'
+[1.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_image_messages', 'ld_library_path_lib')
+[1.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/hook/ld_library_path_lib.ps1'
+[1.345s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/hook/ld_library_path_lib.dsv'
+[1.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/hook/ld_library_path_lib.sh'
+[1.346s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/robot_image_messages/bin'
+[1.346s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/robot_image_messages/lib/pkgconfig/robot_image_messages.pc'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/robot_image_messages/lib/python3.10/site-packages'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/robot_image_messages/bin'
+[1.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/package.ps1'
+[1.348s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/package.dsv'
+[1.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/package.sh'
+[1.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/package.bash'
+[1.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/package.zsh'
+[1.350s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucasjko/sdfr_ws/install/robot_image_messages/share/colcon-core/packages/robot_image_messages)
+[1.351s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucasjko/sdfr_ws/src/ball_detection' with build type 'ament_cmake'
+[1.351s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucasjko/sdfr_ws/src/ball_detection'
+[1.351s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.351s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.355s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucasjko/sdfr_ws/src/motion_controller' with build type 'ament_cmake'
+[1.356s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucasjko/sdfr_ws/src/motion_controller'
+[1.356s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.356s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.359s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucasjko/sdfr_ws/src/ros2_introduction' with build type 'ament_cmake'
+[1.360s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucasjko/sdfr_ws/src/ros2_introduction'
+[1.360s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.360s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucasjko/sdfr_ws/build/ball_detection': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/robot_image_messages:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/motion_controller:/home/lucasjko/sdfr_ws/install/ball_detection:/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/ball_detection -- -j8 -l8
+[1.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucasjko/sdfr_ws/build/motion_controller': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/robot_image_messages:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/motion_controller:/home/lucasjko/sdfr_ws/install/ball_detection:/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/motion_controller -- -j8 -l8
+[1.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucasjko/sdfr_ws/build/ros2_introduction': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/robot_image_messages:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/motion_controller:/home/lucasjko/sdfr_ws/install/ball_detection:/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/ros2_introduction -- -j8 -l8
+[1.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucasjko/sdfr_ws/build/ball_detection' returned '0': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/robot_image_messages:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/motion_controller:/home/lucasjko/sdfr_ws/install/ball_detection:/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/ball_detection -- -j8 -l8
+[1.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucasjko/sdfr_ws/build/ros2_introduction' returned '0': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/robot_image_messages:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/motion_controller:/home/lucasjko/sdfr_ws/install/ball_detection:/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/ros2_introduction -- -j8 -l8
+[1.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucasjko/sdfr_ws/build/ball_detection': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/robot_image_messages:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/motion_controller:/home/lucasjko/sdfr_ws/install/ball_detection:/opt/ros/humble /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/ball_detection
+[1.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucasjko/sdfr_ws/build/ros2_introduction': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/robot_image_messages:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/motion_controller:/home/lucasjko/sdfr_ws/install/ball_detection:/opt/ros/humble /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/ros2_introduction
+[1.498s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ball_detection)
+[1.499s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ball_detection' for CMake module files
+[1.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucasjko/sdfr_ws/build/ball_detection' returned '0': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/robot_image_messages:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/motion_controller:/home/lucasjko/sdfr_ws/install/ball_detection:/opt/ros/humble /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/ball_detection
+[1.501s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ball_detection' for CMake config files
+[1.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('ball_detection', 'cmake_prefix_path')
+[1.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/hook/cmake_prefix_path.ps1'
+[1.502s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/hook/cmake_prefix_path.dsv'
+[1.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/hook/cmake_prefix_path.sh'
+[1.503s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ball_detection/lib'
+[1.503s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ball_detection/bin'
+[1.503s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ball_detection/lib/pkgconfig/ball_detection.pc'
+[1.504s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ball_detection/lib/python3.10/site-packages'
+[1.504s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ball_detection/bin'
+[1.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/package.ps1'
+[1.505s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/package.dsv'
+[1.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/package.sh'
+[1.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/package.bash'
+[1.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/package.zsh'
+[1.508s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucasjko/sdfr_ws/install/ball_detection/share/colcon-core/packages/ball_detection)
+[1.512s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_introduction)
+[1.512s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ros2_introduction' for CMake module files
+[1.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucasjko/sdfr_ws/build/ros2_introduction' returned '0': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/robot_image_messages:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/motion_controller:/home/lucasjko/sdfr_ws/install/ball_detection:/opt/ros/humble /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/ros2_introduction
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ros2_introduction' for CMake config files
+[1.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_introduction', 'cmake_prefix_path')
+[1.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/hook/cmake_prefix_path.ps1'
+[1.514s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/hook/cmake_prefix_path.dsv'
+[1.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/hook/cmake_prefix_path.sh'
+[1.515s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ros2_introduction/lib'
+[1.515s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ros2_introduction/bin'
+[1.515s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ros2_introduction/lib/pkgconfig/ros2_introduction.pc'
+[1.516s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ros2_introduction/lib/python3.10/site-packages'
+[1.516s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ros2_introduction/bin'
+[1.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/package.ps1'
+[1.517s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/package.dsv'
+[1.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/package.sh'
+[1.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/package.bash'
+[1.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/package.zsh'
+[1.519s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucasjko/sdfr_ws/install/ros2_introduction/share/colcon-core/packages/ros2_introduction)
+[1.541s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ball_detection)
+[1.542s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ball_detection' for CMake module files
+[1.543s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ball_detection' for CMake config files
+[1.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('ball_detection', 'cmake_prefix_path')
+[1.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/hook/cmake_prefix_path.ps1'
+[1.544s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/hook/cmake_prefix_path.dsv'
+[1.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/hook/cmake_prefix_path.sh'
+[1.545s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ball_detection/lib'
+[1.545s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ball_detection/bin'
+[1.545s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ball_detection/lib/pkgconfig/ball_detection.pc'
+[1.545s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ball_detection/lib/python3.10/site-packages'
+[1.546s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ball_detection/bin'
+[1.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/package.ps1'
+[1.547s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/package.dsv'
+[1.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/package.sh'
+[1.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/package.bash'
+[1.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/ball_detection/share/ball_detection/package.zsh'
+[1.549s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucasjko/sdfr_ws/install/ball_detection/share/colcon-core/packages/ball_detection)
+[1.552s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_introduction)
+[1.552s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ros2_introduction' for CMake module files
+[1.553s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ros2_introduction' for CMake config files
+[1.553s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_introduction', 'cmake_prefix_path')
+[1.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/hook/cmake_prefix_path.ps1'
+[1.554s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/hook/cmake_prefix_path.dsv'
+[1.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/hook/cmake_prefix_path.sh'
+[1.555s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ros2_introduction/lib'
+[1.555s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ros2_introduction/bin'
+[1.555s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ros2_introduction/lib/pkgconfig/ros2_introduction.pc'
+[1.555s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ros2_introduction/lib/python3.10/site-packages'
+[1.556s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/ros2_introduction/bin'
+[1.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/package.ps1'
+[1.556s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/package.dsv'
+[1.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/package.sh'
+[1.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/package.bash'
+[1.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/ros2_introduction/share/ros2_introduction/package.zsh'
+[1.558s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucasjko/sdfr_ws/install/ros2_introduction/share/colcon-core/packages/ros2_introduction)
+[12.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucasjko/sdfr_ws/build/motion_controller' returned '0': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/robot_image_messages:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/motion_controller:/home/lucasjko/sdfr_ws/install/ball_detection:/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/motion_controller -- -j8 -l8
+[12.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucasjko/sdfr_ws/build/motion_controller': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/robot_image_messages:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/motion_controller:/home/lucasjko/sdfr_ws/install/ball_detection:/opt/ros/humble /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/motion_controller
+[12.921s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_controller)
+[12.922s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/motion_controller' for CMake module files
+[12.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucasjko/sdfr_ws/build/motion_controller' returned '0': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/robot_image_messages:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/motion_controller:/home/lucasjko/sdfr_ws/install/ball_detection:/opt/ros/humble /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/motion_controller
+[12.923s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/motion_controller' for CMake config files
+[12.923s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_controller', 'cmake_prefix_path')
+[12.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/hook/cmake_prefix_path.ps1'
+[12.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/hook/cmake_prefix_path.dsv'
+[12.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/hook/cmake_prefix_path.sh'
+[12.925s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/motion_controller/lib'
+[12.925s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/motion_controller/bin'
+[12.925s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/motion_controller/lib/pkgconfig/motion_controller.pc'
+[12.925s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/motion_controller/lib/python3.10/site-packages'
+[12.926s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/motion_controller/bin'
+[12.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/package.ps1'
+[12.927s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/package.dsv'
+[12.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/package.sh'
+[12.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/package.bash'
+[12.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/package.zsh'
+[12.928s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucasjko/sdfr_ws/install/motion_controller/share/colcon-core/packages/motion_controller)
+[12.955s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_controller)
+[12.955s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/motion_controller' for CMake module files
+[12.956s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/motion_controller' for CMake config files
+[12.956s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_controller', 'cmake_prefix_path')
+[12.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/hook/cmake_prefix_path.ps1'
+[12.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/hook/cmake_prefix_path.dsv'
+[12.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/hook/cmake_prefix_path.sh'
+[12.957s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/motion_controller/lib'
+[12.957s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/motion_controller/bin'
+[12.957s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/motion_controller/lib/pkgconfig/motion_controller.pc'
+[12.958s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/motion_controller/lib/python3.10/site-packages'
+[12.958s] Level 1:colcon.colcon_core.environment:checking '/home/lucasjko/sdfr_ws/install/motion_controller/bin'
+[12.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/package.ps1'
+[12.958s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/package.dsv'
+[12.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/package.sh'
+[12.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/package.bash'
+[12.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/package.zsh'
+[12.960s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucasjko/sdfr_ws/install/motion_controller/share/colcon-core/packages/motion_controller)
+[12.960s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.961s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.961s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.961s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.969s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.969s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.969s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.982s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.982s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lucasjko/sdfr_ws/install/local_setup.ps1'
+[12.984s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lucasjko/sdfr_ws/install/_local_setup_util_ps1.py'
+[12.986s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lucasjko/sdfr_ws/install/setup.ps1'
+[12.988s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lucasjko/sdfr_ws/install/local_setup.sh'
+[12.989s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lucasjko/sdfr_ws/install/_local_setup_util_sh.py'
+[12.989s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lucasjko/sdfr_ws/install/setup.sh'
+[12.997s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lucasjko/sdfr_ws/install/local_setup.bash'
+[12.998s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lucasjko/sdfr_ws/install/setup.bash'
+[13.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lucasjko/sdfr_ws/install/local_setup.zsh'
+[13.001s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lucasjko/sdfr_ws/install/setup.zsh'

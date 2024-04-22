@@ -1,0 +1,6 @@
+Invoking command in '/home/lucasjko/sdfr_ws/build/relbot_simulator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucasjko/sdfr_ws/src/relbot_simulator -DCMAKE_INSTALL_PREFIX=/home/lucasjko/sdfr_ws/install/relbot_simulator
+Invoked command in '/home/lucasjko/sdfr_ws/build/relbot_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucasjko/sdfr_ws/src/relbot_simulator -DCMAKE_INSTALL_PREFIX=/home/lucasjko/sdfr_ws/install/relbot_simulator
+Invoking command in '/home/lucasjko/sdfr_ws/build/relbot_simulator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/relbot_simulator -- -j8 -l8
+Invoked command in '/home/lucasjko/sdfr_ws/build/relbot_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/relbot_simulator -- -j8 -l8
+Invoking command in '/home/lucasjko/sdfr_ws/build/relbot_simulator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/relbot_simulator
+Invoked command in '/home/lucasjko/sdfr_ws/build/relbot_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/relbot_simulator

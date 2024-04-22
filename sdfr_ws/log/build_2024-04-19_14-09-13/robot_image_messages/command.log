@@ -1,0 +1,4 @@
+Invoking command in '/home/lucasjko/sdfr_ws/build/robot_image_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/robot_image_messages -- -j8 -l8
+Invoked command in '/home/lucasjko/sdfr_ws/build/robot_image_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/robot_image_messages -- -j8 -l8
+Invoking command in '/home/lucasjko/sdfr_ws/build/robot_image_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/robot_image_messages
+Invoked command in '/home/lucasjko/sdfr_ws/build/robot_image_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/robot_image_messages

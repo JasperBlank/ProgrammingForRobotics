@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robot_image_messages/msg/BallOutput.msg
+// generated code does not contain a copyright notice
+
+
+module robot_image_messages {
+  module msg {
+    typedef int32 int32__2[2];
+    @verbatim (language="comment", text=
+      "Bounding box" "\n"
+      "Coordinates of top left corner")
+    struct BallOutput {
+      int32__2 top_left;
+
+      @verbatim (language="comment", text=
+        "Coordinates of bottom right corner")
+      int32__2 bottom_right;
+
+      @verbatim (language="comment", text=
+        "Check ball's presence")
+      boolean ball_check;
+    };
+  };
+};

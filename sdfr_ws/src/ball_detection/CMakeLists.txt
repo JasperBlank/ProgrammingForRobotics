@@ -34,17 +34,22 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(image_functions_sdfr REQUIRED)
-find_package(ball_detection_message REQUIRED) # added
-include_directories(include)
+find_package(robot_image_messages REQUIRED)
+find_package(OpenCV REQUIRED) # Added to use OpenCV
 
-add_executable(find_ball_exe src/find_ball.cpp src/image_processing.cpp)
-ament_target_dependencies(find_ball_exe rclcpp sensor_msgs image_functions_sdfr ball_detection_message)
+include_directories(include)
+include_directories(${OpenCV_INCLUDE_DIRS}) # Added to use OpenCV
+
+add_executable(find_ball src/find_ball.cpp src/image_processing.cpp)
+ament_target_dependencies(find_ball rclcpp sensor_msgs image_functions_sdfr robot_image_messages)
+
+target_link_libraries(find_ball ${OpenCV_LIBS}) # Added to use OpenCV
 
 # Install targets
 install(
   TARGETS 
-    find_ball_exe
-    DESTINATION lib/${PROJECT_NAME}
+    find_ball
+  DESTINATION lib/${PROJECT_NAME}
 )
 
 ament_package()

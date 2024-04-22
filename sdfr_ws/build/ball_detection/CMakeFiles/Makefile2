@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/lucasjko/sdfr_ws/build/ball_detection
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/find_ball_exe.dir/all
+all: CMakeFiles/find_ball.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,7 +73,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/ball_detection_uninstall.dir/clean
-clean: CMakeFiles/find_ball_exe.dir/clean
+clean: CMakeFiles/find_ball.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -129,30 +129,30 @@ CMakeFiles/ball_detection_uninstall.dir/clean:
 .PHONY : CMakeFiles/ball_detection_uninstall.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/find_ball_exe.dir
+# Target rules for target CMakeFiles/find_ball.dir
 
 # All Build rule for target.
-CMakeFiles/find_ball_exe.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_ball_exe.dir/build.make CMakeFiles/find_ball_exe.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_ball_exe.dir/build.make CMakeFiles/find_ball_exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucasjko/sdfr_ws/build/ball_detection/CMakeFiles --progress-num=1,2,3 "Built target find_ball_exe"
-.PHONY : CMakeFiles/find_ball_exe.dir/all
+CMakeFiles/find_ball.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_ball.dir/build.make CMakeFiles/find_ball.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_ball.dir/build.make CMakeFiles/find_ball.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucasjko/sdfr_ws/build/ball_detection/CMakeFiles --progress-num=1,2,3 "Built target find_ball"
+.PHONY : CMakeFiles/find_ball.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/find_ball_exe.dir/rule: cmake_check_build_system
+CMakeFiles/find_ball.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucasjko/sdfr_ws/build/ball_detection/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/find_ball_exe.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/find_ball.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucasjko/sdfr_ws/build/ball_detection/CMakeFiles 0
-.PHONY : CMakeFiles/find_ball_exe.dir/rule
+.PHONY : CMakeFiles/find_ball.dir/rule
 
 # Convenience name for target.
-find_ball_exe: CMakeFiles/find_ball_exe.dir/rule
-.PHONY : find_ball_exe
+find_ball: CMakeFiles/find_ball.dir/rule
+.PHONY : find_ball
 
 # clean rule for target.
-CMakeFiles/find_ball_exe.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_ball_exe.dir/build.make CMakeFiles/find_ball_exe.dir/clean
-.PHONY : CMakeFiles/find_ball_exe.dir/clean
+CMakeFiles/find_ball.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_ball.dir/build.make CMakeFiles/find_ball.dir/clean
+.PHONY : CMakeFiles/find_ball.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -4,7 +4,7 @@ BrightnessDetectionMessage::BrightnessDetectionMessage() : Node("brightness_dete
     // Initialize subscribers, publishers, parameters etc. here...
 
     subscriberImage_ = this->create_subscription<sensor_msgs::msg::Image>("image", 10, std::bind(&BrightnessDetectionMessage::image_callback, this, _1));
-    publisherBrightnessOutput_ = this->create_publisher<ros2_introduction_message::msg::Brightness>("brightness_output", 10);
+    publisherBrightnessOutput_ = this->create_publisher<robot_image_messages::msg::Brightness>("brightness_output", 10);
 }
 
 int BrightnessDetectionMessage::getLightLevel(sensor_msgs::msg::Image::ConstSharedPtr img, int &width, int &height){
@@ -40,7 +40,7 @@ void BrightnessDetectionMessage::image_callback(sensor_msgs::msg::Image::ConstSh
     brightnessStatus = getBrightnessStatus(lightLevel, threshold);
 
     // Publish to brightness_output topic
-    auto brightnessOutputMsg = ros2_introduction_message::msg::Brightness();
+    auto brightnessOutputMsg = robot_image_messages::msg::Brightness();
     brightnessOutputMsg.brightness_level = lightLevel;
     brightnessOutputMsg.brightness_classification = brightnessStatus;
     publisherBrightnessOutput_->publish(brightnessOutputMsg);

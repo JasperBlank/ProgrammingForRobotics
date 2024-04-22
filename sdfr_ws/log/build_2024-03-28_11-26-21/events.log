@@ -1,4 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000409] (-) JobUnselected: {'identifier': 'image_functions_sdfr'}
-[0.000482] (-) JobUnselected: {'identifier': 'ros2_introduction'}
-[0.000641] (-) EventReactorShutdown: {}

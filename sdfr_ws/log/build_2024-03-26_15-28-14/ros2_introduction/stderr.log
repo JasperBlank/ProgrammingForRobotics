@@ -1,8 +1,0 @@
-In file included from [01m[K/home/lucasjko/sdfr_ws/src/ros2_introduction/src/brightness_detection.cpp:1[m[K:
-[01m[K/home/lucasjko/sdfr_ws/src/ros2_introduction/include/ros2_introduction/brightness_detection.hpp:10:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/msg/Int8: No such file or directory
-   10 | #include [01;31m[K"example_interfaces/msg/Int8"[m[K // topic /light_level
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/brightness_detection.dir/build.make:76: CMakeFiles/brightness_detection.dir/src/brightness_detection.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/brightness_detection.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

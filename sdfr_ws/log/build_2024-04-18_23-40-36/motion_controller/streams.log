@@ -1,0 +1,28 @@
+[0.017s] Invoking command in '/home/lucasjko/sdfr_ws/build/motion_controller': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/robot_image_messages:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/motion_controller:/home/lucasjko/sdfr_ws/install/ball_detection:/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/motion_controller -- -j8 -l8
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target bounding_box_controller[0m
+[0.086s] [ 50%] Built target differential_drive_controller
+[0.095s] [100%] Built target bounding_box_controller
+[0.111s] Invoked command in '/home/lucasjko/sdfr_ws/build/motion_controller' returned '0': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/robot_image_messages:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/motion_controller:/home/lucasjko/sdfr_ws/install/ball_detection:/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/motion_controller -- -j8 -l8
+[0.140s] Invoking command in '/home/lucasjko/sdfr_ws/build/motion_controller': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/robot_image_messages:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/motion_controller:/home/lucasjko/sdfr_ws/install/ball_detection:/opt/ros/humble /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/motion_controller
+[0.149s] -- Install configuration: ""
+[0.149s] -- Installing: /home/lucasjko/sdfr_ws/install/motion_controller/lib/motion_controller/bounding_box_controller
+[0.158s] -- Set runtime path of "/home/lucasjko/sdfr_ws/install/motion_controller/lib/motion_controller/bounding_box_controller" to ""
+[0.159s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/lib/motion_controller/differential_drive_controller
+[0.159s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/launch
+[0.159s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/launch/start_robot.launch.py
+[0.159s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/ament_index/resource_index/package_run_dependencies/motion_controller
+[0.159s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/ament_index/resource_index/parent_prefix_path/motion_controller
+[0.160s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/environment/ament_prefix_path.sh
+[0.160s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/environment/ament_prefix_path.dsv
+[0.160s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/environment/path.sh
+[0.160s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/environment/path.dsv
+[0.160s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/local_setup.bash
+[0.160s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/local_setup.sh
+[0.160s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/local_setup.zsh
+[0.161s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/local_setup.dsv
+[0.161s] -- Installing: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/package.dsv
+[0.161s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/ament_index/resource_index/packages/motion_controller
+[0.161s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/cmake/motion_controllerConfig.cmake
+[0.161s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/cmake/motion_controllerConfig-version.cmake
+[0.161s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/package.xml
+[0.163s] Invoked command in '/home/lucasjko/sdfr_ws/build/motion_controller' returned '0': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/robot_image_messages:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/motion_controller:/home/lucasjko/sdfr_ws/install/ball_detection:/opt/ros/humble /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/motion_controller

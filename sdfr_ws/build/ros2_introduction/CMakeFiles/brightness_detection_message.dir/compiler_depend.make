@@ -672,10 +672,10 @@ CMakeFiles/brightness_detection_message.dir/src/brightness_detection_message.cpp
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
-  /home/lucasjko/sdfr_ws/install/ros2_introduction_message/include/ros2_introduction_message/ros2_introduction_message/msg/brightness.hpp \
-  /home/lucasjko/sdfr_ws/install/ros2_introduction_message/include/ros2_introduction_message/ros2_introduction_message/msg/detail/brightness__struct.hpp \
-  /home/lucasjko/sdfr_ws/install/ros2_introduction_message/include/ros2_introduction_message/ros2_introduction_message/msg/detail/brightness__builder.hpp \
-  /home/lucasjko/sdfr_ws/install/ros2_introduction_message/include/ros2_introduction_message/ros2_introduction_message/msg/detail/brightness__traits.hpp \
+  /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/brightness.hpp \
+  /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/brightness__struct.hpp \
+  /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/brightness__builder.hpp \
+  /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/brightness__traits.hpp \
   /home/lucasjko/sdfr_ws/install/image_functions_sdfr/include/image_functions_sdfr/image_functions.hpp \
   /home/lucasjko/sdfr_ws/install/image_functions_sdfr/include/image_functions_sdfr/visibility_control.h \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/image_encodings.hpp
@@ -685,9 +685,11 @@ CMakeFiles/brightness_detection_message.dir/src/brightness_detection_message.cpp
 
 /home/lucasjko/sdfr_ws/install/image_functions_sdfr/include/image_functions_sdfr/image_functions.hpp:
 
-/home/lucasjko/sdfr_ws/install/ros2_introduction_message/include/ros2_introduction_message/ros2_introduction_message/msg/detail/brightness__traits.hpp:
+/home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/brightness__traits.hpp:
 
-/home/lucasjko/sdfr_ws/install/ros2_introduction_message/include/ros2_introduction_message/ros2_introduction_message/msg/brightness.hpp:
+/home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/brightness__builder.hpp:
+
+/home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/brightness.hpp:
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp:
 
@@ -1577,8 +1579,6 @@ CMakeFiles/brightness_detection_message.dir/src/brightness_detection_message.cpp
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
 
-/home/lucasjko/sdfr_ws/install/ros2_introduction_message/include/ros2_introduction_message/ros2_introduction_message/msg/detail/brightness__struct.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
@@ -1913,8 +1913,6 @@ CMakeFiles/brightness_detection_message.dir/src/brightness_detection_message.cpp
 
 /opt/ros/humble/include/rclcpp/rclcpp/waitable.hpp:
 
-/home/lucasjko/sdfr_ws/install/ros2_introduction_message/include/ros2_introduction_message/ros2_introduction_message/msg/detail/brightness__builder.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /opt/ros/humble/include/rcpputils/rcpputils/time.hpp:
@@ -1976,6 +1974,8 @@ CMakeFiles/brightness_detection_message.dir/src/brightness_detection_message.cpp
 /opt/ros/humble/include/rclcpp/rclcpp/message_memory_strategy.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp:
+
+/home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/brightness__struct.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp:
 

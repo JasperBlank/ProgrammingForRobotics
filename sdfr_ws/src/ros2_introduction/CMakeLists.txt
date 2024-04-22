@@ -35,22 +35,22 @@ find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(example_interfaces REQUIRED)
 find_package(image_functions_sdfr REQUIRED)
-find_package(ros2_introduction_message REQUIRED) # added
+find_package(robot_image_messages REQUIRED) # added
 include_directories(include)
 
-add_executable(brightness_detection_exe src/brightness_detection.cpp)
-ament_target_dependencies(brightness_detection_exe rclcpp sensor_msgs example_interfaces image_functions_sdfr)
+add_executable(brightness_detection src/brightness_detection.cpp)
+ament_target_dependencies(brightness_detection rclcpp sensor_msgs example_interfaces image_functions_sdfr)
 
 # new node 
-add_executable(brightness_detection_message_exe src/brightness_detection_message.cpp)
-ament_target_dependencies(brightness_detection_message_exe rclcpp sensor_msgs image_functions_sdfr ros2_introduction_message)
+add_executable(brightness_detection_message src/brightness_detection_message.cpp)
+ament_target_dependencies(brightness_detection_message rclcpp sensor_msgs image_functions_sdfr robot_image_messages)
 
 # Install targets
 install(
   TARGETS 
-    brightness_detection_exe
-	brightness_detection_message_exe
-    DESTINATION lib/${PROJECT_NAME}
+    brightness_detection
+    brightness_detection_message
+  DESTINATION lib/${PROJECT_NAME}
 )
 
 ament_package()

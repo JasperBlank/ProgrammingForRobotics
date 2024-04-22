@@ -1,7 +1,0 @@
-[01m[K/home/lucasjko/sdfr_ws/src/ros2_introduction/src/brightness_detection.cpp:[m[K In member function ‘[01m[Kint BrightnessDetection::getLightLevel(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr, int*, int*)[m[K’:
-[01m[K/home/lucasjko/sdfr_ws/src/ros2_introduction/src/brightness_detection.cpp:9:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
-    9 |     for (size_t column = 0; [01;35m[Kcolumn < *height[m[K; column++){
-      |                             [01;35m[K~~~~~~~^~~~~~~~~[m[K
-[01m[K/home/lucasjko/sdfr_ws/src/ros2_introduction/src/brightness_detection.cpp:10:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
-   10 |         for (size_t row = 0; [01;35m[Krow < *width[m[K; row++){
-      |                              [01;35m[K~~~~^~~~~~~~[m[K

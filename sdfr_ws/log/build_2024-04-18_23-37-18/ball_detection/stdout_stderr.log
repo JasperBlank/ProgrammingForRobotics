@@ -1,0 +1,15 @@
+[ 66%] [32mBuilding CXX object CMakeFiles/find_ball.dir/src/image_processing.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/find_ball.dir/src/find_ball.cpp.o[0m
+[01m[K/home/lucasjko/sdfr_ws/src/ball_detection/src/image_processing.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kinclude/ball_detection/find_ball.hpp: No such file or directory
+    1 | #include [01;31m[K"include/ball_detection/find_ball.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/lucasjko/sdfr_ws/src/ball_detection/src/find_ball.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kinclude/ball_detection/find_ball.hpp: No such file or directory
+    1 | #include [01;31m[K"include/ball_detection/find_ball.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/find_ball.dir/build.make:90: CMakeFiles/find_ball.dir/src/image_processing.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/find_ball.dir/build.make:76: CMakeFiles/find_ball.dir/src/find_ball.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/find_ball.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

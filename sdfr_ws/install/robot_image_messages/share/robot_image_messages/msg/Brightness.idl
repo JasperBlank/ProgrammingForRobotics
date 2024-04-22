@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robot_image_messages/msg/Brightness.msg
+// generated code does not contain a copyright notice
+
+
+module robot_image_messages {
+  module msg {
+    struct Brightness {
+      uint8 brightness_level;
+
+      string brightness_classification;
+    };
+  };
+};

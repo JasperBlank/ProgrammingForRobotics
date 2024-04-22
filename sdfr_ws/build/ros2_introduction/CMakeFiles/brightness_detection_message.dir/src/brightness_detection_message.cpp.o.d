@@ -605,10 +605,10 @@ CMakeFiles/brightness_detection_message.dir/src/brightness_detection_message.cpp
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
- /home/lucasjko/sdfr_ws/install/ros2_introduction_message/include/ros2_introduction_message/ros2_introduction_message/msg/brightness.hpp \
- /home/lucasjko/sdfr_ws/install/ros2_introduction_message/include/ros2_introduction_message/ros2_introduction_message/msg/detail/brightness__struct.hpp \
- /home/lucasjko/sdfr_ws/install/ros2_introduction_message/include/ros2_introduction_message/ros2_introduction_message/msg/detail/brightness__builder.hpp \
- /home/lucasjko/sdfr_ws/install/ros2_introduction_message/include/ros2_introduction_message/ros2_introduction_message/msg/detail/brightness__traits.hpp \
+ /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/brightness.hpp \
+ /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/brightness__struct.hpp \
+ /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/brightness__builder.hpp \
+ /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/brightness__traits.hpp \
  /home/lucasjko/sdfr_ws/install/image_functions_sdfr/include/image_functions_sdfr/image_functions.hpp \
  /home/lucasjko/sdfr_ws/install/image_functions_sdfr/include/image_functions_sdfr/visibility_control.h \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/image_encodings.hpp

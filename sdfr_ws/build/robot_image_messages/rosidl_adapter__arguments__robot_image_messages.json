@@ -1,0 +1,7 @@
+{
+  "package_name": "robot_image_messages",
+  "non_idl_tuples": [
+    "/home/lucasjko/sdfr_ws/src/robot_image_messages:msg/Brightness.msg",
+    "/home/lucasjko/sdfr_ws/src/robot_image_messages:msg/BallOutput.msg"
+  ]
+}

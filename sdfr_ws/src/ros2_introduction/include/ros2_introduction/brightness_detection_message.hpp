@@ -7,7 +7,7 @@
 
 #include "sensor_msgs/msg/image.hpp"
 // Define message includes here...
-#include "ros2_introduction_message/msg/brightness.hpp" // topic brightness_output
+#include "robot_image_messages/msg/brightness.hpp" // topic brightness_output
 #include "image_functions_sdfr/image_functions.hpp" // header for image functions
 
 // Placeholder for std::bind.
@@ -41,7 +41,7 @@ private:
     rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr subscriberImage_;
 
     /// Publisher variables.
-    rclcpp::Publisher<ros2_introduction_message::msg::Brightness>::SharedPtr publisherBrightnessOutput_;
+    rclcpp::Publisher<robot_image_messages::msg::Brightness>::SharedPtr publisherBrightnessOutput_;
 };
 
 #endif /* BRIGHTNESS_DETECTION_MESSAGE_HPP */

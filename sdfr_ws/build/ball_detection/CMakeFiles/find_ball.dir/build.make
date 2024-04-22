@@ -83,22 +83,73 @@ CMakeFiles/find_ball.dir/src/find_ball.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/find_ball.dir/src/find_ball.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasjko/sdfr_ws/src/ball_detection/src/find_ball.cpp -o CMakeFiles/find_ball.dir/src/find_ball.cpp.s
 
+CMakeFiles/find_ball.dir/src/image_processing.cpp.o: CMakeFiles/find_ball.dir/flags.make
+CMakeFiles/find_ball.dir/src/image_processing.cpp.o: /home/lucasjko/sdfr_ws/src/ball_detection/src/image_processing.cpp
+CMakeFiles/find_ball.dir/src/image_processing.cpp.o: CMakeFiles/find_ball.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucasjko/sdfr_ws/build/ball_detection/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/find_ball.dir/src/image_processing.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/find_ball.dir/src/image_processing.cpp.o -MF CMakeFiles/find_ball.dir/src/image_processing.cpp.o.d -o CMakeFiles/find_ball.dir/src/image_processing.cpp.o -c /home/lucasjko/sdfr_ws/src/ball_detection/src/image_processing.cpp
+
+CMakeFiles/find_ball.dir/src/image_processing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/find_ball.dir/src/image_processing.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucasjko/sdfr_ws/src/ball_detection/src/image_processing.cpp > CMakeFiles/find_ball.dir/src/image_processing.cpp.i
+
+CMakeFiles/find_ball.dir/src/image_processing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/find_ball.dir/src/image_processing.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucasjko/sdfr_ws/src/ball_detection/src/image_processing.cpp -o CMakeFiles/find_ball.dir/src/image_processing.cpp.s
+
 # Object files for target find_ball
 find_ball_OBJECTS = \
-"CMakeFiles/find_ball.dir/src/find_ball.cpp.o"
+"CMakeFiles/find_ball.dir/src/find_ball.cpp.o" \
+"CMakeFiles/find_ball.dir/src/image_processing.cpp.o"
 
 # External object files for target find_ball
 find_ball_EXTERNAL_OBJECTS =
 
 find_ball: CMakeFiles/find_ball.dir/src/find_ball.cpp.o
+find_ball: CMakeFiles/find_ball.dir/src/image_processing.cpp.o
 find_ball: CMakeFiles/find_ball.dir/build.make
 find_ball: /home/lucasjko/sdfr_ws/install/image_functions_sdfr/lib/libimage_functions.so
-find_ball: /home/lucasjko/sdfr_ws/install/ball_detection_message/lib/libball_detection_message__rosidl_typesupport_fastrtps_c.so
-find_ball: /home/lucasjko/sdfr_ws/install/ball_detection_message/lib/libball_detection_message__rosidl_typesupport_introspection_c.so
-find_ball: /home/lucasjko/sdfr_ws/install/ball_detection_message/lib/libball_detection_message__rosidl_typesupport_fastrtps_cpp.so
-find_ball: /home/lucasjko/sdfr_ws/install/ball_detection_message/lib/libball_detection_message__rosidl_typesupport_introspection_cpp.so
-find_ball: /home/lucasjko/sdfr_ws/install/ball_detection_message/lib/libball_detection_message__rosidl_typesupport_cpp.so
-find_ball: /home/lucasjko/sdfr_ws/install/ball_detection_message/lib/libball_detection_message__rosidl_generator_py.so
+find_ball: /home/lucasjko/sdfr_ws/install/robot_image_messages/lib/librobot_image_messages__rosidl_typesupport_fastrtps_c.so
+find_ball: /home/lucasjko/sdfr_ws/install/robot_image_messages/lib/librobot_image_messages__rosidl_typesupport_introspection_c.so
+find_ball: /home/lucasjko/sdfr_ws/install/robot_image_messages/lib/librobot_image_messages__rosidl_typesupport_fastrtps_cpp.so
+find_ball: /home/lucasjko/sdfr_ws/install/robot_image_messages/lib/librobot_image_messages__rosidl_typesupport_introspection_cpp.so
+find_ball: /home/lucasjko/sdfr_ws/install/robot_image_messages/lib/librobot_image_messages__rosidl_typesupport_cpp.so
+find_ball: /home/lucasjko/sdfr_ws/install/robot_image_messages/lib/librobot_image_messages__rosidl_generator_py.so
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_alphamat.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_barcode.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_face.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_intensity_transform.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_mcc.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_rapid.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_wechat_qrcode.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.5.4d
 find_ball: /opt/ros/humble/lib/librclcpp.so
 find_ball: /opt/ros/humble/lib/liblibstatistics_collector.so
 find_ball: /opt/ros/humble/lib/librcl.so
@@ -172,15 +223,34 @@ find_ball: /opt/ros/humble/lib/librmw.so
 find_ball: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 find_ball: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 find_ball: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-find_ball: /home/lucasjko/sdfr_ws/install/ball_detection_message/lib/libball_detection_message__rosidl_typesupport_c.so
-find_ball: /home/lucasjko/sdfr_ws/install/ball_detection_message/lib/libball_detection_message__rosidl_generator_c.so
+find_ball: /home/lucasjko/sdfr_ws/install/robot_image_messages/lib/librobot_image_messages__rosidl_typesupport_c.so
+find_ball: /home/lucasjko/sdfr_ws/install/robot_image_messages/lib/librobot_image_messages__rosidl_generator_c.so
 find_ball: /opt/ros/humble/lib/librosidl_typesupport_c.so
 find_ball: /opt/ros/humble/lib/librcpputils.so
 find_ball: /opt/ros/humble/lib/librosidl_runtime_c.so
 find_ball: /opt/ros/humble/lib/librcutils.so
 find_ball: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5.4d
+find_ball: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d
 find_ball: CMakeFiles/find_ball.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lucasjko/sdfr_ws/build/ball_detection/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable find_ball"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lucasjko/sdfr_ws/build/ball_detection/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable find_ball"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/find_ball.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

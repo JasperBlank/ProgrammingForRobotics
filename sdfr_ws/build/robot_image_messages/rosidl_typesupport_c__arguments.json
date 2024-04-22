@@ -1,0 +1,19 @@
+{
+  "package_name": "robot_image_messages",
+  "output_dir": "/home/lucasjko/sdfr_ws/build/robot_image_messages/rosidl_typesupport_c/robot_image_messages",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_c/resource",
+  "idl_tuples": [
+    "/home/lucasjko/sdfr_ws/build/robot_image_messages/rosidl_adapter/robot_image_messages:msg/Brightness.idl",
+    "/home/lucasjko/sdfr_ws/build/robot_image_messages/rosidl_adapter/robot_image_messages:msg/BallOutput.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/action__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
+    "/home/lucasjko/sdfr_ws/build/robot_image_messages/rosidl_adapter/robot_image_messages/msg/Brightness.idl",
+    "/home/lucasjko/sdfr_ws/build/robot_image_messages/rosidl_adapter/robot_image_messages/msg/BallOutput.idl"
+  ]
+}

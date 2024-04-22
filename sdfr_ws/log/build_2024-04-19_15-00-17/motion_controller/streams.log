@@ -1,0 +1,95 @@
+[0.018s] Invoking command in '/home/lucasjko/sdfr_ws/build/motion_controller': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/robot_image_messages:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/motion_controller:/home/lucasjko/sdfr_ws/install/ball_detection:/home/lucasjko/sdfr_ws/install/relbot_simulator:/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/motion_controller -- -j8 -l8
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target differential_drive_controller[0m
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target bounding_box_controller[0m
+[0.087s] [ 25%] [32mBuilding CXX object CMakeFiles/differential_drive_controller.dir/src/differential_drive_controller.cpp.o[0m
+[0.088s] [ 75%] Built target bounding_box_controller
+[2.178s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.178s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.178s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.178s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.179s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.179s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.179s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.179s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.179s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.179s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.179s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.179s]                  from [01m[K/home/lucasjko/sdfr_ws/src/motion_controller/include/motion_controller/differential_drive_controller.hpp:6[m[K,
+[2.179s]                  from [01m[K/home/lucasjko/sdfr_ws/src/motion_controller/src/differential_drive_controller.cpp:1[m[K:
+[2.180s] [01m[K/home/lucasjko/sdfr_ws/src/motion_controller/src/differential_drive_controller.cpp:[m[K In member function ‘[01m[Kvoid DifferentialDriveController::twistCallback(geometry_msgs::msg::TwistStamped_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[2.180s] [01m[K/home/lucasjko/sdfr_ws/src/motion_controller/src/differential_drive_controller.cpp:40:84:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.180s]    40 |         RCLCPP_INFO_EXPRESSION(this->get_logger(), turningDirection == "straight", [01;35m[K"\nMoving %s\n"[m[K, movingDirection);
+[2.180s]       |                                                                                    [01;35m[K^~~~~~~~~~~~~~~[m[K
+[2.180s] [01m[K/home/lucasjko/sdfr_ws/src/motion_controller/src/differential_drive_controller.cpp:40:95:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.180s]    40 |         RCLCPP_INFO_EXPRESSION(this->get_logger(), turningDirection == "straight", "\nMoving [01;36m[K%s[m[K\n", movingDirection);
+[2.180s]       |                                                                                              [01;36m[K~^[m[K
+[2.180s]       |                                                                                               [01;36m[K|[m[K
+[2.180s]       |                                                                                               [01;36m[Kchar*[m[K
+[2.180s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.181s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.181s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.181s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.181s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.181s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.181s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.181s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.181s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.181s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.181s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.181s]                  from [01m[K/home/lucasjko/sdfr_ws/src/motion_controller/include/motion_controller/differential_drive_controller.hpp:6[m[K,
+[2.182s]                  from [01m[K/home/lucasjko/sdfr_ws/src/motion_controller/src/differential_drive_controller.cpp:1[m[K:
+[2.182s] [01m[K/home/lucasjko/sdfr_ws/src/motion_controller/src/differential_drive_controller.cpp:41:84:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.182s]    41 |         RCLCPP_INFO_EXPRESSION(this->get_logger(), turningDirection != "straight", [01;35m[K"\nMoving %s to the %s\n"[m[K, movingDirection, turningDirection);
+[2.182s]       |                                                                                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.182s] [01m[K/home/lucasjko/sdfr_ws/src/motion_controller/src/differential_drive_controller.cpp:41:95:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.182s]    41 |         RCLCPP_INFO_EXPRESSION(this->get_logger(), turningDirection != "straight", "\nMoving [01;36m[K%s[m[K to the %s\n", movingDirection, turningDirection);
+[2.182s]       |                                                                                              [01;36m[K~^[m[K
+[2.182s]       |                                                                                               [01;36m[K|[m[K
+[2.182s]       |                                                                                               [01;36m[Kchar*[m[K
+[2.182s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.182s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.183s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.183s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.183s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.183s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.183s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.183s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.183s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.183s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.183s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.183s]                  from [01m[K/home/lucasjko/sdfr_ws/src/motion_controller/include/motion_controller/differential_drive_controller.hpp:6[m[K,
+[2.183s]                  from [01m[K/home/lucasjko/sdfr_ws/src/motion_controller/src/differential_drive_controller.cpp:1[m[K:
+[2.184s] [01m[K/home/lucasjko/sdfr_ws/src/motion_controller/src/differential_drive_controller.cpp:41:84:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 6 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.184s]    41 |         RCLCPP_INFO_EXPRESSION(this->get_logger(), turningDirection != "straight", [01;35m[K"\nMoving %s to the %s\n"[m[K, movingDirection, turningDirection);
+[2.184s]       |                                                                                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.184s] [01m[K/home/lucasjko/sdfr_ws/src/motion_controller/src/differential_drive_controller.cpp:41:105:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.184s]    41 |         RCLCPP_INFO_EXPRESSION(this->get_logger(), turningDirection != "straight", "\nMoving %s to the [01;36m[K%s[m[K\n", movingDirection, turningDirection);
+[2.184s]       |                                                                                                        [01;36m[K~^[m[K
+[2.184s]       |                                                                                                         [01;36m[K|[m[K
+[2.184s]       |                                                                                                         [01;36m[Kchar*[m[K
+[7.452s] [100%] [32m[1mLinking CXX executable differential_drive_controller[0m
+[7.839s] [100%] Built target differential_drive_controller
+[7.850s] Invoked command in '/home/lucasjko/sdfr_ws/build/motion_controller' returned '0': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/robot_image_messages:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/motion_controller:/home/lucasjko/sdfr_ws/install/ball_detection:/home/lucasjko/sdfr_ws/install/relbot_simulator:/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/motion_controller -- -j8 -l8
+[7.877s] Invoking command in '/home/lucasjko/sdfr_ws/build/motion_controller': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/robot_image_messages:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/motion_controller:/home/lucasjko/sdfr_ws/install/ball_detection:/home/lucasjko/sdfr_ws/install/relbot_simulator:/opt/ros/humble /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/motion_controller
+[7.884s] -- Install configuration: ""
+[7.884s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/lib/motion_controller/bounding_box_controller
+[7.885s] -- Installing: /home/lucasjko/sdfr_ws/install/motion_controller/lib/motion_controller/differential_drive_controller
+[7.892s] -- Set runtime path of "/home/lucasjko/sdfr_ws/install/motion_controller/lib/motion_controller/differential_drive_controller" to ""
+[7.892s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/launch
+[7.892s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/launch/start_robot.launch.py
+[7.892s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/ament_index/resource_index/package_run_dependencies/motion_controller
+[7.892s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/ament_index/resource_index/parent_prefix_path/motion_controller
+[7.892s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/environment/ament_prefix_path.sh
+[7.892s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/environment/ament_prefix_path.dsv
+[7.893s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/environment/path.sh
+[7.893s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/environment/path.dsv
+[7.893s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/local_setup.bash
+[7.893s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/local_setup.sh
+[7.893s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/local_setup.zsh
+[7.893s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/local_setup.dsv
+[7.893s] -- Installing: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/package.dsv
+[7.893s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/ament_index/resource_index/packages/motion_controller
+[7.893s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/cmake/motion_controllerConfig.cmake
+[7.893s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/cmake/motion_controllerConfig-version.cmake
+[7.893s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/motion_controller/share/motion_controller/package.xml
+[7.895s] Invoked command in '/home/lucasjko/sdfr_ws/build/motion_controller' returned '0': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/robot_image_messages:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/motion_controller:/home/lucasjko/sdfr_ws/install/ball_detection:/home/lucasjko/sdfr_ws/install/relbot_simulator:/opt/ros/humble /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/motion_controller

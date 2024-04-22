@@ -1,0 +1,253 @@
+[0.011s] Invoking command in '/home/lucasjko/sdfr_ws/build/robot_image_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lucasjko/sdfr_ws/src/robot_image_messages -DCMAKE_INSTALL_PREFIX=/home/lucasjko/sdfr_ws/install/robot_image_messages
+[0.079s] -- The C compiler identification is GNU 11.4.0
+[0.139s] -- The CXX compiler identification is GNU 11.4.0
+[0.148s] -- Detecting C compiler ABI info
+[0.213s] -- Detecting C compiler ABI info - done
+[0.225s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.225s] -- Detecting C compile features
+[0.226s] -- Detecting C compile features - done
+[0.229s] -- Detecting CXX compiler ABI info
+[0.314s] -- Detecting CXX compiler ABI info - done
+[0.322s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.322s] -- Detecting CXX compile features
+[0.323s] -- Detecting CXX compile features - done
+[0.333s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.476s] -- Found Python3: /usr/local/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.563s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.567s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.574s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.622s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.916s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.083s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.322s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.345s] -- Found PythonInterp: /usr/local/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.347s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.374s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.374s] -- Using PYTHON_EXECUTABLE: /usr/local/bin/python3
+[1.374s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.374s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.394s] -- Found PythonExtra: .so  
+[1.431s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.455s] -- Added test 'lint_cmake' to check CMake code style
+[1.457s] -- Added test 'xmllint' to check XML markup files
+[1.460s] -- Configuring done
+[1.488s] -- Generating done
+[1.491s] -- Build files have been written to: /home/lucasjko/sdfr_ws/build/robot_image_messages
+[1.497s] Invoked command in '/home/lucasjko/sdfr_ws/build/robot_image_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lucasjko/sdfr_ws/src/robot_image_messages -DCMAKE_INSTALL_PREFIX=/home/lucasjko/sdfr_ws/install/robot_image_messages
+[1.498s] Invoking command in '/home/lucasjko/sdfr_ws/build/robot_image_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/robot_image_messages -- -j8 -l8
+[1.536s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.545s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.552s] [  5%] Built target ament_cmake_python_copy_robot_image_messages
+[1.817s] running egg_info
+[1.818s] creating robot_image_messages.egg-info
+[1.818s] writing robot_image_messages.egg-info/PKG-INFO
+[1.818s] writing dependency_links to robot_image_messages.egg-info/dependency_links.txt
+[1.818s] writing top-level names to robot_image_messages.egg-info/top_level.txt
+[1.819s] writing manifest file 'robot_image_messages.egg-info/SOURCES.txt'
+[1.820s] reading manifest file 'robot_image_messages.egg-info/SOURCES.txt'
+[1.821s] writing manifest file 'robot_image_messages.egg-info/SOURCES.txt'
+[1.848s] [  5%] Built target ament_cmake_python_build_robot_image_messages_egg
+[1.930s] [  5%] Built target robot_image_messages__cpp
+[1.939s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.939s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.940s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.957s] [ 15%] [32mBuilding C object CMakeFiles/robot_image_messages__rosidl_generator_c.dir/rosidl_generator_c/robot_image_messages/msg/detail/ball_output__functions.c.o[0m
+[1.957s] [ 17%] [32mBuilding C object CMakeFiles/robot_image_messages__rosidl_generator_c.dir/rosidl_generator_c/robot_image_messages/msg/detail/brightness__functions.c.o[0m
+[2.027s] [ 20%] [32m[1mLinking C shared library librobot_image_messages__rosidl_generator_c.so[0m
+[2.082s] [ 20%] Built target robot_image_messages__rosidl_generator_c
+[2.111s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.128s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.129s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.343s] [ 30%] [32mBuilding CXX object CMakeFiles/robot_image_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_image_messages/msg/brightness__type_support.cpp.o[0m
+[2.361s] [ 33%] [32mBuilding CXX object CMakeFiles/robot_image_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_image_messages/msg/ball_output__type_support.cpp.o[0m
+[2.440s] [ 35%] [32mBuilding CXX object CMakeFiles/robot_image_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_image_messages/msg/detail/dds_fastrtps/brightness__type_support.cpp.o[0m
+[2.453s] [ 38%] [32mBuilding CXX object CMakeFiles/robot_image_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_image_messages/msg/detail/dds_fastrtps/ball_output__type_support.cpp.o[0m
+[2.479s] [ 41%] [32mBuilding CXX object CMakeFiles/robot_image_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_image_messages/msg/detail/brightness__type_support.cpp.o[0m
+[2.571s] [ 43%] [32mBuilding CXX object CMakeFiles/robot_image_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_image_messages/msg/brightness__type_support.cpp.o[0m
+[2.704s] [ 46%] [32mBuilding CXX object CMakeFiles/robot_image_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_image_messages/msg/ball_output__type_support.cpp.o[0m
+[2.822s] [ 48%] [32mBuilding CXX object CMakeFiles/robot_image_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_image_messages/msg/detail/ball_output__type_support.cpp.o[0m
+[2.825s] [ 51%] [32m[1mLinking CXX shared library librobot_image_messages__rosidl_typesupport_c.so[0m
+[2.834s] [ 53%] [32mBuilding CXX object CMakeFiles/robot_image_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_image_messages/msg/detail/brightness__type_support_c.cpp.o[0m
+[2.835s] [ 56%] [32mBuilding C object CMakeFiles/robot_image_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_image_messages/msg/detail/brightness__type_support.c.o[0m
+[2.844s] [ 58%] [32m[1mLinking CXX shared library librobot_image_messages__rosidl_typesupport_cpp.so[0m
+[2.957s] [ 58%] Built target robot_image_messages__rosidl_typesupport_cpp
+[2.963s] [ 58%] Built target robot_image_messages__rosidl_typesupport_c
+[2.969s] [ 61%] [32mBuilding C object CMakeFiles/robot_image_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_image_messages/msg/detail/ball_output__type_support.c.o[0m
+[2.984s] [ 64%] [32mBuilding CXX object CMakeFiles/robot_image_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_image_messages/msg/detail/ball_output__type_support_c.cpp.o[0m
+[3.121s] [ 66%] [32m[1mLinking C shared library librobot_image_messages__rosidl_typesupport_introspection_c.so[0m
+[3.194s] [ 66%] Built target robot_image_messages__rosidl_typesupport_introspection_c
+[3.211s] [ 69%] [32m[1mLinking CXX shared library librobot_image_messages__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.364s] [ 69%] Built target robot_image_messages__rosidl_typesupport_fastrtps_cpp
+[3.399s] [ 71%] [32m[1mLinking CXX shared library librobot_image_messages__rosidl_typesupport_introspection_cpp.so[0m
+[3.481s] [ 71%] Built target robot_image_messages__rosidl_typesupport_introspection_cpp
+[3.511s] [ 74%] [32m[1mLinking CXX shared library librobot_image_messages__rosidl_typesupport_fastrtps_c.so[0m
+[3.606s] [ 74%] Built target robot_image_messages__rosidl_typesupport_fastrtps_c
+[3.628s] [ 74%] Built target robot_image_messages
+[3.649s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.123s] [ 76%] Built target robot_image_messages__py
+[4.145s] [ 79%] [32mBuilding C object CMakeFiles/robot_image_messages__rosidl_generator_py.dir/rosidl_generator_py/robot_image_messages/msg/_brightness_s.c.o[0m
+[4.145s] [ 82%] [32mBuilding C object CMakeFiles/robot_image_messages__rosidl_generator_py.dir/rosidl_generator_py/robot_image_messages/msg/_ball_output_s.c.o[0m
+[4.259s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/robot_image_messages/librobot_image_messages__rosidl_generator_py.so[0m
+[4.296s] [ 84%] Built target robot_image_messages__rosidl_generator_py
+[4.316s] [ 92%] [32mBuilding C object CMakeFiles/robot_image_messages__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_image_messages/_robot_image_messages_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.316s] [ 92%] [32mBuilding C object CMakeFiles/robot_image_messages__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_image_messages/_robot_image_messages_s.ep.rosidl_typesupport_c.c.o[0m
+[4.316s] [ 92%] [32mBuilding C object CMakeFiles/robot_image_messages__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_image_messages/_robot_image_messages_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.407s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/robot_image_messages/robot_image_messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.417s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/robot_image_messages/robot_image_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.419s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robot_image_messages/robot_image_messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.449s] [100%] Built target robot_image_messages__rosidl_typesupport_c__pyext
+[4.452s] [100%] Built target robot_image_messages__rosidl_typesupport_fastrtps_c__pyext
+[4.456s] [100%] Built target robot_image_messages__rosidl_typesupport_introspection_c__pyext
+[4.467s] Invoked command in '/home/lucasjko/sdfr_ws/build/robot_image_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/robot_image_messages -- -j8 -l8
+[4.556s] Invoking command in '/home/lucasjko/sdfr_ws/build/robot_image_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/robot_image_messages
+[4.563s] -- Install configuration: ""
+[4.563s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/ament_index/resource_index/rosidl_interfaces/robot_image_messages
+[4.563s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages
+[4.563s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg
+[4.563s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/brightness.h
+[4.563s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/rosidl_generator_c__visibility_control.h
+[4.564s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail
+[4.564s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/brightness__struct.h
+[4.564s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/brightness__type_support.h
+[4.564s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/ball_output__functions.h
+[4.564s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/brightness__functions.c
+[4.564s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/ball_output__functions.c
+[4.564s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/ball_output__type_support.h
+[4.564s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/brightness__functions.h
+[4.564s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/ball_output__struct.h
+[4.564s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/ball_output.h
+[4.564s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/environment/library_path.sh
+[4.565s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/environment/library_path.dsv
+[4.565s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/lib/librobot_image_messages__rosidl_generator_c.so
+[4.565s] -- Set runtime path of "/home/lucasjko/sdfr_ws/install/robot_image_messages/lib/librobot_image_messages__rosidl_generator_c.so" to ""
+[4.565s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages
+[4.566s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg
+[4.566s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.566s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail
+[4.566s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/brightness__rosidl_typesupport_fastrtps_c.h
+[4.566s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/ball_output__rosidl_typesupport_fastrtps_c.h
+[4.566s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/lib/librobot_image_messages__rosidl_typesupport_fastrtps_c.so
+[4.566s] -- Set runtime path of "/home/lucasjko/sdfr_ws/install/robot_image_messages/lib/librobot_image_messages__rosidl_typesupport_fastrtps_c.so" to ""
+[4.566s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages
+[4.567s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg
+[4.567s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail
+[4.567s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/brightness__rosidl_typesupport_introspection_c.h
+[4.567s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/brightness__type_support.c
+[4.567s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/ball_output__rosidl_typesupport_introspection_c.h
+[4.567s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/ball_output__type_support.c
+[4.567s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.567s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/lib/librobot_image_messages__rosidl_typesupport_introspection_c.so
+[4.567s] -- Set runtime path of "/home/lucasjko/sdfr_ws/install/robot_image_messages/lib/librobot_image_messages__rosidl_typesupport_introspection_c.so" to ""
+[4.568s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/lib/librobot_image_messages__rosidl_typesupport_c.so
+[4.568s] -- Set runtime path of "/home/lucasjko/sdfr_ws/install/robot_image_messages/lib/librobot_image_messages__rosidl_typesupport_c.so" to ""
+[4.568s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages
+[4.568s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg
+[4.568s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/brightness.hpp
+[4.568s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/ball_output.hpp
+[4.568s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail
+[4.568s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/ball_output__struct.hpp
+[4.569s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/ball_output__traits.hpp
+[4.569s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/brightness__builder.hpp
+[4.569s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/brightness__struct.hpp
+[4.569s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/ball_output__builder.hpp
+[4.569s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/brightness__traits.hpp
+[4.569s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages
+[4.569s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg
+[4.569s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.569s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail
+[4.569s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/brightness__rosidl_typesupport_fastrtps_cpp.hpp
+[4.569s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/dds_fastrtps
+[4.569s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/ball_output__rosidl_typesupport_fastrtps_cpp.hpp
+[4.570s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/lib/librobot_image_messages__rosidl_typesupport_fastrtps_cpp.so
+[4.570s] -- Set runtime path of "/home/lucasjko/sdfr_ws/install/robot_image_messages/lib/librobot_image_messages__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.570s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages
+[4.570s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg
+[4.570s] -- Up-to-date: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail
+[4.570s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/brightness__type_support.cpp
+[4.570s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/ball_output__type_support.cpp
+[4.571s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/brightness__rosidl_typesupport_introspection_cpp.hpp
+[4.571s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/include/robot_image_messages/robot_image_messages/msg/detail/ball_output__rosidl_typesupport_introspection_cpp.hpp
+[4.571s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/lib/librobot_image_messages__rosidl_typesupport_introspection_cpp.so
+[4.571s] -- Set runtime path of "/home/lucasjko/sdfr_ws/install/robot_image_messages/lib/librobot_image_messages__rosidl_typesupport_introspection_cpp.so" to ""
+[4.571s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/lib/librobot_image_messages__rosidl_typesupport_cpp.so
+[4.572s] -- Set runtime path of "/home/lucasjko/sdfr_ws/install/robot_image_messages/lib/librobot_image_messages__rosidl_typesupport_cpp.so" to ""
+[4.572s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/environment/pythonpath.sh
+[4.572s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/environment/pythonpath.dsv
+[4.572s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages-1.0.0-py3.10.egg-info
+[4.572s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages-1.0.0-py3.10.egg-info/PKG-INFO
+[4.572s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages-1.0.0-py3.10.egg-info/dependency_links.txt
+[4.572s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages-1.0.0-py3.10.egg-info/SOURCES.txt
+[4.573s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages-1.0.0-py3.10.egg-info/top_level.txt
+[4.573s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages
+[4.573s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages/__init__.py
+[4.573s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages/librobot_image_messages__rosidl_generator_py.so
+[4.573s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages/_robot_image_messages_s.ep.rosidl_typesupport_c.c
+[4.573s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages/_robot_image_messages_s.ep.rosidl_typesupport_introspection_c.c
+[4.573s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages/msg
+[4.573s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages/msg/__init__.py
+[4.574s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages/msg/_brightness_s.c
+[4.574s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages/msg/_ball_output.py
+[4.574s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages/msg/_ball_output_s.c
+[4.574s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages/msg/_brightness.py
+[4.574s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages/robot_image_messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.574s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages/_robot_image_messages_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.574s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages/robot_image_messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.574s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages/robot_image_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.605s] Listing '/home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages'...
+[4.606s] Compiling '/home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages/__init__.py'...
+[4.606s] Listing '/home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages/msg'...
+[4.606s] Compiling '/home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages/msg/__init__.py'...
+[4.606s] Compiling '/home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages/msg/_ball_output.py'...
+[4.606s] Compiling '/home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages/msg/_brightness.py'...
+[4.611s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages/robot_image_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.611s] -- Set runtime path of "/home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages/robot_image_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.611s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages/robot_image_messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.612s] -- Set runtime path of "/home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages/robot_image_messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.612s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages/robot_image_messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.612s] -- Set runtime path of "/home/lucasjko/sdfr_ws/install/robot_image_messages/local/lib/python3.10/dist-packages/robot_image_messages/robot_image_messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.612s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/lib/librobot_image_messages__rosidl_generator_py.so
+[4.613s] -- Set runtime path of "/home/lucasjko/sdfr_ws/install/robot_image_messages/lib/librobot_image_messages__rosidl_generator_py.so" to ""
+[4.613s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/msg/Brightness.idl
+[4.613s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/msg/BallOutput.idl
+[4.613s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/msg/Brightness.msg
+[4.613s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/msg/BallOutput.msg
+[4.613s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/ament_index/resource_index/package_run_dependencies/robot_image_messages
+[4.613s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/ament_index/resource_index/parent_prefix_path/robot_image_messages
+[4.614s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/environment/ament_prefix_path.sh
+[4.614s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/environment/ament_prefix_path.dsv
+[4.614s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/environment/path.sh
+[4.614s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/environment/path.dsv
+[4.614s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/local_setup.bash
+[4.614s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/local_setup.sh
+[4.614s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/local_setup.zsh
+[4.614s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/local_setup.dsv
+[4.614s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/package.dsv
+[4.615s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/ament_index/resource_index/packages/robot_image_messages
+[4.615s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/cmake/export_robot_image_messages__rosidl_generator_cExport.cmake
+[4.615s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/cmake/export_robot_image_messages__rosidl_generator_cExport-noconfig.cmake
+[4.615s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/cmake/export_robot_image_messages__rosidl_typesupport_fastrtps_cExport.cmake
+[4.615s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/cmake/export_robot_image_messages__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.615s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/cmake/robot_image_messages__rosidl_typesupport_introspection_cExport.cmake
+[4.615s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/cmake/robot_image_messages__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.616s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/cmake/robot_image_messages__rosidl_typesupport_cExport.cmake
+[4.616s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/cmake/robot_image_messages__rosidl_typesupport_cExport-noconfig.cmake
+[4.616s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/cmake/export_robot_image_messages__rosidl_generator_cppExport.cmake
+[4.616s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/cmake/export_robot_image_messages__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.616s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/cmake/export_robot_image_messages__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.616s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/cmake/robot_image_messages__rosidl_typesupport_introspection_cppExport.cmake
+[4.616s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/cmake/robot_image_messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.616s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/cmake/robot_image_messages__rosidl_typesupport_cppExport.cmake
+[4.617s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/cmake/robot_image_messages__rosidl_typesupport_cppExport-noconfig.cmake
+[4.617s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/cmake/export_robot_image_messages__rosidl_generator_pyExport.cmake
+[4.617s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/cmake/export_robot_image_messages__rosidl_generator_pyExport-noconfig.cmake
+[4.617s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/cmake/rosidl_cmake-extras.cmake
+[4.617s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.617s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/cmake/ament_cmake_export_libraries-extras.cmake
+[4.617s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/cmake/ament_cmake_export_targets-extras.cmake
+[4.617s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.618s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.618s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.618s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/cmake/robot_image_messagesConfig.cmake
+[4.618s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/cmake/robot_image_messagesConfig-version.cmake
+[4.618s] -- Installing: /home/lucasjko/sdfr_ws/install/robot_image_messages/share/robot_image_messages/package.xml
+[4.620s] Invoked command in '/home/lucasjko/sdfr_ws/build/robot_image_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucasjko/sdfr_ws/build/robot_image_messages

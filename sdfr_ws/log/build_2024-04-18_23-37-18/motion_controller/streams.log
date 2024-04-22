@@ -1,0 +1,6 @@
+[0.020s] Invoking command in '/home/lucasjko/sdfr_ws/build/motion_controller': CMAKE_PREFIX_PATH=/home/lucasjko/sdfr_ws/install/robot_image_messages:/home/lucasjko/sdfr_ws/install/image_functions_sdfr:/home/lucasjko/sdfr_ws/install/ros2_introduction:/home/lucasjko/sdfr_ws/install/motion_controller:/home/lucasjko/sdfr_ws/install/ball_detection:/opt/ros/humble /usr/bin/cmake --build /home/lucasjko/sdfr_ws/build/motion_controller -- -j8 -l8
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target bounding_box_controller[0m
+[0.088s] [ 50%] Built target differential_drive_controller
+[0.103s] [ 75%] [32mBuilding CXX object CMakeFiles/bounding_box_controller.dir/src/bounding_box_controller.cpp.o[0m
+[10.604s] [100%] [32m[1mLinking CXX executable bounding_box_controller[0m
+[11.249s] [100%] Built target bounding_box_controller

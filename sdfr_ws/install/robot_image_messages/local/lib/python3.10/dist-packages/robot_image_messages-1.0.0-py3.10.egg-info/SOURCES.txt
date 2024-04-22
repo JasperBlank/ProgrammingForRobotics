@@ -1,0 +1,9 @@
+setup.py
+robot_image_messages/__init__.py
+robot_image_messages.egg-info/PKG-INFO
+robot_image_messages.egg-info/SOURCES.txt
+robot_image_messages.egg-info/dependency_links.txt
+robot_image_messages.egg-info/top_level.txt
+robot_image_messages/msg/__init__.py
+robot_image_messages/msg/_ball_output.py
+robot_image_messages/msg/_brightness.py
